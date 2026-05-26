@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Máy Tính & Linh Kiện | Phát Lộc Tech</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            purple: '#8B5CF6',
+                            green: '#10B981',
+                            orange: '#F97316',
+                        }
+                    },
+                    animation: {
+                        'pulse-g': 'pulse-g 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        'pulse-g': {
+                            '0%, 100%': { opacity: 1 },
+                            '50%': { opacity: .5 },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-zinc-950 text-zinc-300 font-sans antialiased min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-zinc-950/80 backdrop-blur-xl border-b border-white/5 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3 group">
+                <div class="bg-white rounded-full p-1 shadow-lg group-hover:scale-105 transition-transform">
+                    <img src="logo.png" alt="Phát Lộc Tech Logo" class="object-contain w-10 h-10 md:w-11 md:h-11"/>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-xl md:text-2xl font-bold tracking-wider text-white uppercase leading-none drop-shadow-md">Phát Lộc</span>
+                    <span class="text-[11px] md:text-xs font-semibold text-blue-500 tracking-[0.25em] leading-none mt-1 drop-shadow-sm">TECH</span>
+                </div>
+            </a>
+            
+            <nav class="hidden md:flex items-center gap-8">
+                <a href="index.html" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors uppercase tracking-wide">Trang Chủ</a>
+                <a href="index.html#services" class="text-sm font-medium text-brand-green hover:text-white transition-colors uppercase tracking-wide relative">
+                    Dịch Vụ
+                    <span class="absolute -bottom-2 left-0 w-full h-0.5 bg-brand-green rounded-full"></span>
+                </a>
+                <a href="index.html#about" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors uppercase tracking-wide">Về Chúng Tôi</a>
+            </nav>
+            
+            <a href="#" id="nav-btn-tuvan" class="hidden md:flex items-center gap-2 bg-white text-zinc-950 px-5 py-2.5 rounded-full text-sm font-bold hover:bg-zinc-200 transition-colors shadow-[0_0_15px_rgba(255,255,255,0.2)]">
+                <i class="ph-fill ph-chat-circle-dots text-lg"></i> Nhận Tư Vấn
+            </a>
+            
+            <button class="md:hidden text-zinc-400 hover:text-white transition-colors">
+                <i class="ph ph-list text-3xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="flex-grow pt-32 pb-24 relative overflow-hidden">
+        <!-- Background Effects -->
+        <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-brand-green/10 blur-[120px] rounded-full pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <!-- Breadcrumbs & Header -->
+            <div class="mb-16">
+                <a href="index.html#services" class="inline-flex items-center gap-2 text-zinc-500 hover:text-zinc-300 transition-colors text-sm font-medium mb-6">
+                    <i class="ph ph-arrow-left"></i> Quay lại Danh mục
+                </a>
+                <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl text-white font-semibold mb-6">Máy Tính & Linh Kiện</h1>
+                <p class="text-lg text-zinc-400 max-w-2xl leading-relaxed">
+                    Cung cấp máy bộ văn phòng tối ưu chi phí, PC đồ họa, Laptop và linh kiện chính hãng. Giải pháp thiết bị phần cứng tin cậy cho cá nhân và doanh nghiệp.
+                </p>
+            </div>
+
+            <!-- Sub-services Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- 1.1 -->
+                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
+                    <div class="w-12 h-12 bg-zinc-950 border border-zinc-800 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                        <i class="ph-duotone ph-desktop"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Máy tính Văn phòng & Học tập</h3>
+                    <p class="text-sm text-zinc-400 leading-relaxed flex-grow">
+                        Cung cấp máy bộ ráp sẵn tiêu chuẩn, cấu hình tối ưu chi phí cho doanh nghiệp, trường học (khai thác mạnh dòng PC/LCD Renew để tối ưu tính kinh tế).
+                    </p>
+                    <div class="mt-6 pt-6 border-t border-zinc-800 flex items-center justify-between">
+                        <span class="text-lg font-bold text-brand-green">Liên Hệ</span>
+                        <button class="request-quote-btn text-sm font-bold text-white bg-zinc-800 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
+                            Báo giá ngay
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 1.2 -->
+                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
+                    <div class="w-12 h-12 bg-zinc-950 border border-zinc-800 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                        <i class="ph-duotone ph-game-controller"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Máy tính Đồ họa & Gaming</h3>
+                    <p class="text-sm text-zinc-400 leading-relaxed flex-grow">
+                        Cấu hình cao cấp phục vụ thiết kế, xử lý render, dựng phim hoặc giải trí. Xây dựng theo yêu cầu với tản nhiệt và linh kiện tốt nhất.
+                    </p>
+                    <div class="mt-6 pt-6 border-t border-zinc-800 flex items-center justify-between">
+                        <span class="text-lg font-bold text-brand-green">Liên Hệ</span>
+                        <button class="request-quote-btn text-sm font-bold text-white bg-zinc-800 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
+                            Báo giá ngay
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 1.3 -->
+                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
+                    <div class="w-12 h-12 bg-zinc-950 border border-zinc-800 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                        <i class="ph-duotone ph-laptop"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Laptop & Phụ kiện Di động</h3>
+                    <p class="text-sm text-zinc-400 leading-relaxed flex-grow">
+                        Laptop chính hãng/renew, linh kiện nâng cấp (RAM, SSD laptop) và phụ kiện (bao da, sạc dự phòng, chuột không dây).
+                    </p>
+                    <div class="mt-6 pt-6 border-t border-zinc-800 flex items-center justify-between">
+                        <span class="text-lg font-bold text-brand-green">Liên Hệ</span>
+                        <button class="request-quote-btn text-sm font-bold text-white bg-zinc-800 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
+                            Báo giá ngay
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 1.4 -->
+                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
+                    <div class="w-12 h-12 bg-zinc-950 border border-zinc-800 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                        <i class="ph-duotone ph-cpu"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Linh kiện Máy tính rời</h3>
+                    <p class="text-sm text-zinc-400 leading-relaxed flex-grow">
+                        Phục vụ khách hàng có nhu cầu tự nâng cấp hoặc thay thế lẻ (CPU, Mainboard, RAM, SSD, Nguồn, Vỏ case).
+                    </p>
+                    <div class="mt-6 pt-6 border-t border-zinc-800 flex items-center justify-between">
+                        <span class="text-lg font-bold text-brand-green">Liên Hệ</span>
+                        <button class="request-quote-btn text-sm font-bold text-white bg-zinc-800 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
+                            Báo giá ngay
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 1.5 -->
+                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
+                    <div class="w-12 h-12 bg-zinc-950 border border-zinc-800 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                        <i class="ph-duotone ph-printer"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Thiết bị Máy văn phòng</h3>
+                    <p class="text-sm text-zinc-400 leading-relaxed flex-grow">
+                        Máy in laser, máy in màu, máy quét tài liệu (Scan) và mực in chính hãng. Sẵn sàng lắp đặt và cấu hình tận nơi.
+                    </p>
+                    <div class="mt-6 pt-6 border-t border-zinc-800 flex items-center justify-between">
+                        <span class="text-lg font-bold text-brand-green">Liên Hệ</span>
+                        <button class="request-quote-btn text-sm font-bold text-white bg-zinc-800 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
+                            Báo giá ngay
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full bg-zinc-950 border-t border-white/5 pt-16 pb-8 mt-auto">
+        <div class="container mx-auto px-4 text-center text-xs text-gray-600">
+            <p>© 2026 Phát Lộc Tech. Tất cả các quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <!-- Chat Widget Button -->
+    <button id="chat-toggle" class="fixed bottom-6 right-6 z-[9999] w-14 h-14 rounded-full bg-brand-purple hover:bg-brand-purple-dark text-white shadow-lg flex items-center justify-center transition-transform hover:scale-110">
+        <i class="ph ph-chats text-2xl"></i>
+        <span class="absolute top-0 right-0 w-3.5 h-3.5 bg-green-500 rounded-full border-2 border-zinc-950 animate-pulse-g"></span>
+    </button>
+    
+    <!-- Chat Widget Panel -->
+    <div id="chat-panel" class="fixed bottom-24 right-6 z-[9998] w-[340px] max-w-[calc(100vw-48px)] bg-[#18181b] border border-zinc-800 rounded-2xl shadow-2xl flex flex-col overflow-hidden transition-all duration-300 origin-bottom-right scale-90 opacity-0 pointer-events-none">
+        <div class="bg-brand-purple p-4 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-white p-1 shadow-md flex items-center justify-center shrink-0">
+                <img src="logo.png" alt="Phát Lộc Tech" class="object-contain w-full h-full"/>
+            </div>
+            <div>
+                <strong class="block text-white text-sm font-bold">Phát Lộc Tech</strong>
+                <span class="flex items-center gap-1.5 text-white/75 text-xs font-medium mt-0.5">
+                    <span class="w-1.5 h-1.5 bg-green-400 rounded-full"></span>Đang hoạt động
+                </span>
+            </div>
+        </div>
+        
+        <div class="p-4 flex flex-col gap-4 max-h-[500px] overflow-y-auto">
+            <div class="bg-[#27272a] text-zinc-200 p-3.5 rounded-2xl rounded-tl-sm text-sm leading-relaxed self-start max-w-[90%] font-medium">
+                Xin chào! Để nhận báo giá chính xác cho sản phẩm này, bạn vui lòng để lại số điện thoại hoặc tin nhắn nhé!
+            </div>
+            
+            <a href="https://zalo.me/0932685794" target="_blank" class="bg-white text-zinc-900 font-bold p-3.5 rounded-2xl rounded-tr-sm text-sm flex items-center gap-3 self-end hover:bg-zinc-200 transition-colors max-w-[90%] w-full justify-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" alt="Zalo" class="w-5 h-5"/>
+                Chat qua Zalo ngay
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Trigger chat open when clicking quote buttons
+        document.querySelectorAll('.request-quote-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const chatPanel = document.getElementById('chat-panel');
+                if (chatPanel.classList.contains('opacity-0')) {
+                    document.getElementById('chat-toggle').click();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
