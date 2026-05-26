@@ -1,0 +1,105 @@
+/* 
+   Since we use Tailwind CSS via CDN in index.html, 
+   we only need some custom animations here that aren't natively supported 
+   by Tailwind's basic classes.
+*/
+
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 3D Cube Styles */
+.cube-scene {
+    width: 240px;
+    height: 240px;
+    perspective: 1200px;
+    margin: 0 auto;
+}
+
+.cube {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: rotateCube 20s infinite linear;
+}
+
+.cube:hover {
+    animation-play-state: paused;
+}
+
+.cube-face {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(24, 24, 27, 0.75); /* zinc-900 */
+    border: 1px solid rgba(139, 92, 246, 0.4); /* brand-purple */
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 30px rgba(139, 92, 246, 0.15) inset;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.cube-face:hover {
+    background: rgba(24, 24, 27, 0.9);
+    border-color: rgba(16, 185, 129, 0.6); /* brand-green */
+    box-shadow: 0 0 30px rgba(16, 185, 129, 0.2) inset;
+}
+
+.cube-front  { transform: rotateY(  0deg) translateZ(120px); }
+.cube-right  { transform: rotateY( 90deg) translateZ(120px); }
+.cube-back   { transform: rotateY(180deg) translateZ(120px); }
+.cube-left   { transform: rotateY(-90deg) translateZ(120px); }
+.cube-top    { transform: rotateX( 90deg) translateZ(120px); }
+.cube-bottom { transform: rotateX(-90deg) translateZ(120px); }
+
+/* The Inner Core */
+.cube-core {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 60px;
+    left: 60px;
+    transform: translateZ(0); /* Center of the cube */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cube-core img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.4));
+    animation: pulseCore 3s infinite alternate;
+}
+
+@keyframes rotateCube {
+    0% { transform: rotateX(-15deg) rotateY(0deg); }
+    100% { transform: rotateX(-15deg) rotateY(360deg); }
+}
+
+@keyframes pulseCore {
+    0% { transform: scale(0.9); filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.3)); }
+    100% { transform: scale(1.15); filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.8)); }
+}
