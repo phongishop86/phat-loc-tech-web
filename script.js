@@ -88,3 +88,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+// Header Auto-Hide on Scroll
+const header = document.querySelector('header');
+if (header) {
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            header.classList.add('-translate-y-full');
+        } else {
+            header.classList.remove('-translate-y-full');
+        }
+    });
+}
