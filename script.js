@@ -134,3 +134,26 @@ if (leadForm) {
         });
     });
 }
+
+// Trigger chat open and prefill when clicking quote buttons
+document.querySelectorAll('.request-quote-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        
+        // Find the title of the service
+        const card = e.target.closest('div.group');
+        const title = card ? card.querySelector('h3').innerText : '';
+        
+        // Open the chat widget if closed
+        if (!isChatOpen) {
+            toggleChat();
+        }
+        
+        // Fill the form's textarea
+        const textarea = document.querySelector('textarea[name="Yêu cầu"]');
+        if (textarea && title) {
+            textarea.value = `Báo giá: ${title}`;
+            textarea.focus();
+        }
+    });
+});

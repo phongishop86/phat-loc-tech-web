@@ -163,7 +163,7 @@
         <img src="logo.png" alt="Trang Chủ" class="w-10 h-10 object-contain"/>
     </a>
 
-    <!-- Chat Widget Button -->
+        <!-- Chat Widget Button -->
     <button id="chat-toggle" class="fixed bottom-6 right-6 z-[9999] w-14 h-14 rounded-full bg-brand-purple hover:bg-brand-purple-dark text-white shadow-lg flex items-center justify-center transition-transform hover:scale-110">
         <i class="ph ph-chats text-2xl"></i>
         <span class="absolute top-0 right-0 w-3.5 h-3.5 bg-green-500 rounded-full border-2 border-zinc-950 animate-pulse-g"></span>
@@ -184,28 +184,41 @@
         </div>
         
         <div class="p-4 flex flex-col gap-4 max-h-[500px] overflow-y-auto">
-            <div class="bg-[#27272a] text-zinc-200 p-3.5 rounded-2xl rounded-tl-sm text-sm leading-relaxed self-start max-w-[90%] font-medium">
-                Xin chào! Để nhận báo giá chính xác cho sản phẩm này, bạn vui lòng để lại số điện thoại hoặc tin nhắn nhé!
+            <div class="bg-[#27272a] text-zinc-200 p-3 rounded-2xl rounded-tl-sm text-sm leading-relaxed self-start max-w-[90%] font-medium">
+                Xin chào! Phát Lộc Tech có thể giúp gì cho bạn hôm nay?
             </div>
             
-            <a href="https://zalo.me/0932685794" target="_blank" class="bg-white text-zinc-900 font-bold p-3.5 rounded-2xl rounded-tr-sm text-sm flex items-center gap-3 self-end hover:bg-zinc-200 transition-colors max-w-[90%] w-full justify-center">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" alt="Zalo" class="w-5 h-5"/>
-                Chat qua Zalo ngay
-            </a>
+            <div class="flex gap-3 mt-1">
+                <a href="https://zalo.me/0932685794" target="_blank" title="Chat Zalo" class="w-11 h-11 bg-[#27272a] hover:bg-zinc-700 border border-zinc-700 text-zinc-300 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" alt="Zalo" class="w-6 h-6"/>
+                </a>
+                <a href="https://www.messenger.com/t/876656692206747" target="_blank" title="Chat Messenger" class="w-11 h-11 bg-[#27272a] hover:bg-zinc-700 border border-zinc-700 text-blue-400 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105 text-2xl">
+                    <i class="ph-fill ph-messenger-logo"></i>
+                </a>
+                <a href="tel:0932685794" title="Gọi Hotline" class="w-11 h-11 bg-[#27272a] hover:bg-zinc-700 border border-zinc-700 text-green-500 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105 text-2xl">
+                    <i class="ph-fill ph-phone-call"></i>
+                </a>
+            </div>
+            
+            <div class="mt-2 border-t border-zinc-800 pt-3" id="contact-form-container">
+                <p class="text-[11px] text-zinc-500 mb-2 font-bold uppercase tracking-wider">HOẶC GỬI YÊU CẦU</p>
+                <form id="lead-form" action="https://formsubmit.co/phongishop86@gmail.com" method="POST" class="flex flex-col gap-3">
+                    <input type="hidden" name="_subject" value="Khách hàng mới từ Web Phát Lộc Tech">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    
+                    <input type="text" name="Tên" required placeholder="Tên của bạn" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
+                    <input type="tel" name="SĐT" required placeholder="Số điện thoại" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
+                    <textarea name="Yêu cầu" required placeholder="Vấn đề bạn quan tâm..." rows="3" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors resize-none font-medium"></textarea>
+                    
+                    <button type="submit" class="w-full bg-brand-purple hover:bg-brand-purple-dark text-white font-bold text-sm py-3 rounded-lg transition-colors flex justify-center items-center gap-2 mt-1">
+                        Gửi yêu cầu <i class="ph ph-paper-plane-right text-lg"></i>
+                    </button>
+                </form>
+            </div>
         </div>
     </div>
 
     <script src="script.js"></script>
-    <script>
-        // Trigger chat open when clicking quote buttons
-        document.querySelectorAll('.request-quote-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                const chatPanel = document.getElementById('chat-panel');
-                if (chatPanel.classList.contains('opacity-0')) {
-                    document.getElementById('chat-toggle').click();
-                }
-            });
-        });
-    </script>
 </body>
 </html>
