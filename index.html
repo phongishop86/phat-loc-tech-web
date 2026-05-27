@@ -378,13 +378,18 @@
                 </a>
             </div>
             
-            <div class="mt-2 border-t border-zinc-800 pt-4">
+            <div class="mt-2 border-t border-zinc-800 pt-4" id="contact-form-container">
                 <p class="text-xs text-zinc-400 mb-3 font-semibold uppercase tracking-wider">HOẶC ĐỂ LẠI THÔNG TIN</p>
-                <form class="flex flex-col gap-3">
-                    <input type="text" placeholder="Tên của bạn" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
-                    <input type="tel" placeholder="Số điện thoại" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
-                    <textarea placeholder="Vấn đề bạn quan tâm..." rows="3" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors resize-none font-medium"></textarea>
-                    <button type="button" class="w-full bg-brand-purple hover:bg-brand-purple-dark text-white font-bold text-sm py-3 rounded-lg transition-colors flex justify-center items-center gap-2 mt-1">
+                <form id="lead-form" action="https://formsubmit.co/phongishop86@gmail.com" method="POST" class="flex flex-col gap-3">
+                    <input type="hidden" name="_subject" value="Khách hàng mới từ Web Phát Lộc Tech">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    
+                    <input type="text" name="Tên" required placeholder="Tên của bạn" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
+                    <input type="tel" name="SĐT" required placeholder="Số điện thoại" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
+                    <textarea name="Yêu cầu" required placeholder="Vấn đề bạn quan tâm..." rows="3" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors resize-none font-medium"></textarea>
+                    
+                    <button type="submit" class="w-full bg-brand-purple hover:bg-brand-purple-dark text-white font-bold text-sm py-3 rounded-lg transition-colors flex justify-center items-center gap-2 mt-1">
                         Gửi yêu cầu <i class="ph ph-paper-plane-right text-lg"></i>
                     </button>
                 </form>

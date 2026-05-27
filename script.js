@@ -100,3 +100,37 @@ if (header) {
         }
     });
 }
+
+// Handle Contact Form Submission
+const leadForm = document.getElementById('lead-form');
+if (leadForm) {
+    leadForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const btn = leadForm.querySelector('button[type="submit"]');
+        const originalBtnHTML = btn.innerHTML;
+        btn.innerHTML = 'Đang gửi... <i class="ph ph-spinner animate-spin text-lg"></i>';
+        btn.disabled = true;
+
+        fetch(leadForm.action, {
+            method: 'POST',
+            body: new FormData(leadForm),
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                const container = document.getElementById('contact-form-container');
+                container.innerHTML = '<div class="text-center py-6 bg-[#27272a]/50 rounded-xl border border-zinc-800"><i class="ph-fill ph-check-circle text-5xl text-green-500 mb-3 drop-shadow-[0_0_15px_rgba(34,197,94,0.5)]"></i><p class="text-white font-bold text-base">Gửi thành công!</p><p class="text-zinc-400 text-xs mt-2 px-4 leading-relaxed">Thông tin của bạn đã được tiếp nhận. Phát Lộc Tech sẽ liên hệ lại qua số điện thoại này trong thời gian sớm nhất.</p></div>';
+            } else {
+                throw new Error('Network error');
+            }
+        }).catch(error => {
+            btn.innerHTML = 'Lỗi mạng, thử lại <i class="ph ph-warning text-lg"></i>';
+            btn.disabled = false;
+            setTimeout(() => {
+                btn.innerHTML = originalBtnHTML;
+            }, 3000);
+        });
+    });
+}
