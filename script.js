@@ -157,3 +157,11 @@ document.querySelectorAll('.request-quote-btn').forEach(btn => {
         }
     });
 });
+
+// Trigger alert when clicking view detail buttons
+document.querySelectorAll('.view-detail-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        alert('Chúng tôi đang hoàn thiện tính năng này.');
+    });
+});
