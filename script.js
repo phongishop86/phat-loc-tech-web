@@ -158,10 +158,61 @@ document.querySelectorAll('.request-quote-btn').forEach(btn => {
     });
 });
 
+// Custom Modal Alert Function
+function showCustomAlert(title, message) {
+    let modal = document.getElementById('custom-alert-modal');
+    if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'custom-alert-modal';
+        modal.className = 'fixed inset-0 z-[10000] flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300';
+        
+        modal.innerHTML = `
+            <div class="bg-zinc-900 border border-zinc-700 rounded-2xl shadow-2xl w-full max-w-md overflow-hidden transform scale-95 transition-transform duration-300">
+                <div class="p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-full bg-brand-green/20 text-brand-green flex items-center justify-center shrink-0">
+                            <i class="ph-fill ph-info text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white" id="custom-alert-title"></h3>
+                    </div>
+                    <p class="text-zinc-300 text-sm leading-relaxed" id="custom-alert-body" style="white-space: pre-wrap;"></p>
+                </div>
+                <div class="bg-zinc-950 px-6 py-4 flex justify-end border-t border-zinc-800">
+                    <button id="custom-alert-close" class="bg-brand-green hover:bg-green-600 text-white font-bold py-2 px-6 rounded-lg transition-colors text-sm">
+                        Đồng ý
+                    </button>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
+
+        document.getElementById('custom-alert-close').addEventListener('click', () => {
+            modal.classList.remove('opacity-100', 'pointer-events-auto');
+            modal.classList.add('opacity-0', 'pointer-events-none');
+            const innerDiv = modal.querySelector('div');
+            innerDiv.classList.remove('scale-100');
+            innerDiv.classList.add('scale-95');
+        });
+    }
+
+    document.getElementById('custom-alert-title').innerText = title;
+    document.getElementById('custom-alert-body').innerText = message;
+
+    // Show modal
+    modal.classList.remove('opacity-0', 'pointer-events-none');
+    modal.classList.add('opacity-100', 'pointer-events-auto');
+    const innerDiv = modal.querySelector('div');
+    innerDiv.classList.remove('scale-95');
+    innerDiv.classList.add('scale-100');
+}
+
 // Trigger alert when clicking view detail buttons
 document.querySelectorAll('.view-detail-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
         e.preventDefault();
-        alert("Thông báo từ Phát Lộc Tech\n\nHệ thống báo giá tự động cho danh mục này hiện đang được tối ưu hóa nhằm mang lại trải nghiệm tốt nhất. Để không làm gián đoạn kế hoạch của Quý khách, xin vui lòng để lại thông tin sản phẩm cần báo giá kèm số điện thoại tại khung chat/form liên hệ, hoặc gọi số 0932 685 794. Chúng tôi xin chân thành cảm ơn sự thông cảm của Quý khách!");
+        showCustomAlert(
+            "Thông báo từ Phát Lộc Tech",
+            "Hệ thống báo giá tự động cho danh mục này hiện đang được tối ưu hóa nhằm mang lại trải nghiệm tốt nhất. Để không làm gián đoạn kế hoạch của Quý khách, xin vui lòng để lại thông tin sản phẩm cần báo giá kèm số điện thoại tại khung chat/form liên hệ, hoặc gọi số 0932 685 794. Chúng tôi xin chân thành cảm ơn sự thông cảm của Quý khách!"
+        );
     });
 });
