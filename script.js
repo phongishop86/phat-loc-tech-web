@@ -162,6 +162,6 @@ document.querySelectorAll('.request-quote-btn').forEach(btn => {
 document.querySelectorAll('.view-detail-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
         e.preventDefault();
-        alert('Chúng tôi đang hoàn thiện tính năng này.');
+        alert("Thông báo từ Phát Lộc Tech\n\nHệ thống báo giá tự động cho danh mục này hiện đang được tối ưu hóa nhằm mang lại trải nghiệm tốt nhất. Để không làm gián đoạn kế hoạch của Quý khách, xin vui lòng để lại thông tin sản phẩm cần báo giá kèm số điện thoại tại khung chat/form liên hệ, hoặc gọi số 0932 685 794. Chúng tôi xin chân thành cảm ơn sự thông cảm của Quý khách!");
     });
 });
