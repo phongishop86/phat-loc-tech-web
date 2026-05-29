@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="vi" class="h-full antialiased dark">
+<head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Phương Thức Thanh Toán | Phát Lộc Tech</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    
+    <!-- Google Fonts: Inter (Body) & Playfair Display (Headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            green: '#10b981',
+                            purple: '#8b5cf6',
+                            'purple-dark': '#5b21b6',
+                            orange: '#f97316'
+                        }
+                    },
+                    animation: {
+                        'float1': 'float1 4s ease-in-out infinite',
+                        'float2': 'float2 3.5s ease-in-out infinite',
+                        'pulse-g': 'pulse-g 2s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        float1: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        },
+                        float2: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(10px)' },
+                        },
+                        'pulse-g': {
+                            '0%': { transform: 'scale(0.95)', boxShadow: '0 0 0 0 rgba(34, 197, 94, 0.7)' },
+                            '70%': { transform: 'scale(1)', boxShadow: '0 0 0 10px rgba(34, 197, 94, 0)' },
+                            '100%': { transform: 'scale(0.95)', boxShadow: '0 0 0 0 rgba(34, 197, 94, 0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-full flex flex-col bg-zinc-950 text-zinc-50 font-sans">
+    
+    <!-- Header -->
+    <header class="w-full bg-gradient-to-r from-purple-950 via-indigo-950 to-purple-900 z-50 shadow-xl sticky top-0 border-b border-white/10">
+        <div class="container mx-auto px-4 h-20 flex items-center justify-between gap-4 md:gap-8">
+            <button class="lg:hidden text-white p-2 -ml-2 hover:bg-white/10 rounded-lg transition-colors">
+                <i class="ph ph-list text-2xl"></i>
+            </button>
+            <a class="flex items-center gap-3 shrink-0 group mx-auto lg:mx-0" href="https://phatloctech.vn">
+                <div class="bg-white rounded-full p-1 shadow-lg group-hover:scale-105 transition-transform">
+                    <img src="logo.png" alt="Phát Lộc Tech Logo" class="object-contain w-10 h-10 md:w-11 md:h-11"/>
+                </div>
+                <div class="flex items-center hidden sm:flex group-hover:opacity-80 transition-opacity">
+                    <span class="text-xl md:text-2xl font-black tracking-wider uppercase leading-none drop-shadow-md text-white">PHÁT LỘC TECH</span>
+                </div>
+            </a>
+            <nav class="hidden lg:flex items-center gap-8 h-full flex-1 justify-center">
+                <div class="relative flex items-center h-full group py-6">
+                    <a href="#thiet-bi" class="flex items-center gap-1.5 text-[13px] font-bold text-gray-100 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Máy Tính & Linh Kiện</a>
+                </div>
+                <div class="relative flex items-center h-full group py-6">
+                    <a href="#ha-tang" class="flex items-center gap-1.5 text-[13px] font-bold text-gray-100 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Camera & Mạng</a>
+                </div>
+                <div class="relative flex items-center h-full group py-6">
+                    <a href="#dich-vu" class="flex items-center gap-1.5 text-[13px] font-bold text-gray-100 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Dịch Vụ IT</a>
+                </div>
+                <div class="relative flex items-center h-full group py-6">
+                    <a href="#phan-mem" class="flex items-center gap-1.5 text-[13px] font-bold text-gray-100 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Phần Mềm & Số Hóa</a>
+                </div>
+            </nav>
+            <div class="w-11 lg:hidden shrink-0"></div>
+        </div>
+    </header>
+
+    <main class="flex-1">
+        <section class="pt-32 pb-20 bg-zinc-950">
+            <div class="container mx-auto px-4 max-w-4xl">
+                <h1 class="text-3xl md:text-5xl font-serif font-bold text-white mb-8 border-b border-zinc-800 pb-4">Phương Thức Thanh Toán</h1>
+                <div class="prose prose-invert prose-zinc max-w-none text-zinc-300">
+                    
+<h3 class="text-xl font-bold text-white mt-8 mb-4">1. Thanh toán tiền mặt (COD)</h3>
+<p class="mb-4">Khách hàng có thể thanh toán trực tiếp bằng tiền mặt cho nhân viên giao hàng hoặc kỹ thuật viên lắp đặt ngay sau khi nhận hàng, nghiệm thu và kiểm tra sản phẩm hoàn thiện.</p>
+
+<h3 class="text-xl font-bold text-white mt-8 mb-4">2. Chuyển khoản ngân hàng</h3>
+<p class="mb-4">Áp dụng cho các khách hàng doanh nghiệp hoặc khách hàng có nhu cầu thanh toán trước. Thông tin tài khoản ngân hàng chính thức sẽ được kế toán của Phát Lộc Tech gửi kèm theo Báo giá hoặc Hợp đồng mua bán.</p>
+
+<h3 class="text-xl font-bold text-white mt-8 mb-4">3. Thanh toán công nợ</h3>
+<p class="mb-4">Đối với các khách hàng B2B có hợp đồng cung cấp thiết bị hoặc bảo trì IT dài hạn, chúng tôi áp dụng chính sách thanh toán công nợ (15 ngày, 30 ngày) tùy theo thỏa thuận được ghi rõ trong hợp đồng kinh tế.</p>
+
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full bg-zinc-950 border-t border-white/5 pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-1">
+                    <a class="flex items-center gap-2 mb-6 group w-fit" href="https://phatloctech.vn">
+                        <div class="bg-white rounded-full p-1 shadow-lg group-hover:scale-105 transition-transform">
+                            <img src="logo.png" alt="Phát Lộc Tech Logo" class="object-contain w-10 h-10 md:w-11 md:h-11"/>
+                        </div>
+                        <div class="flex items-center hover:opacity-80 transition-opacity">
+                            <span class="text-xl md:text-2xl font-black tracking-wider uppercase leading-none drop-shadow-md text-white">PHÁT LỘC TECH</span>
+                        </div>
+                    </a>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                        Đơn vị cung cấp thiết bị công nghệ, giải pháp mạng và dịch vụ IT chuyên nghiệp, đồng hành cùng quá trình chuyển đổi số của doanh nghiệp.
+                    </p>
+                </div>
+                
+                <div class="md:col-span-1">
+                    <h4 class="text-white font-semibold mb-4 uppercase text-sm tracking-wider">Thông Tin Liên Hệ</h4>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li>
+                            <span class="block text-gray-500 text-xs mb-1">Tên công ty</span>
+                            <span class="text-white">CÔNG TY TNHH PHÁT LỘC TECH</span>                        </li>
+                        <li>
+                            <span class="block text-gray-500 text-xs mb-1">Chủ sở hữu</span>
+                            <span class="text-white">NGUYỄN THANH PHONG</span>
+                        </li>
+                        <li>
+                            <span class="block text-gray-500 text-xs mb-1">Mã số thuế</span>
+                            <span class="text-white">0319347662</span>
+                        </li>
+                        <li>
+                            <span class="block text-gray-500 text-xs mb-1">Địa chỉ</span>
+                            <span class="text-white leading-relaxed">Số 491/1 Trường Chinh, Phường Tân Bình, Thành phố Hồ Chí Minh, Việt Nam</span>
+                        </li>
+                        <li>
+                            <span class="block text-gray-500 text-xs mb-1">Số điện thoại / Zalo</span>
+                            <span class="text-white">0932 685 794</span>
+                        </li>
+                        <li>
+                            <span class="block text-gray-500 text-xs mb-1">Email</span>
+                            <span class="text-white">phatloctech.ltd@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-semibold mb-4 uppercase text-sm tracking-wider">Danh Mục Dịch Vụ</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a class="hover:text-brand-green transition-colors" href="#thiet-bi">Thiết Bị Tin Học</a></li>
+                        <li><a class="hover:text-brand-green transition-colors" href="#ha-tang">Camera An Ninh & Mạng</a></li>
+                        <li><a class="hover:text-brand-green transition-colors" href="#dich-vu">Dịch Vụ IT</a></li>
+                        <li><a class="hover:text-brand-green transition-colors" href="#phan-mem">Tài Khoản Số & Bản Quyền</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-semibold mb-4 uppercase text-sm tracking-wider">Chính Sách</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a class="policy-btn hover:text-brand-purple transition-colors cursor-pointer" data-policy="baohanh">Bảo hành 1 đổi 1</a></li>
+                        <li><a class="hover:text-brand-purple transition-colors" href="#">Hỗ trợ tận nơi (Ad-hoc)</a></li>
+                        <li><a class="hover:text-brand-purple transition-colors" href="#">Thanh toán & Vận chuyển</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/10 pt-8 text-center text-xs text-gray-600">
+                <p>© 2026 Phát Lộc Tech. Tất cả các quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Home Button -->
+    <a href="https://phatloctech.vn" title="Về Trang Chủ" class="fixed bottom-6 left-6 z-[9999] w-14 h-14 rounded-full bg-white shadow-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] border-2 border-transparent hover:border-brand-green">
+        <img src="logo.png" alt="Trang Chủ" class="w-10 h-10 object-contain"/>
+    </a>
+
+    <!-- Chat Widget Button -->
+    <button id="chat-toggle" class="fixed bottom-6 right-6 z-[9999] w-14 h-14 rounded-full bg-brand-purple hover:bg-brand-purple-dark text-white shadow-lg flex items-center justify-center transition-transform hover:scale-110">
+        <i class="ph ph-chats text-2xl"></i>
+        <span class="absolute top-0 right-0 w-3.5 h-3.5 bg-green-500 rounded-full border-2 border-zinc-950 animate-pulse-g"></span>
+    </button>
+    
+    <!-- Chat Widget Panel -->
+    <div id="chat-panel" class="fixed bottom-24 right-6 z-[9998] w-[340px] max-w-[calc(100vw-48px)] bg-[#18181b] border border-zinc-800 rounded-2xl shadow-2xl flex flex-col overflow-hidden transition-all duration-300 origin-bottom-right scale-90 opacity-0 pointer-events-none">
+        <div class="bg-brand-purple p-4 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-white p-1 shadow-md flex items-center justify-center shrink-0">
+                <img src="logo.png" alt="Phát Lộc Tech" class="object-contain w-full h-full"/>
+            </div>
+            <div>
+                <strong class="block text-white text-sm font-bold">Phát Lộc Tech</strong>
+                <span class="flex items-center gap-1.5 text-white/75 text-xs font-medium mt-0.5">
+                    <span class="w-1.5 h-1.5 bg-green-400 rounded-full"></span>Đang hoạt động
+                </span>
+            </div>
+        </div>
+        
+        <div class="p-4 flex flex-col gap-4 max-h-[500px] overflow-y-auto">
+            <div class="bg-[#27272a] text-zinc-200 p-3 rounded-2xl rounded-tl-sm text-sm leading-relaxed self-start max-w-[90%] font-medium">
+                Xin chào! Phát Lộc Tech có thể giúp gì cho bạn hôm nay?
+            </div>
+            
+            <div class="flex gap-3 mt-1">
+                <a href="https://zalo.me/0932685794" target="_blank" title="Chat Zalo" class="w-11 h-11 bg-[#27272a] hover:bg-zinc-700 border border-zinc-700 text-zinc-300 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" alt="Zalo" class="w-6 h-6"/>
+                </a>
+                <a href="https://www.messenger.com/t/876656692206747" target="_blank" title="Chat Messenger" class="w-11 h-11 bg-[#27272a] hover:bg-zinc-700 border border-zinc-700 text-blue-400 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105 text-2xl">
+                    <i class="ph-fill ph-messenger-logo"></i>
+                </a>
+                <a href="tel:0932685794" title="Gọi Hotline" class="w-11 h-11 bg-[#27272a] hover:bg-zinc-700 border border-zinc-700 text-green-500 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105 text-2xl">
+                    <i class="ph-fill ph-phone-call"></i>
+                </a>
+            </div>
+            
+            <div class="mt-2 border-t border-zinc-800 pt-3" id="contact-form-container">
+                <p class="text-[11px] text-zinc-500 mb-2 font-bold uppercase tracking-wider">HOẶC GỬI YÊU CẦU</p>
+                <form id="lead-form" action="https://formsubmit.co/phongishop86@gmail.com" method="POST" class="flex flex-col gap-3">
+                    <input type="hidden" name="_subject" value="Khách hàng mới từ Web Phát Lộc Tech">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    
+                    <input type="text" name="Tên" required placeholder="Tên của bạn" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
+                    <input type="tel" name="SĐT" required placeholder="Số điện thoại" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
+                    <textarea name="Yêu cầu" required placeholder="Vấn đề bạn quan tâm..." rows="3" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors resize-none font-medium"></textarea>
+                    
+                    <button type="submit" class="w-full bg-brand-purple hover:bg-brand-purple-dark text-white font-bold text-sm py-3 rounded-lg transition-colors flex justify-center items-center gap-2 mt-1">
+                        Gửi yêu cầu <i class="ph ph-paper-plane-right text-lg"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=3"></script>
+</body>
+</html>
