@@ -216,3 +216,26 @@ document.querySelectorAll('.view-detail-btn').forEach(btn => {
         );
     });
 });
+
+// Trigger alert when clicking policy buttons
+document.querySelectorAll('.policy-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const policyType = btn.getAttribute('data-policy');
+        let title = "Chính Sách";
+        let content = "";
+        
+        if (policyType === 'baohanh') {
+            title = "Chính Sách: Bảo hành 1 đổi 1";
+            content = "Cam kết bảo hành 1 đổi 1 đối với tất cả thiết bị phần cứng do Phát Lộc Tech cung cấp trong vòng 30 ngày đầu tiên nếu phát sinh lỗi từ nhà sản xuất. Sau 30 ngày, sản phẩm sẽ được bảo hành theo đúng tiêu chuẩn và thời hạn của hãng (12-36 tháng).";
+        } else if (policyType === 'hotro') {
+            title = "Chính Sách: Hỗ trợ tận nơi (Ad-hoc)";
+            content = "Cung cấp dịch vụ hỗ trợ kỹ thuật tận nơi (Ad-hoc) nhanh chóng trong vòng 2-4 giờ làm việc (giờ hành chính). Dịch vụ xử lý sự cố máy tính, cấu hình mạng, camera và máy chủ linh hoạt theo từng lần yêu cầu mà không cần ký hợp đồng bảo trì dài hạn.";
+        } else if (policyType === 'thanhtoan') {
+            title = "Chính Sách: Thanh toán & Vận chuyển";
+            content = "Hỗ trợ đa dạng phương thức thanh toán: Tiền mặt, Chuyển khoản hoặc Thanh toán qua thẻ tín dụng. Đặc biệt, miễn phí giao hàng và lắp đặt tận nơi tại khu vực nội thành cho các đơn hàng thiết bị và máy bộ trị giá trên 2,000,000 VNĐ.";
+        }
+        
+        showCustomAlert(title, content);
+    });
+});
