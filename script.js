@@ -239,3 +239,48 @@ document.querySelectorAll('.policy-btn').forEach(btn => {
         showCustomAlert(title, content);
     });
 });
+
+
+// Scroll Reveal Animation
+function reveal() {
+    var reveals = document.querySelectorAll('.reveal');
+    for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 100;
+        if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add('active');
+        }
+    }
+}
+window.addEventListener('scroll', reveal);
+reveal(); // Trigger on load
+
+// Number Counter Animation
+const counters = document.querySelectorAll('.counter');
+const speed = 100; // The lower the slower
+
+function animateCounters() {
+    counters.forEach(counter => {
+        const updateCount = () => {
+            const target = +counter.getAttribute('data-target');
+            const count = +counter.innerText;
+            const inc = target / speed;
+            if (count < target) {
+                counter.innerText = Math.ceil(count + inc);
+                setTimeout(updateCount, 20);
+            } else {
+                counter.innerText = target;
+            }
+        };
+        
+        // Ensure animation only triggers once when in view
+        const rect = counter.getBoundingClientRect();
+        if(rect.top < window.innerHeight && !counter.classList.contains('counted')) {
+            counter.classList.add('counted');
+            updateCount();
+        }
+    });
+}
+window.addEventListener('scroll', animateCounters);
+animateCounters(); // Trigger on load
