@@ -8,6 +8,7 @@ const PricingWidget = {
         this.data = null;
         this.activeCategory = null;
         this.searchQuery = '';
+        this.isMobileCategoryOpen = false;
 
         this.renderSkeleton();
         this.fetchData();
@@ -79,11 +80,23 @@ const PricingWidget = {
                         <!-- Sidebar Category -->
                         <div class="w-full lg:w-1/4">
                             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-5 sticky top-24 shadow-xl">
-                                <div class="flex items-center gap-3 mb-6 pb-4 border-b border-zinc-800">
-                                    <svg class="w-5 h-5 text-brand-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path></svg>
-                                    <h4 class="text-lg font-bold text-white tracking-wide">DANH MỤC</h4>
+                                <div class="flex items-center justify-between gap-3 mb-2 lg:mb-6 pb-2 lg:pb-4 border-b border-zinc-800 cursor-pointer lg:cursor-default" onclick="if(window.innerWidth < 1024) PricingWidget.toggleMobileCategory()">
+                                    <div class="flex items-center gap-3">
+                                        <svg class="w-5 h-5 text-brand-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path></svg>
+                                        <h4 class="text-lg font-bold text-white tracking-wide">DANH MỤC</h4>
+                                    </div>
+                                    <button class="lg:hidden text-zinc-400 hover:text-white transition-transform ${this.isMobileCategoryOpen ? 'rotate-180' : ''}">
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                                    </button>
                                 </div>
-                                <div class="flex flex-col gap-2 max-h-[60vh] overflow-y-auto pr-1" style="scrollbar-width: thin; scrollbar-color: #10b981 transparent;">
+                                
+                                ${!this.isMobileCategoryOpen ? `
+                                <div class="lg:hidden text-brand-green/80 font-medium text-sm mt-1 mb-2">
+                                    Đang xem: ${this.activeCategory} (${this.data[this.activeCategory]?.length || 0} SP)
+                                </div>
+                                ` : ''}
+
+                                <div class="${this.isMobileCategoryOpen ? 'flex' : 'hidden'} lg:flex flex-col gap-2 max-h-[60vh] overflow-y-auto pr-1 mt-4 lg:mt-0" style="scrollbar-width: thin; scrollbar-color: #10b981 transparent;">
                                     ${sidebarTabs}
                                 </div>
                             </div>
@@ -124,7 +137,7 @@ const PricingWidget = {
 
                             <!-- Mobile Sticky Back to Top -->
                             <div class="sticky bottom-6 flex justify-center mt-8 lg:hidden pointer-events-none">
-                                <button onclick="document.getElementById('pricing-table').scrollIntoView({behavior: 'smooth', block: 'start'})" 
+                                <button onclick="PricingWidget.openMobileCategory()" 
                                     class="pointer-events-auto bg-zinc-900 border border-brand-green text-brand-green px-5 py-3 rounded-full font-bold shadow-[0_4px_20px_rgba(0,0,0,0.5)] flex items-center gap-2 hover:bg-brand-green hover:text-zinc-950 transition-colors z-50">
                                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
                                     Chọn danh mục khác
@@ -151,7 +164,23 @@ const PricingWidget = {
     setCategory(cat) {
         this.activeCategory = cat;
         this.searchQuery = ''; // Reset search on tab change
+        this.isMobileCategoryOpen = false; // Đóng menu mobile khi đã chọn xong
         this.render();
+        // Cuộn xuống bảng giá nếu đang trên mobile
+        if (window.innerWidth < 1024) {
+            document.getElementById('pricing-search')?.scrollIntoView({behavior: 'smooth', block: 'start'});
+        }
+    },
+
+    toggleMobileCategory() {
+        this.isMobileCategoryOpen = !this.isMobileCategoryOpen;
+        this.render();
+    },
+
+    openMobileCategory() {
+        this.isMobileCategoryOpen = true;
+        this.render();
+        document.getElementById('pricing-table')?.scrollIntoView({behavior: 'smooth', block: 'start'});
     },
 
     handleSearch(e) {
