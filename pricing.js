@@ -70,8 +70,13 @@ const PricingWidget = {
                 <td class="p-4 text-zinc-300 group-hover:text-white transition-colors">${item.name}</td>
                 <td class="p-4 text-center text-zinc-500">${item.warranty}</td>
                 <td class="p-4 text-right font-medium text-brand-green">${item.price.toLocaleString('vi-VN')} đ</td>
+                <td class="p-4 text-center">
+                    <button onclick="if(window.CartManager) CartManager.addToCart('${item.name.replace(/'/g, "\\'")}', ${item.price}, '${item.warranty}')" class="text-zinc-500 hover:text-brand-green bg-zinc-900 hover:bg-zinc-800 p-2 rounded-lg transition-colors border border-zinc-800 hover:border-brand-green/50 group-hover:shadow-[0_0_15px_rgba(16,185,129,0.2)]" title="Thêm vào giỏ hàng">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </button>
+                </td>
             </tr>
-        `).join('') : `<tr><td colspan="3" class="p-8 text-center text-zinc-500">Không tìm thấy sản phẩm nào phù hợp.</td></tr>`;
+        `).join('') : `<tr><td colspan="4" class="p-8 text-center text-zinc-500">Không tìm thấy sản phẩm nào phù hợp.</td></tr>`;
 
         this.container.innerHTML = `
             <div class="py-4 bg-zinc-950/30" id="pricing-table">
@@ -125,7 +130,8 @@ const PricingWidget = {
                                             <tr class="bg-zinc-950/95 backdrop-blur-sm text-zinc-400 text-sm uppercase tracking-wider shadow-md">
                                                 <th class="p-4 font-semibold">Tên Thiết Bị / Linh Kiện</th>
                                                 <th class="p-4 font-semibold text-center w-32">Bảo Hành</th>
-                                                <th class="p-4 font-semibold text-right w-48">Đơn Giá (VNĐ)</th>
+                                                <th class="p-4 font-semibold text-right w-40">Đơn Giá (VNĐ)</th>
+                                                <th class="p-4 font-semibold text-center w-16">Mua</th>
                                             </tr>
                                         </thead>
                                         <tbody class="text-sm bg-zinc-900">
