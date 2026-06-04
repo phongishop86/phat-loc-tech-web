@@ -66,13 +66,20 @@ const PricingWidget = {
         `).join('');
 
         const tableRows = filteredItems.length > 0 ? filteredItems.map(item => `
-            <tr class="hover:bg-zinc-800/50 transition-colors border-b border-zinc-800/50 last:border-0 group">
-                <td class="p-4 text-zinc-300 group-hover:text-white transition-colors">${item.name}</td>
-                <td class="p-4 text-center text-zinc-500">${item.warranty}</td>
-                <td class="p-4 text-right font-medium text-brand-green">${item.price.toLocaleString('vi-VN')} đ</td>
-                <td class="p-4 text-center">
-                    <button data-action="add-cart" data-name="${item.name.replace(/"/g, '&quot;')}" data-price="${item.price}" data-warranty="${item.warranty}" class="text-zinc-500 hover:text-brand-green bg-zinc-900 hover:bg-zinc-800 p-2 rounded-lg transition-colors border border-zinc-800 hover:border-brand-green/50 group-hover:shadow-[0_0_15px_rgba(16,185,129,0.2)]" title="Thêm vào giỏ hàng">
+            <tr class="hover:bg-zinc-800/50 transition-colors border-b border-zinc-800/50 last:border-0 group flex flex-col sm:table-row p-3 sm:p-0">
+                <td class="p-2 sm:p-4 text-zinc-200 group-hover:text-white transition-colors block sm:table-cell font-semibold sm:font-normal text-base sm:text-sm">${item.name}</td>
+                <td class="p-2 sm:p-4 text-left sm:text-center text-zinc-500 flex sm:table-cell justify-between items-center text-sm border-t border-zinc-800/50 sm:border-0 mt-2 sm:mt-0 pt-2 sm:pt-4">
+                    <span class="sm:hidden font-semibold text-zinc-400 text-xs">Bảo hành:</span>
+                    <span>${item.warranty}</span>
+                </td>
+                <td class="p-2 sm:p-4 text-left sm:text-right font-medium text-brand-green flex sm:table-cell justify-between items-center text-base sm:text-sm">
+                    <span class="sm:hidden font-semibold text-zinc-400 text-xs">Đơn giá:</span>
+                    <span class="font-bold sm:font-medium">${item.price.toLocaleString('vi-VN')} đ</span>
+                </td>
+                <td class="p-2 sm:p-4 text-right sm:text-center block sm:table-cell mt-3 sm:mt-0">
+                    <button data-action="add-cart" data-name="${item.name.replace(/"/g, '&quot;')}" data-price="${item.price}" data-warranty="${item.warranty}" class="w-full sm:w-auto text-zinc-300 sm:text-zinc-500 hover:text-white sm:hover:text-brand-green bg-brand-green/20 hover:bg-brand-green/40 sm:bg-zinc-900 sm:hover:bg-zinc-800 p-2.5 sm:p-2 rounded-lg transition-colors border border-brand-green/30 sm:border-zinc-800 hover:border-brand-green sm:hover:border-brand-green/50 group-hover:shadow-[0_0_15px_rgba(16,185,129,0.2)] flex items-center justify-center gap-2" title="Thêm vào giỏ hàng">
                         <svg class="w-5 h-5 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        <span class="sm:hidden text-sm font-bold pointer-events-none">Thêm vào giỏ</span>
                     </button>
                 </td>
             </tr>
@@ -124,9 +131,9 @@ const PricingWidget = {
 
                             <!-- Data Table -->
                             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden shadow-2xl">
-                                <div class="overflow-y-auto max-h-[700px] custom-scrollbar">
-                                    <table class="w-full text-left border-collapse relative">
-                                        <thead class="sticky top-0 z-10">
+                                <div class="overflow-y-auto overflow-x-hidden max-h-[700px] custom-scrollbar w-full">
+                                    <table class="w-full text-left border-collapse relative block sm:table">
+                                        <thead class="sticky top-0 z-10 hidden sm:table-header-group">
                                             <tr class="bg-zinc-950/95 backdrop-blur-sm text-zinc-400 text-sm uppercase tracking-wider shadow-md">
                                                 <th class="p-4 font-semibold">Tên Thiết Bị / Linh Kiện</th>
                                                 <th class="p-4 font-semibold text-center w-32">Bảo Hành</th>
@@ -134,7 +141,7 @@ const PricingWidget = {
                                                 <th class="p-4 font-semibold text-center w-16">Mua</th>
                                             </tr>
                                         </thead>
-                                        <tbody class="text-sm bg-zinc-900">
+                                        <tbody class="text-sm bg-zinc-900 block sm:table-row-group">
                                             ${tableRows}
                                         </tbody>
                                     </table>
