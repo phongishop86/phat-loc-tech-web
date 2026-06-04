@@ -29,41 +29,75 @@ categories = {
     "Linh kiện PC (Main, CPU, VGA, Nguồn)": [],
     "Màn hình (LCD)": [],
     "Ổ cứng (SSD/HDD)": [],
-    "RAM": [],
+    "RAM (Bộ nhớ trong)": [],
     "Bàn phím & Chuột": [],
     "Thiết bị mạng (Wifi, Switch, Cable)": [],
     "Camera & Thiết bị an ninh": [],
     "Máy in, Mã vạch & POS": [],
+    "Thiết bị Âm thanh & Loa": [],
     "Thiết bị Gia dụng": [],
-    "Phần Mềm & Số Hóa": [],
-    "Linh kiện khác": []
+    "Phần Mềm & Bản quyền": [],
+    "Phụ kiện & Linh kiện khác": []
 }
 
 def get_category(name):
     n = name.upper()
-    if 'ANTIVIRUS' in n or 'KASPERSKY' in n or 'BKAV' in n or 'WINDOWS' in n or 'OFFICE' in n or 'MICROSOFT' in n or 'PHẦN MỀM' in n or 'ESET' in n:
-        return "Phần Mềm & Số Hóa"
-    if 'LAPTOP' in n or 'BỘ MÁY' in n or re.search(r'\bPC\b', n) or 'MÁY BỘ' in n:
+    
+    # 1. Nhóm Phần Mềm (Antivirus, Windows, Office...)
+    if n.startswith('ANTIVIRUS') or n.startswith('KASPERSKY') or n.startswith('BKAV') or n.startswith('WINDOWS') or n.startswith('OFFICE') or n.startswith('MICROSOFT') or n.startswith('PHẦN MỀM') or 'ESET' in n:
+        return "Phần Mềm & Bản quyền"
+        
+    # 2. Nhóm Máy tính bộ & Laptop
+    if n.startswith('LAPTOP') or n.startswith('PC') or n.startswith('BỘ MÁY') or n.startswith('MÁY BỘ'):
         return "Máy tính bộ & Laptop"
-    if 'MAINBOARD' in n or 'BO MẠCH CHỦ' in n or re.search(r'\bCPU\b', n) or 'CHIP' in n or 'CORE I' in n or 'RYZEN' in n or re.search(r'\bVGA\b', n) or 'CARD MÀN HÌNH' in n or 'NGUỒN' in n or re.search(r'\bPSU\b', n) or re.search(r'\bCASE\b', n) or 'VỎ CASE' in n or 'TẢN NHIỆT' in n or re.search(r'\bFAN\b', n) or 'QUẠT' in n:
+        
+    # 3. Nhóm RAM (Từ khóa bắt đầu: DDR, RAM, BỘ NHỚ)
+    if n.startswith('DDR') or n.startswith('RAM') or n.startswith('BỘ NHỚ TRONG') or n.startswith('THANH RAM'):
+        return "RAM (Bộ nhớ trong)"
+        
+    # 4. Nhóm Linh kiện PC (Mainboard, CPU, VGA, Nguồn, Case, Tản)
+    if n.startswith('MAIN') or n.startswith('BO MẠCH') or n.startswith('CPU') or n.startswith('VGA') or n.startswith('NGUỒN') or n.startswith('PSU') or n.startswith('CASE') or n.startswith('VỎ CASE') or n.startswith('TẢN') or n.startswith('FAN') or n.startswith('QUẠT') or n.startswith('CARD MÀN HÌNH'):
         return "Linh kiện PC (Main, CPU, VGA, Nguồn)"
-    if 'MÃ VẠCH' in n or 'MÁY IN' in n or 'MÁY QUÉT' in n or 'MÁY ĐỌC' in n or 'PRINTER' in n or re.search(r'\bPOS\b', n) or 'IN HOÁ ĐƠN' in n:
-        return "Máy in, Mã vạch & POS"
-    if 'GIA DỤNG' in n or 'MÁY LÀM SỮA' in n or 'MÁY PHA CÀ PHÊ' in n or 'MÁY XAY' in n or 'NỒI CHIÊN' in n or 'QUẠT TÍCH ĐIỆN' in n or 'MÁY HÚT' in n or 'ĐÈN' in n or 'BẾP' in n:
-        return "Thiết bị Gia dụng"
-    if re.search(r'\bLCD\b', n) or 'MÀN HÌNH' in n or 'MONITOR' in n:
-        return "Màn hình (LCD)"
-    if re.search(r'\bSSD\b', n) or re.search(r'\bHDD\b', n) or 'Ổ CỨNG' in n or re.search(r'\bUSB\b', n) or 'THẺ NHỚ' in n:
+        
+    # 5. Nhóm Ổ Cứng (Từ khóa bắt đầu: HDD, SSD, USB, THẺ NHỚ)
+    if n.startswith('SSD') or n.startswith('HDD') or n.startswith('Ổ CỨNG') or n.startswith('USB') or n.startswith('THẺ NHỚ') or n.startswith('BOX Ổ CỨNG'):
         return "Ổ cứng (SSD/HDD)"
-    if re.search(r'\bRAM\b', n) or 'BỘ NHỚ' in n:
-        return "RAM"
-    if 'CAMERA' in n or 'WEBCAM' in n or 'HIKVISION' in n or 'DAHUA' in n or 'EZVIZ' in n or 'KBVISION' in n or 'ĐẦU GHI' in n:
-        return "Camera & Thiết bị an ninh"
-    if 'PHÍM' in n or 'CHUỘT' in n or 'KEYBOARD' in n or 'MOUSE' in n or 'BỘ COMBO' in n or 'LÓT CHUỘT' in n or re.search(r'\bPAD\b', n):
+        
+    # 6. Nhóm Màn hình
+    if n.startswith('LCD') or n.startswith('MÀN HÌNH') or n.startswith('MONITOR'):
+        return "Màn hình (LCD)"
+        
+    # 7. Nhóm Phím Chuột
+    if n.startswith('KEYBOARD') or n.startswith('MOUSE') or n.startswith('PHÍM') or n.startswith('CHUỘT') or n.startswith('COMBO') or n.startswith('BỘ PHÍM') or n.startswith('LÓT CHUỘT') or n.startswith('PAD'):
         return "Bàn phím & Chuột"
-    if 'CABLE' in n or 'CÁP' in n or 'WIFI' in n or 'SWITCH' in n or 'ROUTER' in n or 'MẠNG' in n or 'ĐẦU ĐỌC' in n or re.search(r'\bHUB\b', n) or re.search(r'\bLAN\b', n) or 'BỘ CHIA' in n or 'CỔNG CHUYỂN' in n or 'HDMI' in n or 'VGA TO' in n:
+        
+    # 8. Nhóm Mạng (Cable, Switch, Router, Wifi...)
+    if n.startswith('CABLE') or n.startswith('CÁP') or n.startswith('SWITCH') or n.startswith('ROUTER') or n.startswith('WIFI') or n.startswith('BỘ PHÁT') or n.startswith('BỘ CHIA') or n.startswith('HUB') or n.startswith('CARD MẠNG'):
         return "Thiết bị mạng (Wifi, Switch, Cable)"
-    return "Linh kiện khác"
+        
+    # 9. Nhóm Camera & An ninh
+    if n.startswith('CAMERA') or n.startswith('WEBCAM') or n.startswith('ĐẦU GHI') or n.startswith('BALUN'):
+        return "Camera & Thiết bị an ninh"
+        
+    # 10. Nhóm Máy in, Mã vạch
+    if n.startswith('MÁY IN') or n.startswith('MÁY QUÉT') or n.startswith('MÁY ĐỌC') or n.startswith('MÃ VẠCH') or n.startswith('PRINTER') or n.startswith('CARTRIDGE') or n.startswith('MỰC IN'):
+        return "Máy in, Mã vạch & POS"
+        
+    # 11. Nhóm Âm thanh
+    if n.startswith('LOA') or n.startswith('TAI NGHE') or n.startswith('HEADPHONE') or n.startswith('MICRO'):
+        return "Thiết bị Âm thanh & Loa"
+        
+    # 12. Nhóm Gia dụng
+    if n.startswith('MÁY LÀM SỮA') or n.startswith('MÁY XAY') or n.startswith('MÁY PHA') or n.startswith('NỒI') or n.startswith('QUẠT TÍCH ĐIỆN'):
+        return "Thiết bị Gia dụng"
+        
+    # FALLBACK cho các từ khóa ngẫu nhiên nằm ở giữa tên (nếu không theo chuẩn)
+    if 'ANTIVIRUS' in n or 'WINDOWS' in n or 'OFFICE' in n: return "Phần Mềm & Bản quyền"
+    if 'CAMERA' in n or 'HIKVISION' in n or 'DAHUA' in n: return "Camera & Thiết bị an ninh"
+    if re.search(r'\bSSD\b', n) or re.search(r'\bHDD\b', n): return "Ổ cứng (SSD/HDD)"
+    if re.search(r'\bLCD\b', n): return "Màn hình (LCD)"
+    
+    return "Phụ kiện & Linh kiện khác"
 
 parsed_count = 0
 
