@@ -25,12 +25,16 @@ items = soup.find_all('div', class_=re.compile('item|row', re.I))
 print(f"Found {len(items)} rows/items.")
 
 categories = {
+    "Máy tính bộ & Laptop": [],
+    "Linh kiện PC (Main, CPU, VGA, Nguồn)": [],
     "Màn hình (LCD)": [],
     "Ổ cứng (SSD/HDD)": [],
     "RAM": [],
-    "Camera": [],
     "Bàn phím & Chuột": [],
     "Thiết bị mạng (Wifi, Switch, Cable)": [],
+    "Camera & Thiết bị an ninh": [],
+    "Máy in, Mã vạch & POS": [],
+    "Thiết bị Gia dụng": [],
     "Phần Mềm & Số Hóa": [],
     "Linh kiện khác": []
 }
@@ -39,17 +43,25 @@ def get_category(name):
     n = name.upper()
     if 'ANTIVIRUS' in n or 'KASPERSKY' in n or 'BKAV' in n or 'WINDOWS' in n or 'OFFICE' in n or 'MICROSOFT' in n or 'PHẦN MỀM' in n or 'ESET' in n:
         return "Phần Mềm & Số Hóa"
-    if 'LCD' in n or 'MÀN HÌNH' in n or 'MONITOR' in n:
+    if 'LAPTOP' in n or 'BỘ MÁY' in n or re.search(r'\bPC\b', n) or 'MÁY BỘ' in n:
+        return "Máy tính bộ & Laptop"
+    if 'MAINBOARD' in n or 'BO MẠCH CHỦ' in n or re.search(r'\bCPU\b', n) or 'CHIP' in n or 'CORE I' in n or 'RYZEN' in n or re.search(r'\bVGA\b', n) or 'CARD MÀN HÌNH' in n or 'NGUỒN' in n or re.search(r'\bPSU\b', n) or re.search(r'\bCASE\b', n) or 'VỎ CASE' in n or 'TẢN NHIỆT' in n or re.search(r'\bFAN\b', n) or 'QUẠT' in n:
+        return "Linh kiện PC (Main, CPU, VGA, Nguồn)"
+    if 'MÃ VẠCH' in n or 'MÁY IN' in n or 'MÁY QUÉT' in n or 'MÁY ĐỌC' in n or 'PRINTER' in n or re.search(r'\bPOS\b', n) or 'IN HOÁ ĐƠN' in n:
+        return "Máy in, Mã vạch & POS"
+    if 'GIA DỤNG' in n or 'MÁY LÀM SỮA' in n or 'MÁY PHA CÀ PHÊ' in n or 'MÁY XAY' in n or 'NỒI CHIÊN' in n or 'QUẠT TÍCH ĐIỆN' in n or 'MÁY HÚT' in n or 'ĐÈN' in n or 'BẾP' in n:
+        return "Thiết bị Gia dụng"
+    if re.search(r'\bLCD\b', n) or 'MÀN HÌNH' in n or 'MONITOR' in n:
         return "Màn hình (LCD)"
-    if 'SSD' in n or 'HDD' in n or 'Ổ CỨNG' in n or 'USB' in n or 'THẺ NHỚ' in n:
+    if re.search(r'\bSSD\b', n) or re.search(r'\bHDD\b', n) or 'Ổ CỨNG' in n or re.search(r'\bUSB\b', n) or 'THẺ NHỚ' in n:
         return "Ổ cứng (SSD/HDD)"
-    if 'RAM' in n or 'BỘ NHỚ' in n:
+    if re.search(r'\bRAM\b', n) or 'BỘ NHỚ' in n:
         return "RAM"
-    if 'CAMERA' in n or 'WEBCAM' in n or 'HIKVISION' in n or 'DAHUA' in n or 'EZVIZ' in n or 'KBVISION' in n:
-        return "Camera"
-    if 'PHÍM' in n or 'CHUỘT' in n or 'KEYBOARD' in n or 'MOUSE' in n or 'BỘ COMBO' in n:
+    if 'CAMERA' in n or 'WEBCAM' in n or 'HIKVISION' in n or 'DAHUA' in n or 'EZVIZ' in n or 'KBVISION' in n or 'ĐẦU GHI' in n:
+        return "Camera & Thiết bị an ninh"
+    if 'PHÍM' in n or 'CHUỘT' in n or 'KEYBOARD' in n or 'MOUSE' in n or 'BỘ COMBO' in n or 'LÓT CHUỘT' in n or re.search(r'\bPAD\b', n):
         return "Bàn phím & Chuột"
-    if 'CABLE' in n or 'CÁP' in n or 'WIFI' in n or 'SWITCH' in n or 'ROUTER' in n or 'MẠNG' in n or 'ĐẦU ĐỌC' in n or 'HUB' in n or 'LAN' in n:
+    if 'CABLE' in n or 'CÁP' in n or 'WIFI' in n or 'SWITCH' in n or 'ROUTER' in n or 'MẠNG' in n or 'ĐẦU ĐỌC' in n or re.search(r'\bHUB\b', n) or re.search(r'\bLAN\b', n) or 'BỘ CHIA' in n or 'CỔNG CHUYỂN' in n or 'HDMI' in n or 'VGA TO' in n:
         return "Thiết bị mạng (Wifi, Switch, Cable)"
     return "Linh kiện khác"
 
