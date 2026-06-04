@@ -55,10 +55,14 @@ window.CartManager = {
     },
 
     clearCart() {
-        if(confirm('Bạn có chắc chắn muốn xóa toàn bộ giỏ hàng?')) {
-            this.items = [];
-            this.saveCart();
-        }
+        this.showConfirmModal(
+            'Quý khách chắc chắn xoá đơn hàng rồi chứ?',
+            'Toàn bộ sản phẩm trong giỏ hàng sẽ bị xóa. Thao tác này không thể hoàn tác.',
+            () => {
+                this.items = [];
+                this.saveCart();
+            }
+        );
     },
 
     getTotal() {
@@ -209,6 +213,70 @@ window.CartManager = {
         setTimeout(() => {
             toast.classList.add('translate-x-full', 'opacity-0');
         }, 3000);
+    },
+
+    showConfirmModal(title, message, onConfirm) {
+        let modal = document.getElementById('cart-confirm-modal');
+        if (!modal) {
+            modal = document.createElement('div');
+            modal.id = 'cart-confirm-modal';
+            modal.className = 'fixed inset-0 z-[10000] flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300';
+            modal.innerHTML = `
+                <div class="bg-zinc-900 border border-zinc-700 rounded-2xl shadow-2xl w-full max-w-sm overflow-hidden transform scale-95 transition-transform duration-300">
+                    <div class="p-5">
+                        <div class="flex items-center gap-3 mb-2">
+                            <div class="w-10 h-10 rounded-full bg-red-500/20 text-red-500 flex items-center justify-center shrink-0">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                            </div>
+                            <h3 class="text-base sm:text-lg font-bold text-white" id="cart-confirm-title"></h3>
+                        </div>
+                        <p class="text-zinc-400 text-sm leading-relaxed ml-14" id="cart-confirm-body"></p>
+                    </div>
+                    <div class="bg-zinc-950 px-5 py-4 flex gap-3 justify-end border-t border-zinc-800">
+                        <button id="cart-confirm-no" class="px-5 py-2 rounded-lg font-medium text-zinc-400 hover:text-white hover:bg-zinc-800 transition-colors text-sm">
+                            Không
+                        </button>
+                        <button id="cart-confirm-yes" class="px-5 py-2 rounded-lg font-bold text-white bg-red-500 hover:bg-red-600 transition-colors text-sm shadow-lg shadow-red-500/20">
+                            Có
+                        </button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+
+            document.getElementById('cart-confirm-no').addEventListener('click', () => {
+                this.closeConfirmModal();
+            });
+        }
+
+        document.getElementById('cart-confirm-title').innerText = title;
+        document.getElementById('cart-confirm-body').innerText = message;
+        
+        const yesBtn = document.getElementById('cart-confirm-yes');
+        const newYesBtn = yesBtn.cloneNode(true);
+        yesBtn.parentNode.replaceChild(newYesBtn, yesBtn);
+        
+        newYesBtn.addEventListener('click', () => {
+            if (typeof onConfirm === 'function') onConfirm();
+            this.closeConfirmModal();
+        });
+
+        requestAnimationFrame(() => {
+            modal.classList.remove('opacity-0', 'pointer-events-none');
+            modal.classList.add('opacity-100', 'pointer-events-auto');
+            modal.querySelector('div').classList.remove('scale-95');
+            modal.querySelector('div').classList.add('scale-100');
+        });
+    },
+
+    closeConfirmModal() {
+        const modal = document.getElementById('cart-confirm-modal');
+        if (modal) {
+            modal.classList.remove('opacity-100', 'pointer-events-auto');
+            modal.classList.add('opacity-0', 'pointer-events-none');
+            modal.querySelector('div').classList.remove('scale-100');
+            modal.querySelector('div').classList.add('scale-95');
+        }
     },
 
     checkoutViaZalo() {
