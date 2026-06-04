@@ -209,6 +209,16 @@ function showCustomAlert(title, message) {
 // Trigger alert when clicking view detail buttons
 document.querySelectorAll('.view-detail-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
+        const href = btn.getAttribute('href');
+        if (href === '#pricing-table') {
+            const table = document.getElementById('pricing-table') || document.getElementById('pricing-container');
+            if (table) {
+                e.preventDefault();
+                table.scrollIntoView({ behavior: 'smooth' });
+                return;
+            }
+        }
+        
         e.preventDefault();
         showCustomAlert(
             "Thông báo từ Phát Lộc Tech",
