@@ -1,4 +1,4 @@
-const CartManager = {
+window.CartManager = {
     items: [],
     zaloNumber: '0932685794',
     

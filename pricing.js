@@ -198,8 +198,9 @@ const PricingWidget = {
 // Handle Add to Cart click globally to avoid inline onclick escaping issues
 document.addEventListener('click', (e) => {
     const btn = e.target.closest('[data-action="add-cart"]');
-    if (btn && window.CartManager) {
-        CartManager.addToCart(btn.dataset.name, btn.dataset.price, btn.dataset.warranty);
+    if (btn && (window.CartManager || typeof CartManager !== 'undefined')) {
+        const cm = window.CartManager || CartManager;
+        cm.addToCart(btn.dataset.name, btn.dataset.price, btn.dataset.warranty);
     }
 });
 
