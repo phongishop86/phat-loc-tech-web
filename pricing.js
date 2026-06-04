@@ -71,8 +71,8 @@ const PricingWidget = {
                 <td class="p-4 text-center text-zinc-500">${item.warranty}</td>
                 <td class="p-4 text-right font-medium text-brand-green">${item.price.toLocaleString('vi-VN')} đ</td>
                 <td class="p-4 text-center">
-                    <button onclick="if(window.CartManager) CartManager.addToCart('${item.name.replace(/'/g, "\\'")}', ${item.price}, '${item.warranty}')" class="text-zinc-500 hover:text-brand-green bg-zinc-900 hover:bg-zinc-800 p-2 rounded-lg transition-colors border border-zinc-800 hover:border-brand-green/50 group-hover:shadow-[0_0_15px_rgba(16,185,129,0.2)]" title="Thêm vào giỏ hàng">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    <button data-action="add-cart" data-name="${item.name.replace(/"/g, '&quot;')}" data-price="${item.price}" data-warranty="${item.warranty}" class="text-zinc-500 hover:text-brand-green bg-zinc-900 hover:bg-zinc-800 p-2 rounded-lg transition-colors border border-zinc-800 hover:border-brand-green/50 group-hover:shadow-[0_0_15px_rgba(16,185,129,0.2)]" title="Thêm vào giỏ hàng">
+                        <svg class="w-5 h-5 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                     </button>
                 </td>
             </tr>
@@ -194,6 +194,14 @@ const PricingWidget = {
         this.render();
     }
 };
+
+// Handle Add to Cart click globally to avoid inline onclick escaping issues
+document.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-action="add-cart"]');
+    if (btn && window.CartManager) {
+        CartManager.addToCart(btn.dataset.name, btn.dataset.price, btn.dataset.warranty);
+    }
+});
 
 document.addEventListener('DOMContentLoaded', () => {
     PricingWidget.init();
