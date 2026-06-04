@@ -119,15 +119,20 @@ window.CartManager = {
                 <!-- Items go here -->
             </div>
             <div class="p-4 border-t border-zinc-800 bg-zinc-950">
+                <div id="cart-customer-info" class="mb-4">
+                    <p class="text-xs text-brand-green mb-2 font-medium"><i class="ph-fill ph-info"></i> Vui lòng để lại thông tin để chốt đơn</p>
+                    <input type="text" id="cart-customer-name" placeholder="Tên của bạn *" class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-3 py-2.5 text-sm text-white mb-2 outline-none focus:border-brand-green focus:ring-1 focus:ring-brand-green transition-all placeholder-zinc-500">
+                    <input type="tel" id="cart-customer-phone" placeholder="Số điện thoại *" class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-3 py-2.5 text-sm text-white outline-none focus:border-brand-green focus:ring-1 focus:ring-brand-green transition-all placeholder-zinc-500">
+                </div>
                 <div class="flex justify-between items-center mb-4 bg-zinc-900 p-3 rounded-xl border border-zinc-800">
                     <span class="text-zinc-400 font-medium">Tổng thanh toán:</span>
                     <span id="cart-total" class="text-xl font-bold text-brand-green">0 đ</span>
                 </div>
                 <div class="flex gap-2">
-                    <button onclick="CartManager.clearCart()" class="px-4 py-3 rounded-xl border border-zinc-700 text-zinc-400 hover:text-white hover:bg-zinc-800 transition-colors text-sm font-medium">
+                    <button onclick="window.CartManager.clearCart()" class="px-4 py-3 rounded-xl border border-zinc-700 text-zinc-400 hover:text-white hover:bg-zinc-800 transition-colors text-sm font-medium">
                         Xóa hết
                     </button>
-                    <button onclick="CartManager.checkoutViaZalo()" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 rounded-xl transition-colors flex justify-center items-center gap-2 shadow-lg">
+                    <button onclick="window.CartManager.checkoutViaZalo()" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 rounded-xl transition-colors flex justify-center items-center gap-2 shadow-lg">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M21.2 13.9c.7-.6 1.1-1.4 1.1-2.4 0-2.3-2.6-4.2-5.7-4.2s-5.7 1.9-5.7 4.2c0 2.3 2.6 4.2 5.7 4.2.3 0 .7 0 1-.1 1.2 1.1 2.8 1.5 4.3 1.5-.2-.9-.4-2-.7-3.2zm-12.7.3h-4.3v-5.6h4.3v1h-3.1v1.3h2.8v1h-2.8v1.3h3.1v1zM2.8 8.6h2.8l-1.9 4.3v1.3H1v-1.3l1.8-4.3H1V7.6h4.5v1l-2.7 5.6zm7.2-1h-1.2v5.6h-1.2V7.6h2.4zm-1.8 0h-2.6v5.6h2.6c1.6 0 2.5-1.1 2.5-2.8 0-1.7-.9-2.8-2.5-2.8zm-.2 4.6h-1.2v-3.6h1.2c.9 0 1.4.6 1.4 1.8 0 1.2-.5 1.8-1.4 1.8z"></path></svg>
                         Gửi Đơn Zalo
                     </button>
@@ -156,9 +161,14 @@ window.CartManager = {
             return;
         }
 
+        const customerInfo = document.getElementById('cart-customer-info');
+        if (customerInfo) {
+            customerInfo.style.display = this.items.length === 0 ? 'none' : 'block';
+        }
+
         container.innerHTML = this.items.map((item, index) => `
             <div class="bg-zinc-950 border border-zinc-800 p-3 rounded-xl relative group hover:border-zinc-700 transition-colors">
-                <button onclick="CartManager.removeItem(${index})" class="absolute -top-2 -right-2 bg-red-500 text-white rounded-full p-1.5 opacity-0 group-hover:opacity-100 transition-opacity shadow-md hover:bg-red-600 focus:opacity-100 lg:group-hover:opacity-100 opacity-100 lg:opacity-0">
+                <button onclick="window.CartManager.removeItem(${index})" class="absolute -top-2 -right-2 bg-red-500 text-white rounded-full p-1.5 opacity-0 group-hover:opacity-100 transition-opacity shadow-md hover:bg-red-600 focus:opacity-100 lg:group-hover:opacity-100 opacity-100 lg:opacity-0">
                     <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg>
                 </button>
                 <div class="text-sm font-medium text-white mb-2 leading-snug pr-4 line-clamp-2" title="${item.name}">${item.name}</div>
@@ -168,9 +178,9 @@ window.CartManager = {
                         <div class="text-[10px] text-zinc-500 mt-0.5">BH: ${item.warranty || 'Không có'}</div>
                     </div>
                     <div class="flex items-center bg-zinc-900 rounded-lg border border-zinc-800 shadow-inner">
-                        <button onclick="CartManager.updateQuantity(${index}, -1)" class="w-7 h-7 flex items-center justify-center text-zinc-400 hover:text-brand-green hover:bg-zinc-800 rounded-l-lg transition-colors">-</button>
+                        <button onclick="window.CartManager.updateQuantity(${index}, -1)" class="w-7 h-7 flex items-center justify-center text-zinc-400 hover:text-brand-green hover:bg-zinc-800 rounded-l-lg transition-colors">-</button>
                         <span class="text-xs font-bold w-6 text-center text-white">${item.quantity}</span>
-                        <button onclick="CartManager.updateQuantity(${index}, 1)" class="w-7 h-7 flex items-center justify-center text-zinc-400 hover:text-brand-green hover:bg-zinc-800 rounded-r-lg transition-colors">+</button>
+                        <button onclick="window.CartManager.updateQuantity(${index}, 1)" class="w-7 h-7 flex items-center justify-center text-zinc-400 hover:text-brand-green hover:bg-zinc-800 rounded-r-lg transition-colors">+</button>
                     </div>
                 </div>
             </div>
@@ -204,7 +214,23 @@ window.CartManager = {
     checkoutViaZalo() {
         if (this.items.length === 0) return;
         
-        let message = "Chào Phát Lộc Tech, mình cần tư vấn/đặt mua các sản phẩm sau:\n\n";
+        const nameInput = document.getElementById('cart-customer-name');
+        const phoneInput = document.getElementById('cart-customer-phone');
+        
+        const name = nameInput ? nameInput.value.trim() : '';
+        const phone = phoneInput ? phoneInput.value.trim() : '';
+        
+        if (!name || !phone) {
+            this.showToast('Vui lòng nhập Tên và Số điện thoại!');
+            if (!name && nameInput) nameInput.focus();
+            else if (!phone && phoneInput) phoneInput.focus();
+            return;
+        }
+        
+        let message = `🛒 ĐƠN HÀNG TỪ WEB PHÁT LỘC TECH 🛒\n\n`;
+        message += `👤 Khách hàng: ${name}\n`;
+        message += `📞 SĐT: ${phone}\n`;
+        message += `-------------------------\n`;
         this.items.forEach((item, i) => {
             message += `${i+1}. ${item.name}\n   ▪ SL: ${item.quantity} x ${item.price.toLocaleString('vi-VN')} đ = ${(item.price * item.quantity).toLocaleString('vi-VN')} đ\n`;
         });
@@ -212,10 +238,22 @@ window.CartManager = {
         message += `💰 Tổng dự kiến: ${this.getTotal().toLocaleString('vi-VN')} đ\n\n`;
         message += `Vui lòng kiểm tra và báo giá lại giúp mình nhé. Cảm ơn!`;
 
-        const encodedMsg = encodeURIComponent(message);
-        const zaloUrl = `https://zalo.me/${this.zaloNumber}?text=${encodedMsg}`;
-        window.open(zaloUrl, '_blank');
-        this.toggleModal();
+        // Copy to clipboard fallback to ensure Zalo doesn't drop the message
+        navigator.clipboard.writeText(message).then(() => {
+            this.showToast('Đã copy đơn hàng! Hãy DÁN (Paste) vào Zalo nhé.');
+            setTimeout(() => {
+                const encodedMsg = encodeURIComponent(message);
+                const zaloUrl = `https://zalo.me/${this.zaloNumber}?text=${encodedMsg}`;
+                window.open(zaloUrl, '_blank');
+                this.toggleModal();
+            }, 1500);
+        }).catch(err => {
+            // Fallback if clipboard fails
+            const encodedMsg = encodeURIComponent(message);
+            const zaloUrl = `https://zalo.me/${this.zaloNumber}?text=${encodedMsg}`;
+            window.open(zaloUrl, '_blank');
+            this.toggleModal();
+        });
     }
 };
 
