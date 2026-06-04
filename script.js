@@ -91,12 +91,19 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Header Auto-Hide on Scroll
 const header = document.querySelector('header');
+const floatingHome = document.getElementById('floating-home-btn');
 if (header) {
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
             header.classList.add('-translate-y-full');
+            if (floatingHome) {
+                floatingHome.classList.remove('-translate-y-24', 'opacity-0', 'pointer-events-none');
+            }
         } else {
             header.classList.remove('-translate-y-full');
+            if (floatingHome) {
+                floatingHome.classList.add('-translate-y-24', 'opacity-0', 'pointer-events-none');
+            }
         }
     });
 }
