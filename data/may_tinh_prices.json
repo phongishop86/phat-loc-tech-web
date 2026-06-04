@@ -1158,11 +1158,6 @@
             "warranty": ""
         },
         {
-            "name": "USB thu Wifi MERCUSYS MA20N Nano AC650 Chính hãng FV (Ko anten, 2 băng tần ,WPA3, Windows)",
-            "price": 213000,
-            "warranty": "24T"
-        },
-        {
             "name": "Mainboard SK 1155 Winnfox H61 Chính Hãng FV (VGA, HDMI, LAN 1000Mbps,M.2 NVME, 2 khe RAM DDR3, USB 2.0)",
             "price": 565000,
             "warranty": "24T"
@@ -2023,49 +2018,9 @@
             "warranty": "12T"
         },
         {
-            "name": "USB thu Wifi LB-LINK WN151 FV (Ko anten, 150Mbps, Windows)",
-            "price": 99000,
-            "warranty": "24T"
-        },
-        {
-            "name": "USB thu Wifi LB-LINK WN155A Chính hãng FV (Có anten, 150Mbps, Windows)",
-            "price": 116000,
-            "warranty": "24T"
-        },
-        {
-            "name": "USB thu Wifi MERCUSYS MW150US Nano Chính hãng FV (Ko anten, 150Mbps, Windows)",
-            "price": 118000,
-            "warranty": "24T"
-        },
-        {
             "name": "USB thu Wifi Veggieg V-K150M (Ko Anten,150Mbps) Chính hãng FV",
             "price": 158000,
             "warranty": "18T"
-        },
-        {
-            "name": "USB thu Wifi MERCUSYS MA14N Nano Chính hãng FV (Ko anten, 287Mbps, Windows, Linux)",
-            "price": 166000,
-            "warranty": "24T"
-        },
-        {
-            "name": "USB thu Wifi DLINK DWA-X305 Chính hãng FV (1 anten, 286 Mbps, hỗ trợ Windows 10/11)",
-            "price": 156000,
-            "warranty": "24T"
-        },
-        {
-            "name": "USB thu Wifi MERCUSYS MW300UM Mini Chính hãng FV (Ko anten, 300Mbps, Windows) FV",
-            "price": 163000,
-            "warranty": "24T"
-        },
-        {
-            "name": "USB thu Wifi DLINK DWA-X300 Chính hãng FV (ko anten, 286 Mbps, hỗ trợ Windows 10/11)",
-            "price": 164000,
-            "warranty": "24T"
-        },
-        {
-            "name": "USB thu Wifi TP-Link TL-WN725N Chính hãng FV (Ko anten, 150Mbps, Windows, macOS, Linux)",
-            "price": 169000,
-            "warranty": "24T"
         },
         {
             "name": "USB thu Wifi Veggieg V-K300M (ko anten, 300Mbps) Chính hãng FV",
@@ -2073,28 +2028,8 @@
             "warranty": "18T"
         },
         {
-            "name": "[MH6202] USB thu Wifi TP-Link TL-WN823N Chính hãng FV (Ko anten, 300Mbps, Windows, macOS, Linux)",
-            "price": 205000,
-            "warranty": "24T"
-        },
-        {
             "name": "[MH4823] USB thu Wifi TP-Link TL-WN722N Chính hãng FV (Có anten, 150Mbps)",
             "price": 221000,
-            "warranty": "24T"
-        },
-        {
-            "name": "[MH4012] USB thu Wifi TP-Link TL-WN822N Chính hãng FV (02 anten, 300Mbps, Windows, macOS, Linux)",
-            "price": 275000,
-            "warranty": "24T"
-        },
-        {
-            "name": "USB thu Wifi MERCUSYS MA20N Nano AC650 Chính hãng FV (Ko anten, 2 băng tần ,WPA3, Windows)",
-            "price": 213000,
-            "warranty": "24T"
-        },
-        {
-            "name": "USB thu Wifi MERCUSYS MA30N AC1300 (Ko anten, Windowsz) FV",
-            "price": 248000,
             "warranty": "24T"
         },
         {
@@ -2103,28 +2038,8 @@
             "warranty": "24T"
         },
         {
-            "name": "USB thu Wifi TP-Link Archer T2UB Nano (AC600) Chính hãng FV (Bluetooth 4.2, 2 băng tần, Ko anten, 633Mbps, USB 2.0, WPA3, Windows 7/8.1/10/11)",
-            "price": 282000,
-            "warranty": "24T"
-        },
-        {
-            "name": "USB thu Wifi MERCUSYS MA72XH AX1800 (Có anten, Windows) FV",
-            "price": 399000,
-            "warranty": "24T"
-        },
-        {
-            "name": "USB thu Wifi DLINK DWA-X3010 Chính hãng FV (Ko anten, AX3000, Windows 10/11)",
-            "price": 537000,
-            "warranty": "24T"
-        },
-        {
             "name": "USB Wifi TP-Link Archer TX20U Plus 1800Mbps FV",
             "price": 565000,
-            "warranty": "24T"
-        },
-        {
-            "name": "USB thu Wifi DLINK DWA-X3030 Chính hãng FV (High-Gain Anten ngoài + USB cradle, WiFi 6 AX3000 (574 Mbps 2.4GHz + 2402 Mbps 5GHz), USB 3.0, Windows 10/11)",
-            "price": 579000,
             "warranty": "24T"
         },
         {
@@ -2371,16 +2286,6 @@
             "name": "USB thu Bluetooth VegGieg V-UB502 5.0 Chính hãng FV",
             "price": 156000,
             "warranty": "18T"
-        },
-        {
-            "name": "USB Bluetooth Nano 5.3 Mercusys MA530 Chính hãng FV (Dùng cho PC, Windows 11/10/8.1/7)",
-            "price": 154000,
-            "warranty": "24T"
-        },
-        {
-            "name": "USB Bluetooth Nano TP-Link UB500 5.4 Chính hãng FV (Dùng cho PC Windows)",
-            "price": 165000,
-            "warranty": "24T"
         },
         {
             "name": "USB Bluetooth  5.4 MERCUSYS MA550H Chính hãng FV",
@@ -2838,27 +2743,12 @@
             "warranty": ""
         },
         {
-            "name": "DELL Ins 3530 i3-1305U/16GB/512GB SSD/Win11,office/15.6FHD_I3U165W11SLU",
-            "price": 18729000,
-            "warranty": ""
-        },
-        {
             "name": "HP 250 G10 i5-1334U/8G/512GSSD/Win11/15.6FHD_A06FRPT",
             "price": 19898000,
             "warranty": ""
         },
         {
             "name": "ASUS B1403CVA-S62519W i5-1334U/8GD5/512GSSD/Win11/14.0FHD/BALO/3Y",
-            "price": 19898000,
-            "warranty": ""
-        },
-        {
-            "name": "Dell Inspiron 15 3520 i5 1235U/16GB/512GSSD/Win11,Office/15”6FHD,Black_N5I5003W",
-            "price": 19898000,
-            "warranty": ""
-        },
-        {
-            "name": "Dell Ins 3520 i5 1235U/16GB/512GSSD/Win11,Office/15”6FHD_ i5U165W11SLU",
             "price": 19898000,
             "warranty": ""
         },
@@ -2878,27 +2768,12 @@
             "warranty": ""
         },
         {
-            "name": "Dell Ins 3530 I5-1334U/16G/512GSSD/Win11,Office/15”6FHD_5I5530W1",
-            "price": 21651000,
-            "warranty": ""
-        },
-        {
             "name": "Dell Pro 14 E PV14250-120U-08512U Core 5 120U/8G/512GSSD/14FHD/2Y",
             "price": 21651000,
             "warranty": ""
         },
         {
-            "name": "Dell Ins 3530 I5-1334U/16G/512GSSD/Win11,Office/15”6FHD_i5U165W11SLU (1334U)",
-            "price": 21651000,
-            "warranty": ""
-        },
-        {
             "name": "Asus X1405VA-LY623W i5-13420H/16G/512GSSD/Win11/14\"WUXGA",
-            "price": 22235000,
-            "warranty": ""
-        },
-        {
-            "name": "Dell DC15250 i5-1334U/16G/512GSSD/Win11,office/15.6FHD_DC5I5357W1",
             "price": 22235000,
             "warranty": ""
         },
@@ -3221,16 +3096,6 @@
             "name": "Loa Bookshelf Bluetooth Edifier M60 Black Chính hãng FV (Bluetooth V5.3 + USB-C + AUX, 66W RMS)",
             "price": 2984000,
             "warranty": "12T"
-        },
-        {
-            "name": "Phần mềm WIN HOME FPP 11 64-bit Eng Intl USB (HAJ-00090)",
-            "price": 3761000,
-            "warranty": ""
-        },
-        {
-            "name": "Phần mềm Win Pro FPP 11 64-bit Eng Intl USB (HAV-00163)",
-            "price": 5770000,
-            "warranty": ""
         },
         {
             "name": "Cable Máy in USB 3.0 Ugreen 50446 Type-C to USB Type-B 2m (Đen)  FV",
@@ -6931,38 +6796,8 @@
             "warranty": "24T"
         },
         {
-            "name": "Card thu Wifi TP-Link TL-WN781ND Chính hãng FV (1 anten, 150Mbps, chân ngắn 1X, Windows)",
-            "price": 218000,
-            "warranty": "24T"
-        },
-        {
-            "name": "[MH6034] Card thu Wifi TP-Link TL-WN881ND Chính hãng FV (2 anten, 300Mbps, chân ngắn 1x, Windows, Linux)",
-            "price": 285000,
-            "warranty": "24T"
-        },
-        {
             "name": "Card thu  Wifi 6 + Bluetooth 5.2 TP-LINK TX55E PCIE AX3000 Chính hãng FV",
             "price": 620000,
-            "warranty": "24T"
-        },
-        {
-            "name": "Card PCle thu Wifi DLINK DWA-X582 Chính hãng FV (2 anten, Tốc độ 2402 Mbps 5GHz + 574 Mbps 2.4GHz, Bluetooth 5.1, Windows)",
-            "price": 641000,
-            "warranty": "24T"
-        },
-        {
-            "name": "Card LAN MERCUSYS MA210E Chính hãng FV (1 Gbps Cổng LAN RJ45 Windows 11/10/8.1/8)",
-            "price": 213000,
-            "warranty": "24T"
-        },
-        {
-            "name": "[MH4117] Card LAN TP-Link TG-3468 Gigabit Chính hãng FV chân ngắn 1x, Windows",
-            "price": 229000,
-            "warranty": "24T"
-        },
-        {
-            "name": "Card LAN MERCUSYS MA510E (10 Gbps Cổng LAN RJ45 Windows, Linux)  FV",
-            "price": 1220000,
             "warranty": "24T"
         },
         {
@@ -7676,73 +7511,8 @@
             "warranty": ""
         },
         {
-            "name": "Máy in 1 mặt Pantum BP2310W Wifi Chính hãng FV (A4, Resolution 1200x600, First Print 7.8s, Speed 22ppm A4/23ppm Letter, Input 150 sheets, 337x220x179mm, 4.8kg, Windows, macOS ,Linux) (MUA 2 MÁY TẶNG KÈM 1 CHAI MỰC NẠP)",
-            "price": 2720000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in 1 mặt CANON imageCLASS LBP6030W Wifi Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 10s, First Print 7.8s, Speed 18ppm, Input 150 sheets, Cartridge 325/35A, 364x249x199mm, 5.0kg, Windows, macOS)",
-            "price": 3430000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in 2 mặt Pantum P3012DW Wifi Chính hãng FV (A4, In đảo mặt, Resolution 1200x1200, First Print 7.8s, Speed 30ppm A4/32ppm Letter, Input 250 sheets, 354x334x218mm, 6.8kg, Windows, macOS ,Linux)",
-            "price": 3505000,
-            "warranty": "12T"
-        },
-        {
             "name": "Máy in laser trắng đen đơn năng 2 mặt  Brother HL-B2180DW Wifi Chính hãng FV (ĐTHCH)",
             "price": 4103000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in 2 mặt BROTHER HL-L2366DW Wifi Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 7s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 356x360x183mm, 6.8kg, Windows, macOS, Linux, iOS, Android)",
-            "price": 4200000,
-            "warranty": "24T"
-        },
-        {
-            "name": "[MH5613] Máy in 2 mặt BROTHER HL-L2361DN Chính hãng FV (LAN, A4, A5, Resolution 600x600, Warm-up 7s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 356x360x183mm, 6.8kg, Windows, macOS, Linux, iOS, Android)",
-            "price": 4249000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in 2 mặt BROTHER MFC-L2701DW Wifi Chính hãng FV (Scan, Copy, Fax, A4, A5, Resolution 600x600, Warm-up 9s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 409x399x317mm, 11.4kg, Windows, macOS, Linux, iOS, Android)",
-            "price": 6843000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in màu EPSON L3250 Wifi Chính hãng FV (Scan, Copy, A4, A5, Resolution 5760x1440, Mực in liên tục, 375x347x179mm, 3.9kg, Windows, macOS, Linux)",
-            "price": 4244000,
-            "warranty": "24T"
-        },
-        {
-            "name": "[MH1485] Máy in màu CANON PIXMA G3010 Wifi Chính hãng FV (Scan, Copy, A4, A5, Resolution 4800x1200, Ink Bottles GI-790, Mực in liên tục, 445x533x260mm, 6.3kg, Windows, Linux)",
-            "price": 4785000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in màu 2 mặt BROTHER DCP-T830DW Wifi Chính hãng FV (Scan, Copy, A4, A5, Resolution 1200x6000, Mực in liên tục, 435x439x195mm, 9.6kg, Windows, macOS, Linux, iOS, Android)",
-            "price": 6509000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in màu 2 mặt BROTHER DCP-T920DW Wifi Chính hãng FV (Scan, Copy, Fax, A4, A5, Resolution 1200x6000, Mực in liên tục, 435x439x195mm, 9.7kg, Windows, macOS, Linux, iOS, Android)",
-            "price": 8283000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in màu 2 mặt BROTHER HL-T4000DW Wifi Chính hãng FV (A3, A4, Resolution 1200x4800, Mực in liên tục, 575x477x310mm, 16.1kg, Windows, macOS, Linux, iOS, Android)",
-            "price": 12881000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in đa chức năng Pantum BM2310NW Wifi + Lan Chính hãng FV (A4, In, Scan, Copy, Resolution 1200x1200, First Print 7.8s, Speed 22ppm A4/23ppm Letter, Input 150 sheets, 396x297.5x249mm, 7.5kg, Windows, macOS ,Linux) (MUA 2 MÁY TẶNG KÈM 1 CHAI MỰC NẠP )",
-            "price": 3640000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in đa chức năng Pantum M6702DW Wifi Chính hãng FV (A4, In đảo mặt, Copy, Scan, Resolution 1200x1200, First Print 7.8s, Speed 30ppm A4/32ppm Letter, Input 250 sheets, 415x365x310mm, 10.26kg, Windows, macOS ,Linux)",
-            "price": 4199000,
             "warranty": "12T"
         },
         {
@@ -8674,6 +8444,478 @@
             "name": "Máy chấm công vân tay Ronald Jack 4800 Wifi  FV",
             "price": 1629000,
             "warranty": "12T"
+        }
+    ],
+    "Phần Mềm & Số Hóa": [
+        {
+            "name": "USB thu Wifi MERCUSYS MA20N Nano AC650 Chính hãng FV (Ko anten, 2 băng tần ,WPA3, Windows)",
+            "price": 213000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi LB-LINK WN151 FV (Ko anten, 150Mbps, Windows)",
+            "price": 99000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi LB-LINK WN155A Chính hãng FV (Có anten, 150Mbps, Windows)",
+            "price": 116000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi MERCUSYS MW150US Nano Chính hãng FV (Ko anten, 150Mbps, Windows)",
+            "price": 118000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi MERCUSYS MA14N Nano Chính hãng FV (Ko anten, 287Mbps, Windows, Linux)",
+            "price": 166000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi DLINK DWA-X305 Chính hãng FV (1 anten, 286 Mbps, hỗ trợ Windows 10/11)",
+            "price": 156000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi MERCUSYS MW300UM Mini Chính hãng FV (Ko anten, 300Mbps, Windows) FV",
+            "price": 163000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi DLINK DWA-X300 Chính hãng FV (ko anten, 286 Mbps, hỗ trợ Windows 10/11)",
+            "price": 164000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi TP-Link TL-WN725N Chính hãng FV (Ko anten, 150Mbps, Windows, macOS, Linux)",
+            "price": 169000,
+            "warranty": "24T"
+        },
+        {
+            "name": "[MH6202] USB thu Wifi TP-Link TL-WN823N Chính hãng FV (Ko anten, 300Mbps, Windows, macOS, Linux)",
+            "price": 205000,
+            "warranty": "24T"
+        },
+        {
+            "name": "[MH4012] USB thu Wifi TP-Link TL-WN822N Chính hãng FV (02 anten, 300Mbps, Windows, macOS, Linux)",
+            "price": 275000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi MERCUSYS MA20N Nano AC650 Chính hãng FV (Ko anten, 2 băng tần ,WPA3, Windows)",
+            "price": 213000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi MERCUSYS MA30N AC1300 (Ko anten, Windowsz) FV",
+            "price": 248000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi TP-Link Archer T2UB Nano (AC600) Chính hãng FV (Bluetooth 4.2, 2 băng tần, Ko anten, 633Mbps, USB 2.0, WPA3, Windows 7/8.1/10/11)",
+            "price": 282000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi MERCUSYS MA72XH AX1800 (Có anten, Windows) FV",
+            "price": 399000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi DLINK DWA-X3010 Chính hãng FV (Ko anten, AX3000, Windows 10/11)",
+            "price": 537000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi DLINK DWA-X3030 Chính hãng FV (High-Gain Anten ngoài + USB cradle, WiFi 6 AX3000 (574 Mbps 2.4GHz + 2402 Mbps 5GHz), USB 3.0, Windows 10/11)",
+            "price": 579000,
+            "warranty": "24T"
+        },
+        {
+            "name": "Card thu Wifi TP-Link TL-WN781ND Chính hãng FV (1 anten, 150Mbps, chân ngắn 1X, Windows)",
+            "price": 218000,
+            "warranty": "24T"
+        },
+        {
+            "name": "[MH6034] Card thu Wifi TP-Link TL-WN881ND Chính hãng FV (2 anten, 300Mbps, chân ngắn 1x, Windows, Linux)",
+            "price": 285000,
+            "warranty": "24T"
+        },
+        {
+            "name": "Card PCle thu Wifi DLINK DWA-X582 Chính hãng FV (2 anten, Tốc độ 2402 Mbps 5GHz + 574 Mbps 2.4GHz, Bluetooth 5.1, Windows)",
+            "price": 641000,
+            "warranty": "24T"
+        },
+        {
+            "name": "Card LAN MERCUSYS MA210E Chính hãng FV (1 Gbps Cổng LAN RJ45 Windows 11/10/8.1/8)",
+            "price": 213000,
+            "warranty": "24T"
+        },
+        {
+            "name": "[MH4117] Card LAN TP-Link TG-3468 Gigabit Chính hãng FV chân ngắn 1x, Windows",
+            "price": 229000,
+            "warranty": "24T"
+        },
+        {
+            "name": "Card LAN MERCUSYS MA510E (10 Gbps Cổng LAN RJ45 Windows, Linux)  FV",
+            "price": 1220000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB Bluetooth Nano 5.3 Mercusys MA530 Chính hãng FV (Dùng cho PC, Windows 11/10/8.1/7)",
+            "price": 154000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB Bluetooth Nano TP-Link UB500 5.4 Chính hãng FV (Dùng cho PC Windows)",
+            "price": 165000,
+            "warranty": "24T"
+        },
+        {
+            "name": "Máy in 1 mặt Pantum BP2310 Chính hãng FV (A4, Resolution 1200x600, First Print 7.8s, Speed 22ppm A4/23ppm Letter, Input 150 sheets, 337x220x179mm, 4.8kg, Windows, macOS ,Linux)",
+            "price": 2348000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in 1 mặt HP 108A 4ZB79A Chính hãng FV (A4, A5, Resolution 1200x1200, Warm-up 32s, First Print 8.3s, Speed 20ppm, Input 150 sheets, Cartridge 110A, 331x350x248mm, 4.18kg, Windows, macOS)",
+            "price": 2705000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in 1 mặt Pantum BP2310W Wifi Chính hãng FV (A4, Resolution 1200x600, First Print 7.8s, Speed 22ppm A4/23ppm Letter, Input 150 sheets, 337x220x179mm, 4.8kg, Windows, macOS ,Linux) (MUA 2 MÁY TẶNG KÈM 1 CHAI MỰC NẠP)",
+            "price": 2720000,
+            "warranty": "12T"
+        },
+        {
+            "name": "[MH5075] Máy in 1 mặt CANON imageCLASS LBP6030 Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 10s, First Print 7.8s, Speed 18ppm, Input 150 sheets, Cartridge 325/35A, 364x249x199mm, 5.0kg, Windows, macOS)",
+            "price": 2866000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in 1 mặt CANON imageCLASS LBP6030W Wifi Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 10s, First Print 7.8s, Speed 18ppm, Input 150 sheets, Cartridge 325/35A, 364x249x199mm, 5.0kg, Windows, macOS)",
+            "price": 3430000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in 1 mặt CANON imageCLASS MF3010 Chính hãng FV (Scan, Copy, A4, A5, Resolution 600x600, Warm-up 10s, First Print 12s, Speed 18ppm, Input 150 sheets, Cartridge 325/35A, 372x371x254mm, 7.6kg, Windows, macOS, Linux)",
+            "price": 4651000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in 2 mặt Pantum P3012D Chính hãng FV (A4, In đảo mặt, Resolution 1200x1200, First Print 7.8s, Speed 30ppm A4/32ppm Letter, Input 250 sheets, 354x334x218mm, 6.8kg, Windows, macOS ,Linux)",
+            "price": 3132000,
+            "warranty": "12T"
+        },
+        {
+            "name": "[MH3536] Máy in 2 mặt BROTHER HL-L2321D Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 7s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 356x360x183mm, 6.8kg, Windows, macOS, Linux)",
+            "price": 3163000,
+            "warranty": "24T"
+        },
+        {
+            "name": "Máy in 2 mặt Pantum P3012DW Wifi Chính hãng FV (A4, In đảo mặt, Resolution 1200x1200, First Print 7.8s, Speed 30ppm A4/32ppm Letter, Input 250 sheets, 354x334x218mm, 6.8kg, Windows, macOS ,Linux)",
+            "price": 3505000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in 2 mặt BROTHER HL-L2366DW Wifi Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 7s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 356x360x183mm, 6.8kg, Windows, macOS, Linux, iOS, Android)",
+            "price": 4200000,
+            "warranty": "24T"
+        },
+        {
+            "name": "[MH5613] Máy in 2 mặt BROTHER HL-L2361DN Chính hãng FV (LAN, A4, A5, Resolution 600x600, Warm-up 7s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 356x360x183mm, 6.8kg, Windows, macOS, Linux, iOS, Android)",
+            "price": 4249000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in 2 mặt BROTHER DCP-L2520D Chính hãng FV (Scan, Copy, A4, A5, Resolution 600x600, Warm-up 9s, First Print 8.5s, Speed 26ppm, Input 250 sheets, Cartridge TN2385, 409x399x267mm, 9.7kg, Windows, macOS, Linux)",
+            "price": 4481000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in 2 mặt BROTHER MFC-L2701D Chính hãng FV (Scan, Copy, Fax, A4, A5, Resolution 600x600, Warm-up 9s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 409x399x317mm, 11.4kg, Windows, macOS, Linux)",
+            "price": 5564000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in 2 mặt Pantum BP5100DN Chính hãng FV (A4, In đảo mặt, Resolution 1200×1200, First Print 6.9s, Speed 40ppm A4/42ppm Letter, Input 250 sheets, 364×344×257mm, 9.3kg, Windows, macOS ,Linux) (MUA 2 MÁY TẶNG KÈM 1 CHAI MỰC NẠP)",
+            "price": 5942000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in 2 mặt BROTHER MFC-L2701DW Wifi Chính hãng FV (Scan, Copy, Fax, A4, A5, Resolution 600x600, Warm-up 9s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 409x399x317mm, 11.4kg, Windows, macOS, Linux, iOS, Android)",
+            "price": 6843000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in màu CANON PIXMA G1010 Chính hãng FV (A4, A5, Resolution 4800x1200, Ink Bottles GI-790, Mực in liên tục, 445x529x253mm, 4.8kg, Windows)",
+            "price": 2488000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in màu EPSON L1210 Chính hãng FV (A4, Resolution 5760x1440, Mực in liên tục, 375x347x169mm, 2.8kg, Windows, macOS, Linux)",
+            "price": 3043000,
+            "warranty": "24T"
+        },
+        {
+            "name": "Máy in màu CANON PIXMA G2010 Chính hãng FV (Scan, Copy, A4, A5, Resolution 4800x1200, Ink Bottles GI-790, Mực in liên tục, 445x533x260mm, 6.3kg, Windows)",
+            "price": 3131000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in màu EPSON L3250 Wifi Chính hãng FV (Scan, Copy, A4, A5, Resolution 5760x1440, Mực in liên tục, 375x347x179mm, 3.9kg, Windows, macOS, Linux)",
+            "price": 4244000,
+            "warranty": "24T"
+        },
+        {
+            "name": "[MH1485] Máy in màu CANON PIXMA G3010 Wifi Chính hãng FV (Scan, Copy, A4, A5, Resolution 4800x1200, Ink Bottles GI-790, Mực in liên tục, 445x533x260mm, 6.3kg, Windows, Linux)",
+            "price": 4785000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in màu 2 mặt BROTHER DCP-T830DW Wifi Chính hãng FV (Scan, Copy, A4, A5, Resolution 1200x6000, Mực in liên tục, 435x439x195mm, 9.6kg, Windows, macOS, Linux, iOS, Android)",
+            "price": 6509000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in màu 2 mặt BROTHER DCP-T920DW Wifi Chính hãng FV (Scan, Copy, Fax, A4, A5, Resolution 1200x6000, Mực in liên tục, 435x439x195mm, 9.7kg, Windows, macOS, Linux, iOS, Android)",
+            "price": 8283000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in màu 2 mặt BROTHER HL-T4000DW Wifi Chính hãng FV (A3, A4, Resolution 1200x4800, Mực in liên tục, 575x477x310mm, 16.1kg, Windows, macOS, Linux, iOS, Android)",
+            "price": 12881000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy Scan màu CANON CanoScan LiDE 300 Chính hãng FV (A4, Resolution 2400x2400, 250x367x42mm, 1.7kg, Windows, macOS, Linux)",
+            "price": 1878000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy Scan màu CANON CanoScan LiDE 400 Chính hãng FV (A4, Resolution 4800x4800, 250x367x42mm, 1.7kg, Windows, macOS, Linux)",
+            "price": 2696000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy Scan 2 mặt HP ScanJet Pro 3000 S4 6FW07A Chính hãng FV (A4, A5, ADF,600 dpi, 300x172x154mm, 2.7kg, Windows, macOS)",
+            "price": 10325000,
+            "warranty": "12T"
+        },
+        {
+            "name": "[SP_29242\t] Máy in đa chức năng Pantum M6505 Chính hãng FV (A4, In, Copy, Scan, Resolution 1200x1200, First Print 7.8s, Speed 22ppm A4, Input 150 sheets, 417x305x244mm, 7.5kg, Windows, macOS ,Linux)",
+            "price": 3198000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in đa chức năng Pantum BM2310NW Wifi + Lan Chính hãng FV (A4, In, Scan, Copy, Resolution 1200x1200, First Print 7.8s, Speed 22ppm A4/23ppm Letter, Input 150 sheets, 396x297.5x249mm, 7.5kg, Windows, macOS ,Linux) (MUA 2 MÁY TẶNG KÈM 1 CHAI MỰC NẠP )",
+            "price": 3640000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Máy in đa chức năng Pantum M6702DW Wifi Chính hãng FV (A4, In đảo mặt, Copy, Scan, Resolution 1200x1200, First Print 7.8s, Speed 30ppm A4/32ppm Letter, Input 250 sheets, 415x365x310mm, 10.26kg, Windows, macOS ,Linux)",
+            "price": 4199000,
+            "warranty": "12T"
+        },
+        {
+            "name": "DELL Ins 3530 i3-1305U/16GB/512GB SSD/Win11,office/15.6FHD_I3U165W11SLU",
+            "price": 18729000,
+            "warranty": ""
+        },
+        {
+            "name": "Dell Inspiron 15 3520 i5 1235U/16GB/512GSSD/Win11,Office/15”6FHD,Black_N5I5003W",
+            "price": 19898000,
+            "warranty": ""
+        },
+        {
+            "name": "Dell Ins 3520 i5 1235U/16GB/512GSSD/Win11,Office/15”6FHD_ i5U165W11SLU",
+            "price": 19898000,
+            "warranty": ""
+        },
+        {
+            "name": "Dell Ins 3530 I5-1334U/16G/512GSSD/Win11,Office/15”6FHD_5I5530W1",
+            "price": 21651000,
+            "warranty": ""
+        },
+        {
+            "name": "Dell Ins 3530 I5-1334U/16G/512GSSD/Win11,Office/15”6FHD_i5U165W11SLU (1334U)",
+            "price": 21651000,
+            "warranty": ""
+        },
+        {
+            "name": "Dell DC15250 i5-1334U/16G/512GSSD/Win11,office/15.6FHD_DC5I5357W1",
+            "price": 22235000,
+            "warranty": ""
+        },
+        {
+            "name": "Dell Ins N3530 i7-1355U/8GB/512GB/Win11,OFFICE/15.6FHD,Black_71011775",
+            "price": 24573000,
+            "warranty": ""
+        },
+        {
+            "name": "Dell DC15250 i7-1355U/16GB/512GB/Win11,OFFICE/15.6FHD_DC5I7748W1",
+            "price": 25741000,
+            "warranty": ""
+        },
+        {
+            "name": "[MH0466] Bản quyền BKAV Pro Internet Security AI 1PC/12T  FV",
+            "price": 271000,
+            "warranty": ""
+        },
+        {
+            "name": "Bản quyền KASPERSKY STANDARD 1PC/12T Box NTS FV",
+            "price": 275000,
+            "warranty": ""
+        },
+        {
+            "name": "Bản quyền KASPERSKY STANDARD 3PC/12T Box NTS FV",
+            "price": 372000,
+            "warranty": ""
+        },
+        {
+            "name": "Bản quyền KASPERSKY PLUS 1PC/12T Box NTS FV",
+            "price": 420000,
+            "warranty": ""
+        },
+        {
+            "name": "Bản quyền KASPERSKY PREMIUM 1U/12T Digital FV",
+            "price": 464000,
+            "warranty": ""
+        },
+        {
+            "name": "Bản quyền KASPERSKY STANDARD 5PC/12T Box NTS  FV",
+            "price": 538000,
+            "warranty": ""
+        },
+        {
+            "name": "Bản quyền KASPERSKY PLUS 3PC/12T Box NTS  FV",
+            "price": 722000,
+            "warranty": ""
+        },
+        {
+            "name": "Bản quyền KASPERSKY PLUS 5PC/12T Box NTS  FV",
+            "price": 939000,
+            "warranty": ""
+        },
+        {
+            "name": "Bản quyền Kaspersky Small Office Security (1server+5PC)/12T Box NTS FV",
+            "price": 3226000,
+            "warranty": ""
+        },
+        {
+            "name": "Bản quyền Kaspersky Small Office Security (1server+10PC)/12T Box NTS FV",
+            "price": 3837000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm Win Home 11 64Bit Eng Intl 1pk DSP OEI DVD (KW9-00632)",
+            "price": 3427000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm Windows Pro 11 64Bit Eng Intl 1pk DSP OEI DVD (FQC-10528)",
+            "price": 3680000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm WIN HOME FPP 11 64-bit Eng Intl USB (HAJ-00090)",
+            "price": 3761000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm WIN HOME 11 64-bit All Lng PK Lic Online DwnLd NR (key ESD gửi qua Mail -KW9-00664)",
+            "price": 3774000,
+            "warranty": ""
+        },
+        {
+            "name": "Windows GGWA - Windows 11 Pro - Legalization Get Genuine",
+            "price": 5282000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm điện tử Microsoft Win Pro 11 64-bit All Lng PK Lic Online DwnLd NR_FQC-10572( key ESD gửi qua mail)- 1 key 1 máy",
+            "price": 5711000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm Win Pro FPP 11 64-bit Eng Intl USB (HAV-00163)",
+            "price": 5770000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm Windows Svr Std 2025 64Bit English 1pk DSP OEI DVD 16 Core EP2-25187( hàng box)- 1 key 1 máy",
+            "price": 26915000,
+            "warranty": ""
+        },
+        {
+            "name": "Microsoft 365 Business Basic_12 months  (Dùng cho khách hàng doanh nghiệp chỉ chạy trên nền WEB, được chuyển máy khác, cài được cả cũ mới) Chứng nhận License đặt 2-3 ngày",
+            "price": 1172000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm M365 Personal English APAC Subscr 1YR Medialess (EP2-32409) ( Dùng cho cá nhân ,cài máy mới , 1user sử dụng cho 5 thiết bị) BOX , Bản quyền 12 Tháng",
+            "price": 1736000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm M365 Personal Subscr PK Lic 1YR Online APAC EM ESD EP2-32313 ( Dùng cho cá nhân ,cài máy mới , 1user sử dụng cho 5 thiết bị, được chuyển máy sau 90 ngày), Bản quyền 12 tháng key gửi mail, KEY ESD",
+            "price": 1736000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm Office Microsoft 365 Family EP2-36878 (6 người/ 5 thiết bị/ người/ 12 tháng) BOX , Bản quyền 12 Tháng ( dùng cho gia đình , cài máy mới, 6 user mỗi user sử dụng cho 5 thiết bi )",
+            "price": 2098000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm M365 Family Subscr PK Lic 1YR Online APAC EM ESD EP2-36890 ( dùng cho gia đình , cài máy mới, 6 user mỗi user sử dụng cho 5 thiết bi , được chuyển máy sau 90 ngày), , Bản quyền 12 tháng key gửi mail, KEY ESD",
+            "price": 2098000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm Office Home 2024 English APAC EM Medialess (EP2-06811) ( Dùng cho khách hàng cá nhân , 1user/máy ) Box, Bản quyền vĩnh viễn",
+            "price": 3222000,
+            "warranty": ""
+        },
+        {
+            "name": "EP2-06796 Office Home 2024 All Lng APAC EM Retail Online ESD (Key ESD gửi mail)- 1 key 1 máy",
+            "price": 3190000,
+            "warranty": ""
+        },
+        {
+            "name": "Microsoft 365 Business Standard_12 months (Dùng cho khách hàng doanh nghiệp full app, được chuyển máy khác, cài cho máy cũ mới, cài được cho 5 thiết bị nhưng không sử dung được đồng thời) Chứng nhận License đặt 2-3 ngày",
+            "price": 3583000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm Microsoft 365 Bus Std Retail All Lng APAC EM SubPKL 1YR Onln DwnLd NR ( KEY ESD KLQ-00209)",
+            "price": 3880000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm Microsoft Office Home & Business 2024 All Lng APAC EM Retail Online ESD (EP2-06604)",
+            "price": 5466000,
+            "warranty": ""
+        },
+        {
+            "name": "Phần mềm ứng dụng Office Home & Business 2024 English APAC EM Medialess ( KEY FPP EP2-06630)",
+            "price": 6651000,
+            "warranty": ""
+        },
+        {
+            "name": "Microsoft 365 Business Premium_12 months (Dùng cho khách hàng doanh nghiệp full tính năng, được chuyển máy khác, cài cho máy cũ mới) Chứng nhận License đặt 2-3 ngày",
+            "price": 6939000,
+            "warranty": ""
+        },
+        {
+            "name": "Office LTSC Standard 2024 (Dành cho doanh nghiệp , dạng cấp phép CSP, cài cho máy cũ mới) Chứng nhận License đặt 2-3 ngày",
+            "price": 13638000,
+            "warranty": ""
+        },
+        {
+            "name": "Office LTSC Professional Plus 2024 (Dành cho doanh nghiệp , dạng cấp phép CSP, cài cho máy cũ mới) Chứng nhận License đặt 2-3 ngày",
+            "price": 19212000,
+            "warranty": ""
         }
     ],
     "Linh kiện khác": [
@@ -11693,39 +11935,9 @@
             "warranty": "12T"
         },
         {
-            "name": "Máy in 1 mặt Pantum BP2310 Chính hãng FV (A4, Resolution 1200x600, First Print 7.8s, Speed 22ppm A4/23ppm Letter, Input 150 sheets, 337x220x179mm, 4.8kg, Windows, macOS ,Linux)",
-            "price": 2348000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in 1 mặt HP 108A 4ZB79A Chính hãng FV (A4, A5, Resolution 1200x1200, Warm-up 32s, First Print 8.3s, Speed 20ppm, Input 150 sheets, Cartridge 110A, 331x350x248mm, 4.18kg, Windows, macOS)",
-            "price": 2705000,
-            "warranty": "12T"
-        },
-        {
-            "name": "[MH5075] Máy in 1 mặt CANON imageCLASS LBP6030 Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 10s, First Print 7.8s, Speed 18ppm, Input 150 sheets, Cartridge 325/35A, 364x249x199mm, 5.0kg, Windows, macOS)",
-            "price": 2866000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in 1 mặt CANON imageCLASS MF3010 Chính hãng FV (Scan, Copy, A4, A5, Resolution 600x600, Warm-up 10s, First Print 12s, Speed 18ppm, Input 150 sheets, Cartridge 325/35A, 372x371x254mm, 7.6kg, Windows, macOS, Linux)",
-            "price": 4651000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in 2 mặt Pantum P3012D Chính hãng FV (A4, In đảo mặt, Resolution 1200x1200, First Print 7.8s, Speed 30ppm A4/32ppm Letter, Input 250 sheets, 354x334x218mm, 6.8kg, Windows, macOS ,Linux)",
-            "price": 3132000,
-            "warranty": "12T"
-        },
-        {
             "name": "Máy in Laser 2 mặt trắng đen HP LaserJet M211d Chính hãng FV (9YF82A)",
             "price": 3131000,
             "warranty": "12T"
-        },
-        {
-            "name": "[MH3536] Máy in 2 mặt BROTHER HL-L2321D Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 7s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 356x360x183mm, 6.8kg, Windows, macOS, Linux)",
-            "price": 3163000,
-            "warranty": "24T"
         },
         {
             "name": "Máy in 2 mặt laser đen trắng PANTUM P3022D Chính hãng ((A4 A5)",
@@ -11743,21 +11955,6 @@
             "warranty": "24T"
         },
         {
-            "name": "Máy in 2 mặt BROTHER DCP-L2520D Chính hãng FV (Scan, Copy, A4, A5, Resolution 600x600, Warm-up 9s, First Print 8.5s, Speed 26ppm, Input 250 sheets, Cartridge TN2385, 409x399x267mm, 9.7kg, Windows, macOS, Linux)",
-            "price": 4481000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in 2 mặt BROTHER MFC-L2701D Chính hãng FV (Scan, Copy, Fax, A4, A5, Resolution 600x600, Warm-up 9s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 409x399x317mm, 11.4kg, Windows, macOS, Linux)",
-            "price": 5564000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in 2 mặt Pantum BP5100DN Chính hãng FV (A4, In đảo mặt, Resolution 1200×1200, First Print 6.9s, Speed 40ppm A4/42ppm Letter, Input 250 sheets, 364×344×257mm, 9.3kg, Windows, macOS ,Linux) (MUA 2 MÁY TẶNG KÈM 1 CHAI MỰC NẠP)",
-            "price": 5942000,
-            "warranty": "12T"
-        },
-        {
             "name": "Máy in Brother HL-L5100DN Chính hãng (in 2 mặt)",
             "price": 9695000,
             "warranty": "12T"
@@ -11768,23 +11965,8 @@
             "warranty": "12T"
         },
         {
-            "name": "Máy in màu CANON PIXMA G1010 Chính hãng FV (A4, A5, Resolution 4800x1200, Ink Bottles GI-790, Mực in liên tục, 445x529x253mm, 4.8kg, Windows)",
-            "price": 2488000,
-            "warranty": "12T"
-        },
-        {
             "name": "Máy in màu Brother DCP T220 (Scan - copy) FV",
             "price": 2624000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy in màu EPSON L1210 Chính hãng FV (A4, Resolution 5760x1440, Mực in liên tục, 375x347x169mm, 2.8kg, Windows, macOS, Linux)",
-            "price": 3043000,
-            "warranty": "24T"
-        },
-        {
-            "name": "Máy in màu CANON PIXMA G2010 Chính hãng FV (Scan, Copy, A4, A5, Resolution 4800x1200, Ink Bottles GI-790, Mực in liên tục, 445x533x260mm, 6.3kg, Windows)",
-            "price": 3131000,
             "warranty": "12T"
         },
         {
@@ -11798,28 +11980,8 @@
             "warranty": "24T"
         },
         {
-            "name": "Máy Scan màu CANON CanoScan LiDE 300 Chính hãng FV (A4, Resolution 2400x2400, 250x367x42mm, 1.7kg, Windows, macOS, Linux)",
-            "price": 1878000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy Scan màu CANON CanoScan LiDE 400 Chính hãng FV (A4, Resolution 4800x4800, 250x367x42mm, 1.7kg, Windows, macOS, Linux)",
-            "price": 2696000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Máy Scan 2 mặt HP ScanJet Pro 3000 S4 6FW07A Chính hãng FV (A4, A5, ADF,600 dpi, 300x172x154mm, 2.7kg, Windows, macOS)",
-            "price": 10325000,
-            "warranty": "12T"
-        },
-        {
             "name": "Máy in màu Brother DCP T226 (Scan - copy) FV",
             "price": 2828000,
-            "warranty": "12T"
-        },
-        {
-            "name": "[SP_29242\t] Máy in đa chức năng Pantum M6505 Chính hãng FV (A4, In, Copy, Scan, Resolution 1200x1200, First Print 7.8s, Speed 22ppm A4, Input 150 sheets, 417x305x244mm, 7.5kg, Windows, macOS ,Linux)",
-            "price": 3198000,
             "warranty": "12T"
         },
         {
@@ -12171,16 +12333,6 @@
             "name": "Ghế Corsair TC500 LUXE - Sherwood - CF-9010068-WW",
             "price": 14190000,
             "warranty": "24T"
-        },
-        {
-            "name": "Dell Ins N3530 i7-1355U/8GB/512GB/Win11,OFFICE/15.6FHD,Black_71011775",
-            "price": 24573000,
-            "warranty": ""
-        },
-        {
-            "name": "Dell DC15250 i7-1355U/16GB/512GB/Win11,OFFICE/15.6FHD_DC5I7748W1",
-            "price": 25741000,
-            "warranty": ""
         },
         {
             "name": "[MH3416] DDR3 LAPTOP 4G/1600 HYNIX/SAMSUNG/MICRON/KINGSTON... (Hàng cũ đã qua sử dụng) FV (No box) FV",
@@ -12550,156 +12702,6 @@
         {
             "name": "Loa Kiểm Âm Bluetooth Thonet & Vander VERTRAG 2.0 Chính hãng FV",
             "price": 2719000,
-            "warranty": ""
-        },
-        {
-            "name": "[MH0466] Bản quyền BKAV Pro Internet Security AI 1PC/12T  FV",
-            "price": 271000,
-            "warranty": ""
-        },
-        {
-            "name": "Bản quyền KASPERSKY STANDARD 1PC/12T Box NTS FV",
-            "price": 275000,
-            "warranty": ""
-        },
-        {
-            "name": "Bản quyền KASPERSKY STANDARD 3PC/12T Box NTS FV",
-            "price": 372000,
-            "warranty": ""
-        },
-        {
-            "name": "Bản quyền KASPERSKY PLUS 1PC/12T Box NTS FV",
-            "price": 420000,
-            "warranty": ""
-        },
-        {
-            "name": "Bản quyền KASPERSKY PREMIUM 1U/12T Digital FV",
-            "price": 464000,
-            "warranty": ""
-        },
-        {
-            "name": "Bản quyền KASPERSKY STANDARD 5PC/12T Box NTS  FV",
-            "price": 538000,
-            "warranty": ""
-        },
-        {
-            "name": "Bản quyền KASPERSKY PLUS 3PC/12T Box NTS  FV",
-            "price": 722000,
-            "warranty": ""
-        },
-        {
-            "name": "Bản quyền KASPERSKY PLUS 5PC/12T Box NTS  FV",
-            "price": 939000,
-            "warranty": ""
-        },
-        {
-            "name": "Bản quyền Kaspersky Small Office Security (1server+5PC)/12T Box NTS FV",
-            "price": 3226000,
-            "warranty": ""
-        },
-        {
-            "name": "Bản quyền Kaspersky Small Office Security (1server+10PC)/12T Box NTS FV",
-            "price": 3837000,
-            "warranty": ""
-        },
-        {
-            "name": "Phần mềm Win Home 11 64Bit Eng Intl 1pk DSP OEI DVD (KW9-00632)",
-            "price": 3427000,
-            "warranty": ""
-        },
-        {
-            "name": "Phần mềm Windows Pro 11 64Bit Eng Intl 1pk DSP OEI DVD (FQC-10528)",
-            "price": 3680000,
-            "warranty": ""
-        },
-        {
-            "name": "Phần mềm WIN HOME 11 64-bit All Lng PK Lic Online DwnLd NR (key ESD gửi qua Mail -KW9-00664)",
-            "price": 3774000,
-            "warranty": ""
-        },
-        {
-            "name": "Windows GGWA - Windows 11 Pro - Legalization Get Genuine",
-            "price": 5282000,
-            "warranty": ""
-        },
-        {
-            "name": "Phần mềm điện tử Microsoft Win Pro 11 64-bit All Lng PK Lic Online DwnLd NR_FQC-10572( key ESD gửi qua mail)- 1 key 1 máy",
-            "price": 5711000,
-            "warranty": ""
-        },
-        {
-            "name": "Phần mềm Windows Svr Std 2025 64Bit English 1pk DSP OEI DVD 16 Core EP2-25187( hàng box)- 1 key 1 máy",
-            "price": 26915000,
-            "warranty": ""
-        },
-        {
-            "name": "Microsoft 365 Business Basic_12 months  (Dùng cho khách hàng doanh nghiệp chỉ chạy trên nền WEB, được chuyển máy khác, cài được cả cũ mới) Chứng nhận License đặt 2-3 ngày",
-            "price": 1172000,
-            "warranty": ""
-        },
-        {
-            "name": "Phần mềm M365 Personal English APAC Subscr 1YR Medialess (EP2-32409) ( Dùng cho cá nhân ,cài máy mới , 1user sử dụng cho 5 thiết bị) BOX , Bản quyền 12 Tháng",
-            "price": 1736000,
-            "warranty": ""
-        },
-        {
-            "name": "Phần mềm M365 Personal Subscr PK Lic 1YR Online APAC EM ESD EP2-32313 ( Dùng cho cá nhân ,cài máy mới , 1user sử dụng cho 5 thiết bị, được chuyển máy sau 90 ngày), Bản quyền 12 tháng key gửi mail, KEY ESD",
-            "price": 1736000,
-            "warranty": ""
-        },
-        {
-            "name": "Phần mềm Office Microsoft 365 Family EP2-36878 (6 người/ 5 thiết bị/ người/ 12 tháng) BOX , Bản quyền 12 Tháng ( dùng cho gia đình , cài máy mới, 6 user mỗi user sử dụng cho 5 thiết bi )",
-            "price": 2098000,
-            "warranty": ""
-        },
-        {
-            "name": "Phần mềm M365 Family Subscr PK Lic 1YR Online APAC EM ESD EP2-36890 ( dùng cho gia đình , cài máy mới, 6 user mỗi user sử dụng cho 5 thiết bi , được chuyển máy sau 90 ngày), , Bản quyền 12 tháng key gửi mail, KEY ESD",
-            "price": 2098000,
-            "warranty": ""
-        },
-        {
-            "name": "Phần mềm Office Home 2024 English APAC EM Medialess (EP2-06811) ( Dùng cho khách hàng cá nhân , 1user/máy ) Box, Bản quyền vĩnh viễn",
-            "price": 3222000,
-            "warranty": ""
-        },
-        {
-            "name": "EP2-06796 Office Home 2024 All Lng APAC EM Retail Online ESD (Key ESD gửi mail)- 1 key 1 máy",
-            "price": 3190000,
-            "warranty": ""
-        },
-        {
-            "name": "Microsoft 365 Business Standard_12 months (Dùng cho khách hàng doanh nghiệp full app, được chuyển máy khác, cài cho máy cũ mới, cài được cho 5 thiết bị nhưng không sử dung được đồng thời) Chứng nhận License đặt 2-3 ngày",
-            "price": 3583000,
-            "warranty": ""
-        },
-        {
-            "name": "Phần mềm Microsoft 365 Bus Std Retail All Lng APAC EM SubPKL 1YR Onln DwnLd NR ( KEY ESD KLQ-00209)",
-            "price": 3880000,
-            "warranty": ""
-        },
-        {
-            "name": "Phần mềm Microsoft Office Home & Business 2024 All Lng APAC EM Retail Online ESD (EP2-06604)",
-            "price": 5466000,
-            "warranty": ""
-        },
-        {
-            "name": "Phần mềm ứng dụng Office Home & Business 2024 English APAC EM Medialess ( KEY FPP EP2-06630)",
-            "price": 6651000,
-            "warranty": ""
-        },
-        {
-            "name": "Microsoft 365 Business Premium_12 months (Dùng cho khách hàng doanh nghiệp full tính năng, được chuyển máy khác, cài cho máy cũ mới) Chứng nhận License đặt 2-3 ngày",
-            "price": 6939000,
-            "warranty": ""
-        },
-        {
-            "name": "Office LTSC Standard 2024 (Dành cho doanh nghiệp , dạng cấp phép CSP, cài cho máy cũ mới) Chứng nhận License đặt 2-3 ngày",
-            "price": 13638000,
-            "warranty": ""
-        },
-        {
-            "name": "Office LTSC Professional Plus 2024 (Dành cho doanh nghiệp , dạng cấp phép CSP, cài cho máy cũ mới) Chứng nhận License đặt 2-3 ngày",
-            "price": 19212000,
             "warranty": ""
         },
         {

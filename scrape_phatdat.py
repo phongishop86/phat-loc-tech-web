@@ -31,11 +31,14 @@ categories = {
     "Camera": [],
     "Bàn phím & Chuột": [],
     "Thiết bị mạng (Wifi, Switch, Cable)": [],
+    "Phần Mềm & Số Hóa": [],
     "Linh kiện khác": []
 }
 
 def get_category(name):
     n = name.upper()
+    if 'ANTIVIRUS' in n or 'KASPERSKY' in n or 'BKAV' in n or 'WINDOWS' in n or 'OFFICE' in n or 'MICROSOFT' in n or 'PHẦN MỀM' in n or 'ESET' in n:
+        return "Phần Mềm & Số Hóa"
     if 'LCD' in n or 'MÀN HÌNH' in n or 'MONITOR' in n:
         return "Màn hình (LCD)"
     if 'SSD' in n or 'HDD' in n or 'Ổ CỨNG' in n or 'USB' in n or 'THẺ NHỚ' in n:
