@@ -4,6 +4,11 @@ const PricingWidget = {
         if (!container) return;
 
         this.container = container;
+        
+        // Ẩn phần nội dung main để đưa thông báo ra chính giữa trang
+        const main = document.querySelector('main');
+        if (main) main.style.display = 'none';
+
         this.renderSkeleton();
         // Tạm thời khoá tính năng báo giá ở chế độ bảo dưỡng
         // this.fetchData();
@@ -11,8 +16,8 @@ const PricingWidget = {
 
     renderSkeleton() {
         this.container.innerHTML = `
-            <div class="py-20 bg-zinc-950/30" id="pricing-table">
-                <div class="container mx-auto px-4 max-w-4xl text-center">
+            <div class="min-h-[calc(100vh-160px)] flex flex-col items-center justify-center bg-zinc-950 w-full" id="pricing-table">
+                <div class="container mx-auto px-4 max-w-4xl text-center py-20">
                     <div class="inline-flex justify-center items-center w-24 h-24 rounded-full bg-brand-green/10 border border-brand-green/20 mb-8">
                         <svg class="w-12 h-12 text-brand-green animate-[spin_4s_linear_infinite]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
