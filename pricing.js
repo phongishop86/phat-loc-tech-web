@@ -4,26 +4,27 @@ const PricingWidget = {
         if (!container) return;
 
         this.container = container;
-        this.dataSource = container.getAttribute('data-source');
-        this.data = null;
-        this.activeCategory = null;
-        this.searchQuery = '';
-        this.isMobileCategoryOpen = false;
-
         this.renderSkeleton();
-        this.fetchData();
+        // Tạm thời khoá tính năng báo giá ở chế độ bảo dưỡng
+        // this.fetchData();
     },
 
     renderSkeleton() {
         this.container.innerHTML = `
-            <div class="py-4 bg-zinc-950/30" id="pricing-table">
-                <div class="container mx-auto px-4 max-w-6xl">
-                    <div class="text-center mb-6">
-                        <p class="text-zinc-400">Đang tải dữ liệu từ máy chủ...</p>
-                        <div class="flex justify-center mt-6">
-                            <div class="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-brand-green"></div>
-                        </div>
+            <div class="py-20 bg-zinc-950/30" id="pricing-table">
+                <div class="container mx-auto px-4 max-w-4xl text-center">
+                    <div class="inline-flex justify-center items-center w-24 h-24 rounded-full bg-brand-green/10 border border-brand-green/20 mb-8">
+                        <svg class="w-12 h-12 text-brand-green animate-[spin_4s_linear_infinite]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
                     </div>
+                    <h3 class="text-3xl md:text-4xl font-bold text-white mb-4">Hệ thống đang được nâng cấp</h3>
+                    <p class="text-zinc-400 text-lg mb-10 max-w-2xl mx-auto leading-relaxed">Tính năng Báo giá của Phát Lộc Tech đang được tạm khóa để đồng bộ và cập nhật hệ thống dữ liệu mới nhất. Quý khách vui lòng liên hệ trực tiếp qua Zalo để được hỗ trợ báo giá và tư vấn nhanh chóng!</p>
+                    <a href="https://zalo.me/0932685794" target="_blank" class="inline-flex items-center gap-3 px-8 py-4 bg-[#0068FF] hover:bg-[#0054cc] text-white font-bold rounded-xl transition-all shadow-[0_0_20px_rgba(0,104,255,0.3)] hover:shadow-[0_0_30px_rgba(0,104,255,0.5)] transform hover:-translate-y-1">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Zalo_Logo.svg/512px-Zalo_Logo.svg.png" alt="Zalo" class="w-6 h-6 object-contain filter brightness-0 invert">
+                        Nhắn tin Zalo ngay
+                    </a>
                 </div>
             </div>
         `;
