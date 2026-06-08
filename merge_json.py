@@ -30,6 +30,8 @@ def merge_json_files():
                     merged_data["Thiết bị mạng (Wifi, Switch, Cable)"] = []
                 merged_data["Thiết bị mạng (Wifi, Switch, Cable)"].append(item)
             else:
+                if cat == "Phần Mềm & Bản quyền":
+                    item['price'] = "Liên hệ"
                 merged_data[cat].append(item)
         
     # Process camera items
