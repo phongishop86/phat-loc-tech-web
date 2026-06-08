@@ -358,6 +358,46 @@
       "warranty": "36T"
     },
     {
+      "name": "CPU SK 1155 Intel Core i3-3220 Tray (Hàng cũ đã qua sử dụng)(3.3GHz, 2 nhân, 4 luồng, 3MB, 55W)",
+      "price": 230000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1155 Intel Core i5-2400 Tray (Hàng cũ đã qua sử dụng)(3.1GHz up to 3.4GHz, 4 nhân, 4 luồng, 6MB, 95W)",
+      "price": 411000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1155 Intel Core i5-2500 Tray (Hàng cũ đã qua sử dụng)(3.3GHz up to 3.7GHz, 4 nhân, 4 luồng, 6MB, 95W)",
+      "price": 443000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1155 Intel Core i5-3470 Tray FV (Hàng cũ đã qua sử dụng)(3.2GHz up to 3.6GHz, 4 nhân, 4 luồng, 6MB, 77W)",
+      "price": 486000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1155 Intel Core i7-3770 Tray (Hàng cũ đã qua sử dụng) FV (3.4GHz up to 3.9GHz, 4 nhân, 8 luồng, 8MB Cache, 77W)(THAY THẾ CHO i7-2600, i7-3770S)",
+      "price": 1052000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1150 Intel Core i3-4150 Tray FV (Hàng cũ đã qua sử dụng)(3.5GHz, 2 nhân, 4 luồng, 3MB, 54W)",
+      "price": 227000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1150 Intel Core i3-4160 Tray (Hàng cũ đã qua sử dụng) FV (3.6GHz, 2 nhân, 4 luồng, 3MB, 54W)",
+      "price": 245000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1150 Intel Core i3-4170 Tray FV (Hàng cũ đã qua sử dụng)(3.7GHz, 2 nhân, 4 luồng, 3MB, 54W)",
+      "price": 257000,
+      "warranty": "36T"
+    },
+    {
       "name": "CPU SK 1150 Intel Core i5-4590 Tray (Hàng cũ đã qua sử dụng) FV (3.3GHz up to 3.4GHz, 4 nhân, 4 luồng, 6MB, 84W)",
       "price": 625000,
       "warranty": "36T"
@@ -369,7 +409,12 @@
     },
     {
       "name": "CPU SK 1150 Intel Core i5-4690 Tray (Hàng cũ đã qua sử dụng) FV (3.5GHz up to 3.9GHz, 4 nhân, 4 luồng, 6MB, 84W)",
-      "price": 728000,
+      "price": 713000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1150 Intel Core i7-4770 Tray (Hàng cũ đã qua sử dụng) FV (3.4GHz up to 3.9GHz, 4 nhân, 8 luồng, 8MB, 84W)",
+      "price": 1549000,
       "warranty": "36T"
     },
     {
@@ -393,8 +438,28 @@
       "warranty": "36T"
     },
     {
+      "name": "CPU SK 1151v1 Intel Core i5-7500T Tray (Hàng cũ đã qua sử dụng)(2.7GHz up to 3.3GHz, 4 nhân, 4 luồng, 6MB, 35W)",
+      "price": 988000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1151v1 Intel Core i5-7400 Tray (Hàng cũ đã qua sử dụng) FV (3.0GHz up to 3.5GHz, 4 nhân, 4 luồng, 6MB, 65W)",
+      "price": 1075000,
+      "warranty": "36T"
+    },
+    {
       "name": "CPU SK 1151v1 Intel Core i5-6400 Tray (Hàng cũ đã qua sử dụng) FV (2.7GHz up to 3.3GHz, 4 nhân, 4 luồng, 6MB, 65W)",
       "price": 1093000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1151v1 Intel Core i5-7500 Tray FV (Hàng cũ đã qua sử dụng) FV (3.4GHz up to 3.8GHz, 4 nhân, 4 luồng, 6MB, 65W)",
+      "price": 1150000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1151v1 Intel Core i5-6500 Tray (Hàng cũ đã qua sử dụng) FV (3.2GHz up to 3.6GHz, 4 nhân, 4 luồng, 6MB, 65W)",
+      "price": 1184000,
       "warranty": "36T"
     },
     {
@@ -408,8 +473,13 @@
       "warranty": "36T"
     },
     {
+      "name": "CPU SK 1151v1 Intel Core i7-6700 Tray (Hàng cũ đã qua sử dụng) FV (3.4GHz up to 4.0GHz, 4 nhân, 8 luồng, 8MB, 65W)",
+      "price": 1725000,
+      "warranty": "36T"
+    },
+    {
       "name": "CPU SK 1151v1 Intel Core i7-7700 Tray FV (Hàng cũ đã qua sử dụng) (3.6GHz up to 4.2GHz, 4 nhân, 8 luồng, 8MB, 65W)",
-      "price": 2023000,
+      "price": 1999000,
       "warranty": "36T"
     },
     {
@@ -434,12 +504,22 @@
     },
     {
       "name": "CPU SK 1151v2 Intel Core i5-8400 Tray (Hàng cũ đã qua sử dụng) FV (2.8GHz up to 4.0GHz, 6 nhân, 6 luồng, 9MB, 65W)",
-      "price": 1984000,
+      "price": 1849000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1151v2 Intel Core i5-8600 Tray (Hàng cũ đã qua sử dụng)(3.1GHz up to 4.3GHz, 6 nhân, 6 luồng, 9MB, 65W)",
+      "price": 1890000,
       "warranty": "36T"
     },
     {
       "name": "CPU SK 1151v2 Intel Core i5-8500 Tray (Hàng cũ đã qua sử dụng) FV (3.0GHz up to 4.1GHz, 6 nhân, 6 luồng, 9MB, 65W)",
       "price": 2037000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1151v2 Intel Core i5-9400F Tray FV (Hàng cũ đã qua sử dụng)(Phải dùng card VGA, 2.9GHz up to 4.1GHz, 6 nhân, 6 luồng, 9MB, 65W)",
+      "price": 2078000,
       "warranty": "36T"
     },
     {
@@ -449,7 +529,12 @@
     },
     {
       "name": "CPU SK 1151v2 Intel Core i5-9400 Tray FV (Hàng cũ đã qua sử dụng) (2.9GHz up to 4.1GHz, 6 nhân, 6 luồng, 9MB, 65W)",
-      "price": 2502000,
+      "price": 2460000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1151v2 Intel Core i7-8700 Tray (Hàng cũ đã qua sử dụng) FV (3.2GHz up to 4.6GHz, 6 nhân, 12 luồng, 12MB, 65W)",
+      "price": 3207000,
       "warranty": "36T"
     },
     {
@@ -479,7 +564,7 @@
     },
     {
       "name": "CPU SK 1200 v1 Intel Core i3-10100 Tray FV (Hàng cũ đã qua sử dụng)  (3.6GHz up to 4.3GHz, 4 nhân, 8 luồng, 6MB, 65W)",
-      "price": 2791000,
+      "price": 2691000,
       "warranty": "36T"
     },
     {
@@ -498,6 +583,16 @@
       "warranty": "36T"
     },
     {
+      "name": "CPU SK 1200 v2 Intel Core i5-11400F Tray (Hàng cũ đã qua sử dụng)(2.9GHz up to 4.3GHz, 6 nhân, 12 luồng, 12MB, 65W, dùng VGA)",
+      "price": 3453000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1200 v1 Intel Core i5-10400 Tray (Hàng cũ đã qua sử dụng)(2.9GHz up to 4.3GHz, 6 nhân, 12 luồng, 12MB, 65W)",
+      "price": 3533000,
+      "warranty": "36T"
+    },
+    {
       "name": "CPU SK 1200 v1 Intel Core i5-10500 Tray FV (Hàng cũ đã qua sử dụng) (3.1GHz up to 4.5GHz, 6 nhân, 12 luồng, 12MB, 65W)",
       "price": 3693000,
       "warranty": "36T"
@@ -508,8 +603,18 @@
       "warranty": "36T"
     },
     {
+      "name": "CPU SK 1200 v2 Intel Core i5-11400 Tray (Hàng cũ đã qua sử dụng)(2.6GHz up to 4.4GHz, 6 nhân, 12 luồng, 12MB, 65W)(THAY THẾ CHO 11500 TẠM HẾT)",
+      "price": 3807000,
+      "warranty": "36T"
+    },
+    {
       "name": "CPU SK 1200 v1 Intel Core i7-10700 Tray (Hàng cũ đã qua sử dụng)(2.9GHz up to 4.8GHz, 8 nhân, 16 luồng, 16MB, 65W)",
       "price": 5975000,
+      "warranty": "36T"
+    },
+    {
+      "name": "CPU SK 1200 v2 Intel Core i7-11700 Tray (Hàng cũ đã qua sử dụng)(2.5GHz up to 4.9GHz, 8 nhân, 16 luồng, 16MB, 65W)",
+      "price": 6203000,
       "warranty": "36T"
     },
     {
@@ -529,7 +634,7 @@
     },
     {
       "name": "CPU SK 1700 v1 Intel Core i5-12400F Tray New FV",
-      "price": 4187000,
+      "price": 4138000,
       "warranty": "36T"
     },
     {
@@ -575,11 +680,6 @@
     {
       "name": "CPU SK 1700 Intel Core i5-14600KF Tray New FV (HÀNG NEW NO BOX)",
       "price": 7560000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1700 v1 Intel Core i7-12700 Tray (Hàng cũ đã qua sử dụng)(2.1GHz up to 4.9GHz, 12 nhân, 20 luồng, 25MB, 65W)",
-      "price": 8523000,
       "warranty": "36T"
     },
     {
@@ -728,6 +828,11 @@
       "warranty": "36T"
     },
     {
+      "name": "Mainboard SK 1151v1 GIGABYTE H110M-M2 Chính hãng FV (VGA, HDMI, LAN 1000Mbps, 2 khe RAM DDR4, mATX)",
+      "price": 1924000,
+      "warranty": "36T"
+    },
+    {
       "name": "Mainboard SK 1151 Winnfox H310 Chính Hãng FV (VGA, HDMI, LAN 100Mbps, M.2 NVME, 2 khe RAM DDR4)",
       "price": 1070000,
       "warranty": "24T"
@@ -771,6 +876,11 @@
       "name": "Mainboard SK 1200 AIWOLF H510D4 Chính Hãng FV(LGA1200/Intel H510/CPU Gen 10-11th/2*DDR4/VGA-HDMI-DVI/Lan 1000/M2 NVMe/PCIe16X/PCIe1X)",
       "price": 1583000,
       "warranty": "24T"
+    },
+    {
+      "name": "Mainboard SK 1200 v1-2 ASUS PRIME H510M-K R2.0 Chính hãng FV (VGA, HDMI, M.2 PCIe/NVMe, LAN 1000Mbps, 2 khe RAM DDR4, mATX)",
+      "price": 1796000,
+      "warranty": "36T"
     },
     {
       "name": "Mainboard SK 1200 v1 GIGABYTE H410M-H V2 Chính hãng",
@@ -1078,6 +1188,11 @@
       "warranty": "12T"
     },
     {
+      "name": "Nguồn ARROW 650W FV (Dây ngắn, BH 12T) (nguồn 650w)",
+      "price": 204000,
+      "warranty": "12T"
+    },
+    {
       "name": "NGUỒN AIGO ATX550 Fan 12cm 200W Chính hãng FV (4pin, Dây ngắn, Kèm dây nguồn)",
       "price": 249000,
       "warranty": "36T"
@@ -1131,6 +1246,11 @@
       "name": "Nguồn SEGOTEP BN750W 750W 80+ Bronze Chính hãng FV",
       "price": 1309000,
       "warranty": ""
+    },
+    {
+      "name": "Nguồn VSP VXP650SGVN 650W 80 Plus Gold Full Modular Chính hãng FV",
+      "price": 1386000,
+      "warranty": "60T"
     },
     {
       "name": "Nguồn Thermaltake Smart BX3 Pro SE 650W Chính hãng FV",
@@ -1793,6 +1913,11 @@
       "warranty": "BT"
     },
     {
+      "name": "Case VSP X3-M LUX White FV",
+      "price": 895000,
+      "warranty": "BT"
+    },
+    {
       "name": "Case Xigmatek Moon ML DGT (No Fan)_EN49699 ( MATX , case kính, màu đen)",
       "price": 992000,
       "warranty": "BT"
@@ -1880,6 +2005,11 @@
     {
       "name": "Case VSP AQUAL X3 Pro Black FV",
       "price": 903000,
+      "warranty": "BT"
+    },
+    {
+      "name": "Case VSP AQUAL X3 Pro White FV",
+      "price": 972000,
       "warranty": "BT"
     },
     {
@@ -1983,6 +2113,11 @@
       "warranty": "36T"
     },
     {
+      "name": "VGA ASUS GT710 2GB DDR5 SL BRK EVO Chính hãng FV",
+      "price": 1319000,
+      "warranty": "36T"
+    },
+    {
       "name": "VGA OCPC GT 730 4GB GDDR3 Chính hãng FV",
       "price": 1328000,
       "warranty": "36T"
@@ -1990,6 +2125,16 @@
     {
       "name": "VGA UNIKA GeForce GT730 4GD3 V7 FV (VGA, HDMI, DVI, 4GB, DDR3, 128bit, 1 Fan, 300W)",
       "price": 1450000,
+      "warranty": "36T"
+    },
+    {
+      "name": "VGA ASUS GT 730 Chính hãng FV (GT730-SL-2GD5-BRK, VGA, HDMI, DVI 24+1, 2GB, DDR5, 64bit, Ko Fan, 300W, 0pin)",
+      "price": 1906000,
+      "warranty": "36T"
+    },
+    {
+      "name": "VGA ASUS GT 1030 Chính hãng FV (HDMI, DVI 24+1, 2G, DDR5, 64bit, 0 Fan, 300W, 0pin)",
+      "price": 2616000,
       "warranty": "36T"
     },
     {
@@ -2055,6 +2200,11 @@
     {
       "name": "VGA MSI RTX3050 VENTUS 2X E 6G OC Chính hãng FV (6GB, GDDR6, HDMIx2, DPx1, 2 Fan)",
       "price": 6114000,
+      "warranty": "36T"
+    },
+    {
+      "name": "VGA T-WOLF TW-RTX2060 6G D6 FV (RTX2060, 6GB, GDDR6, 192bit, 1xDVI, 1xHDMI, 1xDP, 2Fan, 8pin)",
+      "price": 6359000,
       "warranty": "36T"
     },
     {
@@ -2253,6 +2403,11 @@
       "warranty": "36T"
     },
     {
+      "name": "VGA T-WOLF TW-RX580 8G D5 WHITE FV (TW-RX580-8GD5, 256bit,HDMI, DVI, DP, 2 Fan, 6pin)",
+      "price": 3824000,
+      "warranty": "36T"
+    },
+    {
       "name": "VGA T-WOLF TW-RX580 8G D5 V2.0 FV (TW-RX580-8GD5, 256bit,HDMI, DVI, DP, 2 Fan, 6pin)",
       "price": 3839000,
       "warranty": "36T"
@@ -2300,6 +2455,11 @@
     {
       "name": "Tản nhiệt khí CPU COOLMOON P2 1 fan 9cm LED (PWM 4PIN, 115x/1366/775/1200/2011/AMD/AM4/AM3+/AM3/FM2+/FM1)",
       "price": 227000,
+      "warranty": "3T"
+    },
+    {
+      "name": "Tản nhiệt khí CPU 2 ống đồng JONSBO CR-1200 fan 9cm LED Đa năng FV (PWM 4PIN, 115x/1200/1700/AM4)",
+      "price": 263000,
       "warranty": "3T"
     },
     {
@@ -2375,6 +2535,11 @@
     {
       "name": "Tản nhiệt nước AIO VSP ICE G240 Black FV",
       "price": 820000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Tản nhiệt nước AIO VSP ICE G240 White FV",
+      "price": 878000,
       "warranty": "12T"
     },
     {
@@ -2600,6 +2765,11 @@
     {
       "name": "FAN CASE Leopard Galaxy (Gắn Hub ARGB) Trắng (Ngược)",
       "price": 169000,
+      "warranty": "6T"
+    },
+    {
+      "name": "Nguồn Tổ Ong Tổng Camera 12V-5A (Hàng loại 1)",
+      "price": 131000,
       "warranty": "6T"
     },
     {
@@ -3655,6 +3825,16 @@
       "warranty": ""
     },
     {
+      "name": "Màn hình LCD máy tính để bàn All In One VSP VA221-610H Black FV (Sản phẩm AIO này chưa bao gồm CPU - Ram - Ổ Cứng)",
+      "price": 5228000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Màn hình LCD máy tính để bàn All In One VSP VA271-610H FV (Sản phẩm AIO này chưa bao gồm CPU - Ram - SSD)",
+      "price": 7053000,
+      "warranty": "24T"
+    },
+    {
       "name": "Chùi màn hình LCD 4 MÓN",
       "price": 58000,
       "warranty": "BT"
@@ -3666,17 +3846,17 @@
     },
     {
       "name": "Adapter 12V-6A dùng cho Đầu ghi + LCD FV (adapter 12v6a)",
-      "price": 130000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Adapter LCD 14V-3.5A (Kèm dây nguồn) FV",
-      "price": 157000,
+      "price": 127000,
       "warranty": "12T"
     },
     {
       "name": "Adapter LCD 14V-3A 42W FV (adapter 14v3a)",
-      "price": 165000,
+      "price": 160000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Adapter LCD 14V-3.5A (Kèm dây nguồn) FV",
+      "price": 167000,
       "warranty": "12T"
     },
     {
@@ -4122,6 +4302,21 @@
       "warranty": "18T"
     },
     {
+      "name": "USB thu Wifi TP-Link TL-WN823N Chính hãng FV (Ko anten, 300Mbps, Windows, macOS, Linux)",
+      "price": 205000,
+      "warranty": "24T"
+    },
+    {
+      "name": "USB thu Wifi TP-Link TL-WN722N Chính hãng FV (Có anten, 150Mbps)",
+      "price": 221000,
+      "warranty": "24T"
+    },
+    {
+      "name": "USB thu Wifi TP-Link TL-WN822N Chính hãng FV (02 anten, 300Mbps, Windows, macOS, Linux)",
+      "price": 275000,
+      "warranty": "24T"
+    },
+    {
       "name": "USB thu Wifi MERCUSYS MU6H AC650 (Có anten, 150Mbps, Windows) FV",
       "price": 195000,
       "warranty": "24T"
@@ -4182,11 +4377,6 @@
       "warranty": "24T"
     },
     {
-      "name": "Máy tính để bàn All In One VSP VA271-610H FV (Sản phẩm AIO này chưa bao gồm CPU - Ram - SSD)",
-      "price": 7053000,
-      "warranty": "24T"
-    },
-    {
       "name": "Thẻ nhớ MicroSD 4G TEAMGROUP Box Class10 Chính hãng FV",
       "price": 158000,
       "warranty": "60T"
@@ -4212,8 +4402,18 @@
       "warranty": "84T"
     },
     {
+      "name": "Thẻ nhớ MicroSD 64G TEAMGROUP Box Class10 U1 100MB/s Chính hãng FV (Kèm SD adapter)",
+      "price": 372000,
+      "warranty": "24T"
+    },
+    {
       "name": "Thẻ nhớ MicroSD 64G HIKSEMI Box Class10 V30 Chính hãng FV",
       "price": 361000,
+      "warranty": "60T"
+    },
+    {
+      "name": "Thẻ nhớ MicroSD 64G KINGSTON CANVAS Select 100R Box Class10 U1 V10 100MB/s Chính hãng FV",
+      "price": 515000,
       "warranty": "60T"
     },
     {
@@ -4260,6 +4460,11 @@
       "name": "USB 3.0 32G TEAMGROUP C175 Chính hãng FV",
       "price": 237000,
       "warranty": "60T"
+    },
+    {
+      "name": "USB 3.0 64G KINGSTON DataTraveler/DTX Chính hãng FPT/ Viết Sơn FV (USB 3.1 Gen 1)",
+      "price": 239000,
+      "warranty": "24T"
     },
     {
       "name": "USB 3.2 64G TEAMGROUP C175 Chính hãng FV",
@@ -4330,6 +4535,11 @@
       "name": "USB Bluetooth  5.4 MERCUSYS MA550H Chính hãng FV",
       "price": 173000,
       "warranty": "24T"
+    },
+    {
+      "name": "DELL Ins 3530 i3-1305U/16GB/512GB SSD/Win11,office/15.6FHD_I3U165W11SLU",
+      "price": 18729000,
+      "warranty": ""
     },
     {
       "name": "Dell Pro PV14250 Core 7 150U/16G/1TB SSD/14FHD/Win11/2Y_PV14250-150U-161TBW",
@@ -4412,17 +4622,22 @@
       "warranty": "12T"
     },
     {
-      "name": "Cable nguồn sata HDD FV",
-      "price": 50000,
-      "warranty": "BT"
-    },
-    {
       "name": "USB ra Sound 2.0 VEGGIEG V-K102 FV",
       "price": 138000,
       "warranty": "24T"
     }
   ],
   "RAM (Bộ nhớ trong)": [
+    {
+      "name": "DDR3 PC 4G/1333 HYNIX/SAMSUNG/MICRON/KINGSTON... (Hàng cũ đã qua sử dụng) FV (No box)",
+      "price": 249000,
+      "warranty": "36T"
+    },
+    {
+      "name": "DDR3 PC 4G/1600 HYNIX/SAMSUNG/MICRON/KINGSTON... (Hàng cũ đã qua sử dụng) FV (No box) FV",
+      "price": 252000,
+      "warranty": "36T"
+    },
     {
       "name": "DDR3 PC 8G/1600 HYNIX/SAMSUNG/MICRON/KINGSTON... (Hàng cũ đã qua sử dụng) FV (No box)",
       "price": 546000,
@@ -4455,7 +4670,7 @@
     },
     {
       "name": "DDR3L PC 8G/1600 PC3L HYNIX/SAMSUNG/MICRON/KINGSTON... (Hàng cũ đã qua sử dụng) FV (No box) FV",
-      "price": 590000,
+      "price": 563000,
       "warranty": "36T"
     },
     {
@@ -4509,16 +4724,6 @@
       "warranty": "36T"
     },
     {
-      "name": "DDR4 PC 16G/2666 KINGBANK Tản nhiệt New Chính hãng (Box) FV",
-      "price": 2978000,
-      "warranty": "60T"
-    },
-    {
-      "name": "DDR4 PC 16G/2666 HYNIX/SAMSUNG/MICRON/KINGSTON... (Hàng cũ đã qua sử dụng) (NoBox) FV",
-      "price": 2136000,
-      "warranty": "36T"
-    },
-    {
       "name": "DDR4 PC 8G/2666 KINGMAX New Chính hãng Viễn Sơn FV (Box)",
       "price": 2146000,
       "warranty": "36T"
@@ -4569,8 +4774,18 @@
       "warranty": "36T"
     },
     {
+      "name": "DDR4 PC 16G/2666 KINGMAX New Chính hãng Viễn Sơn (Box) FV",
+      "price": 3181000,
+      "warranty": "36T"
+    },
+    {
       "name": "DDR4 PC 16G/3200 TEAMGROUP T-FORCE VULCAN Z Gray Tản nhiệt New Chính hãng FV (Box)",
       "price": 3257000,
+      "warranty": "36T"
+    },
+    {
+      "name": "DDR4 PC 16G/3200 KINGMAX New Chính hãng Viễn Sơn FV (Box)",
+      "price": 3259000,
       "warranty": "36T"
     },
     {
@@ -4609,6 +4824,11 @@
       "warranty": ""
     },
     {
+      "name": "DDR3 LAPTOP 4G/1600 HYNIX/SAMSUNG/MICRON/KINGSTON... (Hàng cũ đã qua sử dụng) FV (No box) FV",
+      "price": 197000,
+      "warranty": "36T"
+    },
+    {
       "name": "DDR3L LAPTOP 4G/1600 PC3L HYNIX/MICRON/KINGSTON... (Hàng cũ đã qua sử dụng) FV (No box)",
       "price": 197000,
       "warranty": "36T"
@@ -4620,12 +4840,12 @@
     },
     {
       "name": "DDR4 LAPTOP 8G/2666 HYNIX/SAMSUNG/MICRON/KINGSTON... Hàng cũ đã qua sử dụng  FV (No box)",
-      "price": 1332000,
+      "price": 1288000,
       "warranty": "36T"
     },
     {
       "name": "DDR4 LAPTOP 8G/3200 HYNIX/SAMSUNG/MICRON/KINGSTON... FV (Hàng cũ đã qua sử dụng, No box)",
-      "price": 1366000,
+      "price": 1320000,
       "warranty": "36T"
     },
     {
@@ -4636,6 +4856,16 @@
     {
       "name": "DDR4 LAPTOP 16G/3200 HYNIX/SAMSUNG/MICRON/KINGSTON... (Hàng cũ đã qua sử dụng) FV (No box) FV",
       "price": 2136000,
+      "warranty": "36T"
+    },
+    {
+      "name": "DDR4 LAPTOP 8G/3200 KINGMAX New Chính hãng FV (Box)",
+      "price": 2149000,
+      "warranty": "36T"
+    },
+    {
+      "name": "DDR4 LAPTOP 8G/2400 KINGMAX New Chính hãng Viễn Sơn FV (Box)",
+      "price": 2146000,
       "warranty": "36T"
     },
     {
@@ -4651,8 +4881,18 @@
       "warranty": "12T"
     },
     {
+      "name": "Mouse có dây T-WOLF V13 USB Gaming Chính hãng FV",
+      "price": 76000,
+      "warranty": "12T"
+    },
+    {
       "name": "Mouse có dây Glowy V12 FV",
       "price": 79000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Mouse có dây T-WOLF V1 LED USB FV",
+      "price": 81000,
       "warranty": "12T"
     },
     {
@@ -4679,6 +4919,11 @@
       "name": "Mouse có dây Fuhlen L102 USB FV",
       "price": 108000,
       "warranty": "6T"
+    },
+    {
+      "name": "Mouse có dây RAPOO N100 USB Chính hãng FV",
+      "price": 107000,
+      "warranty": "12T"
     },
     {
       "name": "Mouse có dây Deiog DY-F0 Black chính hãng FV",
@@ -4716,6 +4961,11 @@
       "warranty": "24T"
     },
     {
+      "name": "Mouse có dây LOGITECH B100 USB Chính hãng FV (Dây dài 1m8)",
+      "price": 121000,
+      "warranty": "36T"
+    },
+    {
       "name": "Mouse có dây NEWMEN M266 USB Chính hãng FV",
       "price": 122000,
       "warranty": "12T"
@@ -4723,6 +4973,11 @@
     {
       "name": "Mouse có dây NEWMEN M180 USB Chính hãng FV",
       "price": 123000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Mouse có dây GENIUS DX-110/120 USB Chính hãng FV",
+      "price": 124000,
       "warranty": "12T"
     },
     {
@@ -4739,6 +4994,11 @@
       "name": "Mouse có dây DAREU LM130s RGB Chính hãng FV  (Switch Huano, DPI 1000, 1.8m)",
       "price": 145000,
       "warranty": "24T"
+    },
+    {
+      "name": "Mouse có dây DELL MS116 USB Chính hãng FV",
+      "price": 147000,
+      "warranty": "12T"
     },
     {
       "name": "Mouse Deiog F7 Black Chính hãng FV (USB, dây dài 1.8m)",
@@ -4768,6 +5028,16 @@
     {
       "name": "Mouse có dây DEIOG A20 LED RGB USB Gaming FV",
       "price": 179000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Mouse có dây NEWMEN G10 PLUS Black USB Chính hãng FV (THAY THẾ CHO EBLUE 146BK/146TẠM HẾT)",
+      "price": 191000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Mouse có dây NEWMEN G10 PLUS Yellow USB Chính hãng FV",
+      "price": 191000,
       "warranty": "12T"
     },
     {
@@ -4871,6 +5141,16 @@
       "warranty": "12T"
     },
     {
+      "name": "Mouse có dây LOGITECH G102 Gen II Lightsync RGB Gaming Đen Chính hãng FV",
+      "price": 464000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Mouse có dây LOGITECH G102 Gen II Lightsync RGB Gaming Trắng Chính hãng FV",
+      "price": 471000,
+      "warranty": "24T"
+    },
+    {
       "name": "Mouse có dây Darmoshark N3 Black Chính hãng FV",
       "price": 570000,
       "warranty": "12T"
@@ -4881,6 +5161,11 @@
       "warranty": ""
     },
     {
+      "name": "Mouse ko dây T-WOLF Q4 FV (Có pin, 1xAA)",
+      "price": 94000,
+      "warranty": "6T"
+    },
+    {
       "name": "Mouse ko dây ARIGATO M220 Black FV (1xAA, Công tắc, Có pin)",
       "price": 105000,
       "warranty": "6T"
@@ -4889,6 +5174,16 @@
       "name": "Mouse ko dây Logitech M220 Pink FV (Có pin, 1xAA)",
       "price": 112000,
       "warranty": "12T"
+    },
+    {
+      "name": "Mouse ko dây LOGITECH M185 Laser (1xAA, Công tắc)",
+      "price": 114000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Mouse ko dây LOGITECH M330 Black Silent FV (1xAA, Nhấp ko ồn)",
+      "price": 117000,
+      "warranty": "6T"
     },
     {
       "name": "Mouse ko dây Deiog Q1 Black Chính hãng FV (Wireless 2.4Ghz)",
@@ -4934,6 +5229,11 @@
       "name": "Mouse ko dây Deiog Q3S Black Chính hãng FV (Wireless 2.4Ghz)",
       "price": 152000,
       "warranty": "12T"
+    },
+    {
+      "name": "Mouse ko dây T-WOLF Q13 (Pin sạc, Công tắc, 6 nút) FV",
+      "price": 154000,
+      "warranty": "6T"
     },
     {
       "name": "Mouse ko dây EDRA EM610W Blue Chính hãng FV",
@@ -5066,7 +5366,7 @@
       "warranty": "24T"
     },
     {
-      "name": "Mouse ko dây Ugreen (25444) Chính hãng FV",
+      "name": "Mouse ko dây Ugreen (25444) ( Không pin, dùng 1xAA)Chính hãng FV",
       "price": 517000,
       "warranty": "18T"
     },
@@ -5213,6 +5513,11 @@
     {
       "name": "Keyboard có dây Deiog DY-807S Black FV ( 104 keys, Dây dài 1.6m)",
       "price": 207000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Keyboard DELL KB216 USB Chính hãng (Chuyên văn phòng) FV",
+      "price": 216000,
       "warranty": "12T"
     },
     {
@@ -5556,6 +5861,21 @@
       "warranty": "12T"
     },
     {
+      "name": "Keyboard T-WOLF T78 White FV (Phím cơ, 99 keys, Red Switch, Bluetooth-Wireless-TypeC, Dây dài 1.5m)",
+      "price": 776000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Keyboard ko dây AULA S100 PRO Xanh dương - Trắng - Tím đậm FV (Phím cơ, 99 keys, Brown switch, TRIPLE-MODE, kèm Dây USB type-C)",
+      "price": 810000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Keyboard ko dây AULA S100 PRO Xanh dương - Trắng - Tím FV (Phím cơ, 99 keys, Red switch, TRIPLE-MODE, kèm Dây USB type-C)",
+      "price": 827000,
+      "warranty": "24T"
+    },
+    {
       "name": "Keyboard ko dây EDRA EK368RT Chính hãng FV ( Phím cơ, 67 keys, USB / Bluetooth / 2.4Ghz, Type-C)",
       "price": 1052000,
       "warranty": "24T"
@@ -5641,6 +5961,16 @@
       "warranty": ""
     },
     {
+      "name": "Combo Keyboard + Mouse BOSSTON D5300 Chính hãng FV",
+      "price": 173000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Combo Keyboard + Mouse T-WOLF TF500 USB FV",
+      "price": 174000,
+      "warranty": "12T"
+    },
+    {
       "name": "Combo Keyboard + Mouse G21B White LED USB Giả cơ",
       "price": 188000,
       "warranty": "12T"
@@ -5668,6 +5998,21 @@
     {
       "name": "Combo Keyboard + Mouse Deiog DY-911 FV",
       "price": 202000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Combo Keyboard + Mouse T-WOLF TF230 LED FV",
+      "price": 204000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Combo Keyboard + Mouse T-WOLF TF200 LED FV",
+      "price": 218000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Combo Keyboard + Mouse BOSSTON 837 LED Chính hãng (THAY THẾ CHO BOSSTON D6800, T-WOLF TF800) FV",
+      "price": 219000,
       "warranty": "12T"
     },
     {
@@ -5771,6 +6116,11 @@
       "warranty": "24T"
     },
     {
+      "name": "Combo ko dây Keyboard + Mouse T-WOLF TF770 Pink (Có pin, 1xAAA, 1xAA) FV",
+      "price": 318000,
+      "warranty": "12T"
+    },
+    {
       "name": "Combo ko dây Keyboard + Mouse văn phòng LECOO KM2001 Chính hãng FV (Có pin, 2xAAA, 1xAA)",
       "price": 354000,
       "warranty": "24T"
@@ -5851,8 +6201,18 @@
       "warranty": "0"
     },
     {
+      "name": "Pad mouse Arigato (250x200x2mm) FV",
+      "price": 51000,
+      "warranty": "BT"
+    },
+    {
       "name": "Pad mouse phím tắt (300x250x4mm) FV",
       "price": 70000,
+      "warranty": "BT"
+    },
+    {
+      "name": "Pad mouse  Chuyên Game (300x250x4mm)",
+      "price": 56000,
       "warranty": "BT"
     },
     {
@@ -5894,7 +6254,7 @@
     },
     {
       "name": "Router Wifi 4G LTE N300 Cudy LT400 FV  (4 anten, 300Mbps, 4LAN, Sim 4G Nano)",
-      "price": 827000,
+      "price": 810000,
       "warranty": "24T"
     },
     {
@@ -5933,6 +6293,11 @@
       "warranty": "24T"
     },
     {
+      "name": "Router Wifi 4G LTE TP-Link M7000 Chính hãng FV (10 user)",
+      "price": 838000,
+      "warranty": "24T"
+    },
+    {
       "name": "Router Wifi 4G LTE Mercusys MT115 + Pin 2400mAh Chính hãng FV (10 user, 150Mbps)",
       "price": 903000,
       "warranty": "24T"
@@ -5960,6 +6325,11 @@
     {
       "name": "Router Wifi 4G LTE TP-Link M7350 Chính hãng FV (10 user)",
       "price": 1321000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Router Wifi 4G LTE TP-Link TL-MR200 FV (2 anten - 300Mbps/2.4GHz, 433Mbps/5GHz - 4 port)",
+      "price": 1478000,
       "warranty": "24T"
     },
     {
@@ -6053,13 +6423,28 @@
       "warranty": "24T"
     },
     {
+      "name": "Switch TP-Link TL-SF1008D 8 port Chính hãng FV (100Mbps, Vỏ nhựa)",
+      "price": 207000,
+      "warranty": "24T"
+    },
+    {
       "name": "Switch Cudy FS108 8 port FV (100Mbps , Vỏ sắt)",
       "price": 218000,
       "warranty": "24T"
     },
     {
+      "name": "Switch TP-Link TL-SF1016D 16 port Chính hãng FV (100Mbps)",
+      "price": 479000,
+      "warranty": "24T"
+    },
+    {
       "name": "Switch Cudy FS1024 24 port  FV (100 Mbps , Vỏ thép)",
       "price": 981000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Switch TP-Link TL-SF1024D 24 port Chính hãng FV (100Mbps, Vỏ sắt)",
+      "price": 999000,
       "warranty": "24T"
     },
     {
@@ -6173,6 +6558,11 @@
       "warranty": "24T"
     },
     {
+      "name": "Switch TP-Link TL-SG1008D 8 port Gigabit Chính hãng FV (1.0Gbps)",
+      "price": 435000,
+      "warranty": "24T"
+    },
+    {
       "name": "Switch Mercusys MS108GS 8 port Gigabit (1.0Gbps,hỗ trợ Auto-MDI/MDIX, Vỏ thép) FV",
       "price": 450000,
       "warranty": "24T"
@@ -6213,6 +6603,11 @@
       "warranty": "24T"
     },
     {
+      "name": "Switch TP-Link TL-SG1016D 16 port Gigabit Chính hãng FV (1Gbps, Vỏ sắt, Ver 8, 294x180x44mm)(THAY THẾ CHO DLINK DGS-1016C)",
+      "price": 1258000,
+      "warranty": "24T"
+    },
+    {
       "name": "Switch MERCUSYS MS124GS 24 port Gigabit Chính hãng FV (1Gbps, Vỏ sắt)",
       "price": 1308000,
       "warranty": "24T"
@@ -6225,6 +6620,11 @@
     {
       "name": "Switch DLINK DGS-1024C 24 port Gigabit Chính hãng FV (1Gbps, Vỏ sắt) (THAY THẾ TENDA TEG1024D)",
       "price": 1714000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Switch TP-Link TL-SG1024D 24 port Gigabit Chính hãng FV (1Gbps, Vỏ sắt)",
+      "price": 1796000,
       "warranty": "24T"
     },
     {
@@ -6813,6 +7213,21 @@
       "warranty": "36T"
     },
     {
+      "name": "Cable LAN AMPLX lẻ tính mét (Nhôm mạ đồng)",
+      "price": 43000,
+      "warranty": "BT"
+    },
+    {
+      "name": "Cable LAN GOLDEN JAPAN UTP CAT5E 100m Cam FV (Nhôm mạ đồng)",
+      "price": 477000,
+      "warranty": "BT"
+    },
+    {
+      "name": "Cable LAN GOLDEN JAPAN SFTP CAT5E 100m Xanh lá FV (Chống nhiễu 2 lớp, Sợi cường lực đơn, Nhôm mạ đồng)",
+      "price": 575000,
+      "warranty": "BT"
+    },
+    {
       "name": "Cable LAN GOLDEN TAIWAN UTP CAT5E 100m Cam FV (Nhôm mạ đồng, No box)",
       "price": 631000,
       "warranty": "BT"
@@ -6820,6 +7235,16 @@
     {
       "name": "Cable LAN GOLDEN TAIWAN SFTP CAT5E 100m Xanh dương FV (Chống nhiễu 2 lớp, Sợi cường lực đơn, Nhôm mạ đồng)",
       "price": 817000,
+      "warranty": "BT"
+    },
+    {
+      "name": "Cable LAN GOLDEN JAPAN FTP CAT6 100m Xanh dương FV (Chống nhiễu, Lõi chữ thập, Sợi cường lực đơn, Nhôm mạ đồng)",
+      "price": 780000,
+      "warranty": "BT"
+    },
+    {
+      "name": "Cable LAN GOLDEN JAPAN SFTP CAT6 100m Vàng FV",
+      "price": 810000,
       "warranty": "BT"
     },
     {
@@ -6870,6 +7295,11 @@
     {
       "name": "Cable LAN GOLDEN TAIWAN UTP CAT5E 305m Trắng FV (Nhôm mạ đồng, Made in China)",
       "price": 1587000,
+      "warranty": "BT"
+    },
+    {
+      "name": "Cable LAN GOLDEN TAIWAN UTP CAT5E 305m Cam FV (Nhôm mạ đồng)",
+      "price": 1607000,
       "warranty": "BT"
     },
     {
@@ -6951,6 +7381,11 @@
       "name": "Cable LAN GOLDEN JAPAN FTP CAT6 CCA 305m Đen Chuyên Ngoài trời (Thép treo + Lớp dầu + Chống nhiễu ) FV",
       "price": 2598000,
       "warranty": ""
+    },
+    {
+      "name": "Cable LAN GOLDEN TAIWAN UTP CAT6 305m Vàng (Lõi chữ thập, Nhôm mạ đồng)",
+      "price": 2750000,
+      "warranty": "BT"
     },
     {
       "name": "Cable LAN GOLDEN JAPAN UTP CAT6 BC 305m Xanh dương FV (Đồng nguyên chất, Lõi chữ thập)",
@@ -7353,6 +7788,11 @@
       "warranty": "18T"
     },
     {
+      "name": "Cable VGA 15m UNITEK YC 507 FV (Dây tròn trơn, Hàng cao cấp)",
+      "price": 336000,
+      "warranty": "18T"
+    },
+    {
       "name": "Cable VGA 10m Ugreen 11633, 2 đầu VGA VG101 FV (Dây tròn trơn đen, Hàng cao cấp)",
       "price": 337000,
       "warranty": "18T"
@@ -7573,6 +8013,11 @@
       "warranty": "24T"
     },
     {
+      "name": "Cable HDMI 8m UNITEK YC 141 4K FV (Dây tròn trơn, hàng cao cấp) (THAY THẾ CHO HDMI 8m M-Pard SH-020)",
+      "price": 304000,
+      "warranty": "18T"
+    },
+    {
       "name": "Cable HDMI 20M 2.1V PREMIUM HDTV 8K FV",
       "price": 327000,
       "warranty": "1T"
@@ -7585,6 +8030,11 @@
     {
       "name": "Cable HDMI 10m Ugreen 10110 chuẩn 1.4 4K * 2K HD104 FV(Dây tròn trơn đen, hàng cao cấp)",
       "price": 342000,
+      "warranty": "18T"
+    },
+    {
+      "name": "Cable HDMI 10m UNITEK YC 142 4K FV (Dây tròn trơn, hàng cao cấp)(THAY THẾ CHO 12m UNITEK TẠM HẾT)",
+      "price": 345000,
       "warranty": "18T"
     },
     {
@@ -7623,8 +8073,18 @@
       "warranty": "18T"
     },
     {
+      "name": "Cable HDMI 15m UNITEK YC 143M 4K FV (Dây tròn trơn, hàng cao cấp)",
+      "price": 610000,
+      "warranty": "18T"
+    },
+    {
       "name": "Cable HDMI 2.0 20m UNITEK C11079BK 4K FV (Dây tròn trơn, box)",
       "price": 612000,
+      "warranty": "18T"
+    },
+    {
+      "name": "Cable HDMI 20m UNITEK YC 144 4K FV (Dây tròn trơn, hàng cao cấp)",
+      "price": 920000,
       "warranty": "18T"
     },
     {
@@ -7661,6 +8121,11 @@
       "name": "Cable VGA 20m Ugreen 11635 Chính hãng FV",
       "price": 623000,
       "warranty": "18T"
+    },
+    {
+      "name": "Cable Máy in 1.5m Chống nhiễu 2.0",
+      "price": 57000,
+      "warranty": "BT"
     },
     {
       "name": "Cable Máy in 3m Arigatoo xám Chống nhiễu FV",
@@ -7753,6 +8218,11 @@
       "warranty": "18T"
     },
     {
+      "name": "Cable nguồn sata HDD FV",
+      "price": 50000,
+      "warranty": "BT"
+    },
+    {
       "name": "Cable chia nguồn Sata 1 ra 2 đầu thẳng FV",
       "price": 65000,
       "warranty": "0"
@@ -7776,6 +8246,11 @@
       "name": "Cable VGA ra HDMI UNITEK V112ABK Chính hãng (Có Audio) FV",
       "price": 301000,
       "warranty": "18T"
+    },
+    {
+      "name": "Cable chuyển HDMI to VGA 25cm (HDMI đực sang VGA cái, ko Audio) FV",
+      "price": 82000,
+      "warranty": "3T"
     },
     {
       "name": "Cable chuyển HDMI to VGA 15cm VEGGIEG V-Z612 Đen FV",
@@ -8073,6 +8548,11 @@
       "warranty": "18T"
     },
     {
+      "name": "Hub HDMI 3HDMI ra 1HDMI Dtech DT-7018 (Có Remote) FV",
+      "price": 337000,
+      "warranty": "12T"
+    },
+    {
       "name": "Hub 1HDMI ra 4HDMI VEGGIEG V-HD07 (kèm nguồn 5V1A) FV",
       "price": 341000,
       "warranty": "24T"
@@ -8113,6 +8593,11 @@
       "warranty": "18T"
     },
     {
+      "name": "Hub Type-C Ugreen 15600 ra 3xUSB 3.0 +HDMI 4K@30Hz + VGA + RJ45(LAN) + SD/TF + PD 100W (9in1) FV",
+      "price": 873000,
+      "warranty": "18T"
+    },
+    {
       "name": "Hub Type-C Ugreen 80132 ra 3*USB 3.0+HDMI+3.5mm+AUX 3.5mm+PD 100W Chính hãng FV",
       "price": 875000,
       "warranty": "18T"
@@ -8126,51 +8611,6 @@
       "name": "Cable chuyển Lightning ra 3.5mm VEGGIEG V-A619 FV",
       "price": 241000,
       "warranty": "24T"
-    },
-    {
-      "name": "USB thu Wifi TP-Link TL-WN823N Chính hãng FV (Ko anten, 300Mbps, Windows, macOS, Linux)",
-      "price": 205000,
-      "warranty": "24T"
-    },
-    {
-      "name": "USB thu Wifi TP-Link TL-WN822N Chính hãng FV (02 anten, 300Mbps, Windows, macOS, Linux)",
-      "price": 275000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Card thu Wifi TP-Link TL-WN781ND Chính hãng FV (1 anten, 150Mbps, chân ngắn 1X, Windows)",
-      "price": 218000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Card thu Wifi TP-Link TL-WN881ND Chính hãng FV (2 anten, 300Mbps, chân ngắn 1x, Windows, Linux)",
-      "price": 285000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Card PCle thu Wifi DLINK DWA-X582 Chính hãng FV (2 anten, Tốc độ 2402 Mbps 5GHz + 574 Mbps 2.4GHz, Bluetooth 5.1, Windows)",
-      "price": 641000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Card LAN MERCUSYS MA210E Chính hãng FV (1 Gbps Cổng LAN RJ45 Windows 11/10/8.1/8)",
-      "price": 213000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Card LAN TP-Link TG-3468 Gigabit Chính hãng FV chân ngắn 1x, Windows",
-      "price": 229000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Card LAN MERCUSYS MA510E (10 Gbps Cổng LAN RJ45 Windows, Linux)  FV",
-      "price": 1220000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Máy in màu CANON PIXMA G3010 Wifi Chính hãng FV (Scan, Copy, A4, A5, Resolution 4800x1200, Ink Bottles GI-790, Mực in liên tục, 445x533x260mm, 6.3kg, Windows, Linux)",
-      "price": 4785000,
-      "warranty": "12T"
     }
   ],
   "Camera & Thiết bị an ninh": [
@@ -8300,6 +8740,11 @@
       "warranty": "24T"
     },
     {
+      "name": "Camera IP Wifi IMOU Cruiser SE+ IPC-S31FEP 3MP Xoay Ngoài trời Chính hãng FV",
+      "price": 883000,
+      "warranty": "24T"
+    },
+    {
       "name": "Camera IP Wifi EZVIZ H8C 3MP PRO (2K) Xoay Ngoài trờI Có Lan Chính hãng FV",
       "price": 921000,
       "warranty": "24T"
@@ -8317,11 +8762,6 @@
     {
       "name": "Camera IP Wifi EZVIZ H4 2K (3MP) bán cầu thông minh Chính hãng FV",
       "price": 997000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Camera IP Wifi IMOU Cruiser SE+ IPC-S31FEP 3MP Xoay Ngoài trời Chính hãng FV",
-      "price": 1057000,
       "warranty": "24T"
     },
     {
@@ -8355,18 +8795,13 @@
       "warranty": "24T"
     },
     {
-      "name": "Camera IP Wifi IMOU IPC-S7XP-10M0WED  Chính hãng FV",
-      "price": 1473000,
-      "warranty": "24T"
-    },
-    {
       "name": "Camera IP Wifi IMOU TITAN PRO IPC-U7LP-6V0NE 6MP 3K+ Chính hãng FV",
       "price": 1478000,
       "warranty": "24T"
     },
     {
       "name": "Camera IP Wifi IMOU Cruiser Dual 2 IPC-S7XEP-10M0WED 10MP Chính hãng FV",
-      "price": 1684000,
+      "price": 1562000,
       "warranty": "24T"
     },
     {
@@ -8446,7 +8881,7 @@
     },
     {
       "name": "Camera IP Wifi IMOU IPC-F52FP 5MP Chính hãng FV",
-      "price": 976000,
+      "price": 853000,
       "warranty": "24T"
     },
     {
@@ -8481,7 +8916,7 @@
     },
     {
       "name": "Camera IP 4G IMOU Cruiser IPC-S7XCP-6M1TED-EU 6MP Xoay Ngoài trời Chính hãng FV (355°-90°, 2304 x 1296, 3.6mm, H.265, Có Mic Loa tích hợp, Hỗ trợ 4G, Đàm thoại 2 chiều, Đèn báo động, Có màu ban đêm, DWDR, Có LAN, Kèm nguồn 12V) FV",
-      "price": 1804000,
+      "price": 1748000,
       "warranty": "24T"
     },
     {
@@ -8707,6 +9142,11 @@
     {
       "name": "Đầu ghi IP Wifi 10 kênh IMOU NVR-N110W-8A0E Chính hãng FV",
       "price": 1231000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Đầu ghi IP HIK DS-7108NI-Q1/M FV (8 kênh, ko có cổng PoE, H.265+, Vỏ sắt)",
+      "price": 1364000,
       "warranty": "24T"
     },
     {
@@ -9026,7 +9466,7 @@
     },
     {
       "name": "Adapter 12V-3A Zin (camera, 5.5*2.5mm) FV",
-      "price": 97000,
+      "price": 100000,
       "warranty": "12T"
     },
     {
@@ -9036,17 +9476,12 @@
     },
     {
       "name": "Adapter Đầu ghi/Camera/LCD... 12V-5A FV (5.5x2.1 mm)(adapter 12v5a)",
-      "price": 121000,
-      "warranty": "6T"
-    },
-    {
-      "name": "Nguồn Tổ Ong Tổng Camera 12V-5A (Hàng loại 1)",
-      "price": 131000,
+      "price": 119000,
       "warranty": "6T"
     },
     {
       "name": "Adapter nguồn 24V-5A FV (5.5*2.1mm, Dùng cho Camera PTZ, máy lọc nước, thiết bị dùng điện 24V...)",
-      "price": 174000,
+      "price": 167000,
       "warranty": "12T"
     },
     {
@@ -9352,6 +9787,11 @@
       "warranty": "12T"
     },
     {
+      "name": "Máy in 1 mặt CANON imageCLASS LBP6030 Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 10s, First Print 7.8s, Speed 18ppm, Input 150 sheets, Cartridge 325/35A, 364x249x199mm, 5.0kg, Windows, macOS)",
+      "price": 2866000,
+      "warranty": "12T"
+    },
+    {
       "name": "Máy in 1 mặt CANON imageCLASS LBP6030W Wifi Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 10s, First Print 7.8s, Speed 18ppm, Input 150 sheets, Cartridge 325/35A, 364x249x199mm, 5.0kg, Windows, macOS)",
       "price": 3430000,
       "warranty": "12T"
@@ -9367,6 +9807,11 @@
       "warranty": "12T"
     },
     {
+      "name": "Máy in laser đen trắng HP 4003DN 2Z609A (A4/A5/ Đảo mặt/ USB/ LAN) FV",
+      "price": 6499000,
+      "warranty": ""
+    },
+    {
       "name": "Máy in 2 mặt Pantum P3012D Chính hãng FV (A4, In đảo mặt, Resolution 1200x1200, First Print 7.8s, Speed 30ppm A4/32ppm Letter, Input 250 sheets, 354x334x218mm, 6.8kg, Windows, macOS ,Linux)",
       "price": 3132000,
       "warranty": "12T"
@@ -9375,6 +9820,11 @@
       "name": "Máy in Laser 2 mặt trắng đen HP LaserJet M211d Chính hãng FV (9YF82A)",
       "price": 3131000,
       "warranty": "12T"
+    },
+    {
+      "name": "Máy in 2 mặt BROTHER HL-L2321D Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 7s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 356x360x183mm, 6.8kg, Windows, macOS, Linux)",
+      "price": 3163000,
+      "warranty": "24T"
     },
     {
       "name": "Máy in 2 mặt laser đen trắng PANTUM P3022D Chính hãng ((A4 A5)",
@@ -9400,6 +9850,11 @@
       "name": "Máy in 2 mặt BROTHER HL-L2366DW Wifi Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 7s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 356x360x183mm, 6.8kg, Windows, macOS, Linux, iOS, Android)",
       "price": 4200000,
       "warranty": "24T"
+    },
+    {
+      "name": "Máy in 2 mặt BROTHER HL-L2361DN Chính hãng FV (LAN, A4, A5, Resolution 600x600, Warm-up 7s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 356x360x183mm, 6.8kg, Windows, macOS, Linux, iOS, Android)",
+      "price": 4249000,
+      "warranty": "12T"
     },
     {
       "name": "Máy in laser đen trắng Brother HL-B2100D (A4/A5/ Đảo mặt) Chính hãng FV (ĐTHCH)",
@@ -9477,6 +9932,11 @@
       "warranty": "24T"
     },
     {
+      "name": "Máy in màu CANON PIXMA G3010 Wifi Chính hãng FV (Scan, Copy, A4, A5, Resolution 4800x1200, Ink Bottles GI-790, Mực in liên tục, 445x533x260mm, 6.3kg, Windows, Linux)",
+      "price": 4785000,
+      "warranty": "12T"
+    },
+    {
       "name": "Máy in phun màu Canon PIXMA G3770 (A4/A5/ In/ Copy/ Scan/ USB/ WIFI)",
       "price": 5234000,
       "warranty": "12T"
@@ -9524,6 +9984,11 @@
     {
       "name": "Máy in màu Brother DCP T226 (Scan - copy) FV",
       "price": 2828000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Máy in đa chức năng Pantum M6505 Chính hãng FV (A4, In, Copy, Scan, Resolution 1200x1200, First Print 7.8s, Speed 22ppm A4, Input 150 sheets, 417x305x244mm, 7.5kg, Windows, macOS ,Linux)",
+      "price": 3198000,
       "warranty": "12T"
     },
     {
@@ -9587,6 +10052,11 @@
       "warranty": "1T"
     },
     {
+      "name": "Cartridge prinmax 78A FV (Canon 328,Canon 326,/HP 1566/1606-CANONMF4750/4450/4412/D520)",
+      "price": 186000,
+      "warranty": "1T"
+    },
+    {
       "name": "Cartridge prinmax 79A FV (HP M12W/ M12A/ M26A)",
       "price": 186000,
       "warranty": "1T"
@@ -9607,8 +10077,23 @@
       "warranty": "1T"
     },
     {
+      "name": "Cartridge prinmax 05A/80A FV (HP P2035/2035n/2035d/400/401...CANON 6300/6330/6650dn/251DW...) FV",
+      "price": 215000,
+      "warranty": "1T"
+    },
+    {
+      "name": "Cartridge prinmax 26A FV (Có chip) (HP M402n/M402d/M402dn)",
+      "price": 252000,
+      "warranty": "1T"
+    },
+    {
       "name": "Cartridge prinmax 107a FV (Có Chip) (HP 107A/107W/M135A/M135W/137FNW…)",
       "price": 256000,
+      "warranty": "1T"
+    },
+    {
+      "name": "Cartridge prinmax 49A/53A FV (HP 1160/1320/Canon 3300/CANON 308/HP P2014/P2015/CANON 315)",
+      "price": 257000,
       "warranty": "1T"
     },
     {
@@ -9914,6 +10399,11 @@
       "warranty": ""
     },
     {
+      "name": "Loa thanh 2.0 T-WOLF S4 LED FV (3Wx2, Jack 3.5mm + USB)",
+      "price": 243000,
+      "warranty": "6T"
+    },
+    {
       "name": "Loa thanh GENIUS SoundBar 100 Chính hãng FV (Kết nối USB)",
       "price": 252000,
       "warranty": "12T"
@@ -9932,6 +10422,11 @@
       "name": "Loa 2.0 X-STAR M22 FV (Kết nối USB)",
       "price": 178000,
       "warranty": "12T"
+    },
+    {
+      "name": "Loa 2.0 T-WOLF S1 LED 7 màu FV (Jack 3.5mm + USB)",
+      "price": 187000,
+      "warranty": "6T"
     },
     {
       "name": "Loa 2.0 T-WOLF S6 Black FV (LED, 3Wx2, Jack 3.5mm-USB, Surround sound)",
@@ -10273,78 +10768,43 @@
       "warranty": "Theo thời hạn bản quyền"
     },
     {
-      "name": "Máy in 1 mặt CANON imageCLASS LBP6030 Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 10s, First Print 7.8s, Speed 18ppm, Input 150 sheets, Cartridge 325/35A, 364x249x199mm, 5.0kg, Windows, macOS)",
-      "price": 2866000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Máy in 2 mặt BROTHER HL-L2321D Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 7s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 356x360x183mm, 6.8kg, Windows, macOS, Linux)",
-      "price": 3163000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Máy in 2 mặt BROTHER HL-L2361DN Chính hãng FV (LAN, A4, A5, Resolution 600x600, Warm-up 7s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 356x360x183mm, 6.8kg, Windows, macOS, Linux, iOS, Android)",
-      "price": 4249000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Máy Scan màu CANON CanoScan LiDE 300 Chính hãng FV (A4, Resolution 2400x2400, 250x367x42mm, 1.7kg, Windows, macOS, Linux)",
-      "price": 1878000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Máy Scan màu CANON CanoScan LiDE 400 Chính hãng FV (A4, Resolution 4800x4800, 250x367x42mm, 1.7kg, Windows, macOS, Linux)",
-      "price": 2696000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Máy Scan 2 mặt HP ScanJet Pro 3000 S4 6FW07A Chính hãng FV (A4, A5, ADF,600 dpi, 300x172x154mm, 2.7kg, Windows, macOS)",
-      "price": 10325000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Máy in đa chức năng Pantum M6505 Chính hãng FV (A4, In, Copy, Scan, Resolution 1200x1200, First Print 7.8s, Speed 22ppm A4, Input 150 sheets, 417x305x244mm, 7.5kg, Windows, macOS ,Linux)",
-      "price": 3198000,
-      "warranty": "12T"
-    },
-    {
-      "name": "DELL Ins 3530 i3-1305U/16GB/512GB SSD/Win11,office/15.6FHD_I3U165W11SLU",
-      "price": 18729000,
+      "name": "Bản quyền BKAV Pro Internet Security AI 1PC/12T  FV",
+      "price": 271000,
       "warranty": ""
     },
     {
-      "name": "Dell Inspiron 15 3520 i5 1235U/16GB/512GSSD/Win11,Office/15”6FHD,Black_N5I5003W",
-      "price": 19898000,
+      "name": "Bản quyền KASPERSKY STANDARD 1PC/12T Box NTS FV",
+      "price": 275000,
       "warranty": ""
     },
     {
-      "name": "Dell Ins 3520 i5 1235U/16GB/512GSSD/Win11,Office/15”6FHD_ i5U165W11SLU",
-      "price": 19898000,
+      "name": "Bản quyền KASPERSKY STANDARD 3PC/12T Box NTS FV",
+      "price": 372000,
       "warranty": ""
     },
     {
-      "name": "Dell Ins 3530 I5-1334U/16G/512GSSD/Win11,Office/15”6FHD_5I5530W1",
-      "price": 21651000,
+      "name": "Bản quyền KASPERSKY PLUS 1PC/12T Box NTS FV",
+      "price": 420000,
       "warranty": ""
     },
     {
-      "name": "Dell Ins 3530 I5-1334U/16G/512GSSD/Win11,Office/15”6FHD_i5U165W11SLU (1334U)",
-      "price": 21651000,
+      "name": "Bản quyền KASPERSKY PREMIUM 1U/12T Digital FV",
+      "price": 464000,
       "warranty": ""
     },
     {
-      "name": "Dell DC15250 i5-1334U/16G/512GSSD/Win11,office/15.6FHD_DC5I5357W1",
-      "price": 22235000,
+      "name": "Bản quyền KASPERSKY STANDARD 5PC/12T Box NTS  FV",
+      "price": 538000,
       "warranty": ""
     },
     {
-      "name": "Dell Ins N3530 i7-1355U/8GB/512GB/Win11,OFFICE/15.6FHD,Black_71011775",
-      "price": 24573000,
+      "name": "Bản quyền KASPERSKY PLUS 3PC/12T Box NTS  FV",
+      "price": 722000,
       "warranty": ""
     },
     {
-      "name": "Dell DC15250 i7-1355U/16GB/512GB/Win11,OFFICE/15.6FHD_DC5I7748W1",
-      "price": 25741000,
+      "name": "Bản quyền KASPERSKY PLUS 5PC/12T Box NTS  FV",
+      "price": 939000,
       "warranty": ""
     },
     {
@@ -10428,11 +10888,6 @@
       "warranty": ""
     },
     {
-      "name": "EP2-06796 Office Home 2024 All Lng APAC EM Retail Online ESD (Key ESD gửi mail)- 1 key 1 máy",
-      "price": 3190000,
-      "warranty": ""
-    },
-    {
       "name": "Microsoft 365 Business Standard_12 months (Dùng cho khách hàng doanh nghiệp full app, được chuyển máy khác, cài cho máy cũ mới, cài được cho 5 thiết bị nhưng không sử dung được đồng thời) Chứng nhận License đặt 2-3 ngày",
       "price": 3583000,
       "warranty": ""
@@ -10480,141 +10935,6 @@
       "warranty": ""
     },
     {
-      "name": "CPU SK 1155 Intel Core i3-3220 Tray (Hàng cũ đã qua sử dụng)(3.3GHz, 2 nhân, 4 luồng, 3MB, 55W)",
-      "price": 230000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1155 Intel Core i5-2400 Tray (Hàng cũ đã qua sử dụng)(3.1GHz up to 3.4GHz, 4 nhân, 4 luồng, 6MB, 95W)",
-      "price": 411000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1155 Intel Core i5-2500 Tray (Hàng cũ đã qua sử dụng)(3.3GHz up to 3.7GHz, 4 nhân, 4 luồng, 6MB, 95W)",
-      "price": 443000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1155 Intel Core i5-3470 Tray FV (Hàng cũ đã qua sử dụng)(3.2GHz up to 3.6GHz, 4 nhân, 4 luồng, 6MB, 77W)",
-      "price": 486000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1155 Intel Core i7-3770 Tray (Hàng cũ đã qua sử dụng) FV (3.4GHz up to 3.9GHz, 4 nhân, 8 luồng, 8MB Cache, 77W)(THAY THẾ CHO i7-2600, i7-3770S)",
-      "price": 1052000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1150 Intel Core i3-4150 Tray FV (Hàng cũ đã qua sử dụng)(3.5GHz, 2 nhân, 4 luồng, 3MB, 54W)",
-      "price": 227000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1150 Intel Core i3-4160 Tray (Hàng cũ đã qua sử dụng) FV (3.6GHz, 2 nhân, 4 luồng, 3MB, 54W)",
-      "price": 245000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1150 Intel Core i3-4170 Tray FV (Hàng cũ đã qua sử dụng)(3.7GHz, 2 nhân, 4 luồng, 3MB, 54W)",
-      "price": 257000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1150 Intel Core i7-4770 Tray (Hàng cũ đã qua sử dụng) FV (3.4GHz up to 3.9GHz, 4 nhân, 8 luồng, 8MB, 84W)",
-      "price": 1549000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1151v1 Intel Core i5-7500T Tray (Hàng cũ đã qua sử dụng)(2.7GHz up to 3.3GHz, 4 nhân, 4 luồng, 6MB, 35W)",
-      "price": 988000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1151v1 Intel Core i5-6500 Tray (Hàng cũ đã qua sử dụng) FV (3.2GHz up to 3.6GHz, 4 nhân, 4 luồng, 6MB, 65W)",
-      "price": 1026000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1151v1 Intel Core i5-7400 Tray (Hàng cũ đã qua sử dụng) FV (3.0GHz up to 3.5GHz, 4 nhân, 4 luồng, 6MB, 65W)",
-      "price": 1113000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1151v1 Intel Core i5-7500 Tray FV (Hàng cũ đã qua sử dụng) FV (3.4GHz up to 3.8GHz, 4 nhân, 4 luồng, 6MB, 65W)",
-      "price": 1150000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1151v1 Intel Core i7-6700 Tray (Hàng cũ đã qua sử dụng) FV (3.4GHz up to 4.0GHz, 4 nhân, 8 luồng, 8MB, 65W)",
-      "price": 1745000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1151v2 Intel Core i5-8600 Tray (Hàng cũ đã qua sử dụng)(3.1GHz up to 4.3GHz, 6 nhân, 6 luồng, 9MB, 65W)",
-      "price": 1890000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1151v2 Intel Core i5-9400F Tray FV (Hàng cũ đã qua sử dụng)(Phải dùng card VGA, 2.9GHz up to 4.1GHz, 6 nhân, 6 luồng, 9MB, 65W)",
-      "price": 2078000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1151v2 Intel Core i7-8700 Tray (Hàng cũ đã qua sử dụng) FV (3.2GHz up to 4.6GHz, 6 nhân, 12 luồng, 12MB, 65W)",
-      "price": 3207000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1200 v2 Intel Core i5-11400F Tray (Hàng cũ đã qua sử dụng)(2.9GHz up to 4.3GHz, 6 nhân, 12 luồng, 12MB, 65W, dùng VGA)",
-      "price": 3453000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1200 v1 Intel Core i5-10400 Tray (Hàng cũ đã qua sử dụng)(2.9GHz up to 4.3GHz, 6 nhân, 12 luồng, 12MB, 65W)",
-      "price": 3533000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1200 v2 Intel Core i5-11400 Tray (Hàng cũ đã qua sử dụng)(2.6GHz up to 4.4GHz, 6 nhân, 12 luồng, 12MB, 65W)(THAY THẾ CHO 11500 TẠM HẾT)",
-      "price": 3807000,
-      "warranty": "36T"
-    },
-    {
-      "name": "CPU SK 1200 v2 Intel Core i7-11700 Tray (Hàng cũ đã qua sử dụng)(2.5GHz up to 4.9GHz, 8 nhân, 16 luồng, 16MB, 65W)",
-      "price": 6203000,
-      "warranty": "36T"
-    },
-    {
-      "name": "Mainboard SK 1151v1 GIGABYTE H110M-M2 Chính hãng FV (VGA, HDMI, LAN 1000Mbps, 2 khe RAM DDR4, mATX)",
-      "price": 1924000,
-      "warranty": "36T"
-    },
-    {
-      "name": "Mainboard SK 1200 v1-2 ASUS PRIME H510M-K R2.0 Chính hãng FV (VGA, HDMI, M.2 PCIe/NVMe, LAN 1000Mbps, 2 khe RAM DDR4, mATX)",
-      "price": 1796000,
-      "warranty": "36T"
-    },
-    {
-      "name": "DDR3 PC 4G/1333 HYNIX/SAMSUNG/MICRON/KINGSTON... (Hàng cũ đã qua sử dụng) FV (No box)",
-      "price": 249000,
-      "warranty": "36T"
-    },
-    {
-      "name": "DDR3 PC 4G/1600 HYNIX/SAMSUNG/MICRON/KINGSTON... (Hàng cũ đã qua sử dụng) FV (No box) FV",
-      "price": 252000,
-      "warranty": "36T"
-    },
-    {
-      "name": "DDR4 PC 16G/2666 KINGMAX New Chính hãng Viễn Sơn (Box) FV",
-      "price": 3181000,
-      "warranty": "36T"
-    },
-    {
-      "name": "DDR4 PC 16G/3200 KINGMAX New Chính hãng Viễn Sơn FV (Box)",
-      "price": 3259000,
-      "warranty": "36T"
-    },
-    {
       "name": "KIT DDR5 PC 32G/5200 (2x16G) KINGSTON FURY BEAST RGB Chính hãng FV",
       "price": 14341000,
       "warranty": "36T"
@@ -10623,11 +10943,6 @@
       "name": "KIT DDR5 PC 32G/5600 (2x16G) KINGSTON FURY BEAST Black New Chính hãng FV (KF556C40BBK2-32)",
       "price": 15056000,
       "warranty": "36T"
-    },
-    {
-      "name": "Nguồn VSP VXP650SGVN 650W 80 Plus Gold Full Modular Chính hãng FV",
-      "price": 1386000,
-      "warranty": "60T"
     },
     {
       "name": "Chuông cửa ko dây KAWASAN KW-DB658 FV  (1 nút nhấn  1 chuông)",
@@ -11005,26 +11320,6 @@
       "warranty": "36T"
     },
     {
-      "name": "Router Wifi 4G LTE TP-Link M7000 Chính hãng FV (10 user)",
-      "price": 838000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Router Wifi 4G LTE TP-Link TL-MR200 FV (2 anten - 300Mbps/2.4GHz, 433Mbps/5GHz - 4 port)",
-      "price": 1478000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Case VSP X3-M LUX White FV",
-      "price": 895000,
-      "warranty": "BT"
-    },
-    {
-      "name": "Case VSP AQUAL X3 Pro White FV",
-      "price": 972000,
-      "warranty": "BT"
-    },
-    {
       "name": "Kích sóng MERCUSYS ME12 FV (có anten, 300Mbps) FV",
       "price": 252000,
       "warranty": "24T"
@@ -11130,31 +11425,6 @@
       "warranty": "24T"
     },
     {
-      "name": "VGA ASUS GT710 2GB DDR5 SL BRK EVO Chính hãng FV",
-      "price": 1319000,
-      "warranty": "36T"
-    },
-    {
-      "name": "VGA ASUS GT 730 Chính hãng FV (GT730-SL-2GD5-BRK, VGA, HDMI, DVI 24+1, 2GB, DDR5, 64bit, Ko Fan, 300W, 0pin)",
-      "price": 1906000,
-      "warranty": "36T"
-    },
-    {
-      "name": "VGA ASUS GT 1030 Chính hãng FV (HDMI, DVI 24+1, 2G, DDR5, 64bit, 0 Fan, 300W, 0pin)",
-      "price": 2616000,
-      "warranty": "36T"
-    },
-    {
-      "name": "VGA T-WOLF TW-RTX2060 6G D6 FV (RTX2060, 6GB, GDDR6, 192bit, 1xDVI, 1xHDMI, 1xDP, 2Fan, 8pin)",
-      "price": 6359000,
-      "warranty": "36T"
-    },
-    {
-      "name": "VGA T-WOLF TW-RX580 8G D5 WHITE FV (TW-RX580-8GD5, 256bit,HDMI, DVI, DP, 2 Fan, 6pin)",
-      "price": 3824000,
-      "warranty": "36T"
-    },
-    {
       "name": "Keo ống chích nhỏ bạc HUTIXI HT-SR760 FV",
       "price": 50000,
       "warranty": "BT"
@@ -11175,16 +11445,6 @@
       "warranty": "BT"
     },
     {
-      "name": "Tản nhiệt khí CPU 2 ống đồng JONSBO CR-1200 fan 9cm LED Đa năng FV (PWM 4PIN, 115x/1200/1700/AM4)",
-      "price": 263000,
-      "warranty": "3T"
-    },
-    {
-      "name": "Tản nhiệt nước AIO VSP ICE G240 White FV",
-      "price": 878000,
-      "warranty": "12T"
-    },
-    {
       "name": "Bộ kit 3 Fan Led ARGB + Hub VSP V220 PRO Black FV",
       "price": 358000,
       "warranty": "3T"
@@ -11195,99 +11455,9 @@
       "warranty": "3T"
     },
     {
-      "name": "Mouse có dây T-WOLF V13 USB Gaming Chính hãng FV",
-      "price": 76000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Mouse có dây T-WOLF V1 LED USB FV",
-      "price": 81000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Mouse có dây RAPOO N100 USB Chính hãng FV",
-      "price": 107000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Mouse có dây LOGITECH B100 USB Chính hãng FV (Dây dài 1m8)",
-      "price": 121000,
-      "warranty": "36T"
-    },
-    {
-      "name": "Mouse có dây GENIUS DX-110/120 USB Chính hãng FV",
-      "price": 124000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Mouse có dây DELL MS116 USB Chính hãng FV",
-      "price": 147000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Mouse có dây NEWMEN G10 PLUS Black USB Chính hãng FV (THAY THẾ CHO EBLUE 146BK/146TẠM HẾT)",
-      "price": 191000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Mouse có dây NEWMEN G10 PLUS Yellow USB Chính hãng FV",
-      "price": 191000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Mouse có dây LOGITECH G102 Gen II Lightsync RGB Gaming Đen Chính hãng FV",
-      "price": 464000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Mouse có dây LOGITECH G102 Gen II Lightsync RGB Gaming Trắng Chính hãng FV",
-      "price": 471000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Mouse ko dây T-WOLF Q4 FV (Có pin, 1xAA)",
-      "price": 94000,
-      "warranty": "6T"
-    },
-    {
-      "name": "Mouse ko dây LOGITECH M185 Laser (1xAA, Công tắc)",
-      "price": 114000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Mouse ko dây LOGITECH M330 Black Silent FV (1xAA, Nhấp ko ồn)",
-      "price": 117000,
-      "warranty": "6T"
-    },
-    {
-      "name": "Mouse ko dây T-WOLF Q13 (Pin sạc, Công tắc, 6 nút) FV",
-      "price": 154000,
-      "warranty": "6T"
-    },
-    {
-      "name": "Keyboard DELL KB216 USB Chính hãng (Chuyên văn phòng) FV",
-      "price": 216000,
-      "warranty": "12T"
-    },
-    {
       "name": "Bàn phím quang cơ DAREU EK810X BLACK-GREY (OPTICAL BLUE SWITCH) FV",
       "price": 790000,
       "warranty": ""
-    },
-    {
-      "name": "Keyboard T-WOLF T78 White FV (Phím cơ, 99 keys, Red Switch, Bluetooth-Wireless-TypeC, Dây dài 1.5m)",
-      "price": 776000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Keyboard ko dây AULA S100 PRO Xanh dương - Trắng - Tím đậm FV (Phím cơ, 99 keys, Brown switch, TRIPLE-MODE, kèm Dây USB type-C)",
-      "price": 810000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Keyboard ko dây AULA S100 PRO Xanh dương - Trắng - Tím FV (Phím cơ, 99 keys, Red switch, TRIPLE-MODE, kèm Dây USB type-C)",
-      "price": 827000,
-      "warranty": "24T"
     },
     {
       "name": "Bàn phím cơ Gaming XIBERIA XS3100 Grey + Black FV (Mua 10 Tặng 1)",
@@ -11302,36 +11472,6 @@
     {
       "name": "Bàn phím cơ Gaming XIBERIA CZ98 FV( Mua 10 Tặng 1)",
       "price": 1693000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Combo Keyboard + Mouse BOSSTON D5300 Chính hãng FV",
-      "price": 173000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Combo Keyboard + Mouse T-WOLF TF500 USB FV",
-      "price": 174000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Combo Keyboard + Mouse T-WOLF TF230 LED FV",
-      "price": 204000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Combo Keyboard + Mouse T-WOLF TF200 LED FV",
-      "price": 218000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Combo Keyboard + Mouse BOSSTON 837 LED Chính hãng (THAY THẾ CHO BOSSTON D6800, T-WOLF TF800) FV",
-      "price": 219000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Combo ko dây Keyboard + Mouse T-WOLF TF770 Pink (Có pin, 1xAAA, 1xAA) FV",
-      "price": 318000,
       "warranty": "12T"
     },
     {
@@ -11350,43 +11490,18 @@
       "warranty": "BT"
     },
     {
-      "name": "Switch TP-Link TL-SF1008D 8 port Chính hãng FV (100Mbps, Vỏ nhựa)",
-      "price": 207000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Switch TP-Link TL-SF1016D 16 port Chính hãng FV (100Mbps)",
-      "price": 479000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Switch TP-Link TL-SF1024D 24 port Chính hãng FV (100Mbps, Vỏ sắt)",
-      "price": 999000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Switch TP-Link TL-SG1008D 8 port Gigabit Chính hãng FV (1.0Gbps)",
-      "price": 435000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Switch TP-Link TL-SG1016D 16 port Gigabit Chính hãng FV (1Gbps, Vỏ sắt, Ver 8, 294x180x44mm)(THAY THẾ CHO DLINK DGS-1016C)",
-      "price": 1258000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Switch TP-Link TL-SG1024D 24 port Gigabit Chính hãng FV (1Gbps, Vỏ sắt)",
-      "price": 1796000,
-      "warranty": "24T"
-    },
-    {
-      "name": "USB thu Wifi TP-Link TL-WN722N Chính hãng FV (Có anten, 150Mbps)",
-      "price": 221000,
-      "warranty": "24T"
-    },
-    {
       "name": "Card thu Wifi 6 + Bluetooth 5.3 Mercusys MA80XE AX3000 Chính hãng (2 anten) FV",
       "price": 551000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Card thu Wifi TP-Link TL-WN781ND Chính hãng FV (1 anten, 150Mbps, chân ngắn 1X, Windows)",
+      "price": 218000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Card thu Wifi TP-Link TL-WN881ND Chính hãng FV (2 anten, 300Mbps, chân ngắn 1x, Windows, Linux)",
+      "price": 285000,
       "warranty": "24T"
     },
     {
@@ -11400,44 +11515,29 @@
       "warranty": "24T"
     },
     {
-      "name": "Card PCI-E ra 2 Cổng Com (RS232) VEGGIEG V-PC03 FV",
-      "price": 327000,
+      "name": "Card PCle thu Wifi DLINK DWA-X582 Chính hãng FV (2 anten, Tốc độ 2402 Mbps 5GHz + 574 Mbps 2.4GHz, Bluetooth 5.1, Windows)",
+      "price": 641000,
       "warranty": "24T"
     },
     {
-      "name": "Cable LAN AMPLX lẻ tính mét (Nhôm mạ đồng)",
-      "price": 43000,
-      "warranty": "BT"
+      "name": "Card LAN MERCUSYS MA210E Chính hãng FV (1 Gbps Cổng LAN RJ45 Windows 11/10/8.1/8)",
+      "price": 213000,
+      "warranty": "24T"
     },
     {
-      "name": "Cable LAN GOLDEN JAPAN UTP CAT5E 100m Cam FV (Nhôm mạ đồng)",
-      "price": 477000,
-      "warranty": "BT"
+      "name": "Card LAN TP-Link TG-3468 Gigabit Chính hãng FV chân ngắn 1x, Windows",
+      "price": 229000,
+      "warranty": "24T"
     },
     {
-      "name": "Cable LAN GOLDEN JAPAN SFTP CAT5E 100m Xanh lá FV (Chống nhiễu 2 lớp, Sợi cường lực đơn, Nhôm mạ đồng)",
-      "price": 575000,
-      "warranty": "BT"
+      "name": "Card LAN MERCUSYS MA510E (10 Gbps Cổng LAN RJ45 Windows, Linux)  FV",
+      "price": 1220000,
+      "warranty": "24T"
     },
     {
-      "name": "Cable LAN GOLDEN JAPAN FTP CAT6 100m Xanh dương FV (Chống nhiễu, Lõi chữ thập, Sợi cường lực đơn, Nhôm mạ đồng)",
-      "price": 780000,
-      "warranty": "BT"
-    },
-    {
-      "name": "Cable LAN GOLDEN JAPAN SFTP CAT6 100m Vàng FV",
-      "price": 810000,
-      "warranty": "BT"
-    },
-    {
-      "name": "Cable LAN GOLDEN TAIWAN UTP CAT5E 305m Cam FV (Nhôm mạ đồng)",
-      "price": 1607000,
-      "warranty": "BT"
-    },
-    {
-      "name": "Cable LAN GOLDEN TAIWAN UTP CAT6 305m Vàng (Lõi chữ thập, Nhôm mạ đồng)",
-      "price": 2750000,
-      "warranty": "BT"
+      "name": "Card PCI-E ra 2 Cổng Com (RS232) VEGGIEG V-PC03 FV",
+      "price": 327000,
+      "warranty": "24T"
     },
     {
       "name": "Đầu RJ11 2 line điện thoại (1Bịch xuất 100 cái)",
@@ -11552,7 +11652,7 @@
     {
       "name": "Hộp test cáp mạng Âm tường RJ45 + RJ11 WIRE TRACKER MJ-868",
       "price": 365000,
-      "warranty": ""
+      "warranty": "1T"
     },
     {
       "name": "Bộ Test Cáp Mạng Cổng Kết Nối RJ45 + RJ11 VegGieg V-E105",
@@ -11592,11 +11692,6 @@
     {
       "name": "Bộ chuyển đổi quang điện TP-Link MC210CS FV",
       "price": 518000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Đầu ghi IP HIK DS-7108NI-Q1/M FV (8 kênh, ko có cổng PoE, H.265+, Vỏ sắt)",
-      "price": 1364000,
       "warranty": "24T"
     },
     {
@@ -11648,26 +11743,6 @@
       "name": "ADAPTER VCBEL 12V-6A đầu (5.5*2.1)",
       "price": 136000,
       "warranty": "12T"
-    },
-    {
-      "name": "Máy tính để bàn All In One VSP VA221-610H Black FV (Sản phẩm AIO này chưa bao gồm CPU - Ram - Ổ Cứng)",
-      "price": 5228000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Thẻ nhớ MicroSD 64G TEAMGROUP Box Class10 U1 100MB/s Chính hãng FV (Kèm SD adapter)",
-      "price": 372000,
-      "warranty": "24T"
-    },
-    {
-      "name": "Thẻ nhớ MicroSD 64G KINGSTON CANVAS Select 100R Box Class10 U1 V10 100MB/s Chính hãng FV",
-      "price": 515000,
-      "warranty": "60T"
-    },
-    {
-      "name": "USB 3.0 64G KINGSTON DataTraveler/DTX Chính hãng FPT/ Viết Sơn FV (USB 3.1 Gen 1)",
-      "price": 239000,
-      "warranty": "24T"
     },
     {
       "name": "Đầu đọc thẻ - Reader SD và TF VegGieg V-C202 480Mbps (USB 2.0) Chính hãng FV",
@@ -11760,16 +11835,6 @@
       "warranty": "24T"
     },
     {
-      "name": "Pad mouse Arigato (250x200x2mm) FV",
-      "price": 51000,
-      "warranty": "BT"
-    },
-    {
-      "name": "Pad mouse  Chuyên Game (300x250x4mm)",
-      "price": 56000,
-      "warranty": "BT"
-    },
-    {
       "name": "Mic thu âm K8-1 (Jack Lightning, 1 mic) FV",
       "price": 174000,
       "warranty": "BT"
@@ -11778,16 +11843,6 @@
       "name": "Mic thu âm K9-2 FV (Jack Type-C, 2 mic)",
       "price": 219000,
       "warranty": "BT"
-    },
-    {
-      "name": "Loa thanh 2.0 T-WOLF S4 LED FV (3Wx2, Jack 3.5mm + USB)",
-      "price": 243000,
-      "warranty": "6T"
-    },
-    {
-      "name": "Loa 2.0 T-WOLF S1 LED 7 màu FV (Jack 3.5mm + USB)",
-      "price": 187000,
-      "warranty": "6T"
     },
     {
       "name": "UPS PROLINK PRO700SFC 650VA Chính hãng FV (UPS Line-interactive, 12V/8.2AH x1)",
@@ -11835,13 +11890,18 @@
       "warranty": "12T"
     },
     {
-      "name": "Máy in laser đen trắng HP 4003DN 2Z609A (A4/A5/ Đảo mặt/ USB/ LAN) FV",
-      "price": 6499000,
-      "warranty": ""
-    },
-    {
       "name": "Máy in phun màu Canon PIXMA G570 Wifi (A4 A5 In USB WIFI)",
       "price": 6489000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Máy Scan màu CANON CanoScan LiDE 300 Chính hãng FV (A4, Resolution 2400x2400, 250x367x42mm, 1.7kg, Windows, macOS, Linux)",
+      "price": 1878000,
+      "warranty": "12T"
+    },
+    {
+      "name": "Máy Scan màu CANON CanoScan LiDE 400 Chính hãng FV (A4, Resolution 4800x4800, 250x367x42mm, 1.7kg, Windows, macOS, Linux)",
+      "price": 2696000,
       "warranty": "12T"
     },
     {
@@ -11858,6 +11918,11 @@
       "name": "Máy Scan Ricoh SP1130N Chính hãng  (A4/A5/ Đảo mặt/ ADF/ USB/ LAN) FV",
       "price": 9828000,
       "warranty": ""
+    },
+    {
+      "name": "Máy Scan 2 mặt HP ScanJet Pro 3000 S4 6FW07A Chính hãng FV (A4, A5, ADF,600 dpi, 300x172x154mm, 2.7kg, Windows, macOS)",
+      "price": 10325000,
+      "warranty": "12T"
     },
     {
       "name": "Máy Scan Canon DR-C225 II (Scan đảo mặt A4 A5 USB)",
@@ -11958,26 +12023,6 @@
       "name": "Mực nạp OEM Pantum RG208 Black ( Dùng cho máy in Laser, không dùng để in tiền, Pantum P2516/P2505W/M6505 - 1600 trang)",
       "price": 160000,
       "warranty": ""
-    },
-    {
-      "name": "Cartridge prinmax 78A FV (Canon 328,Canon 326,/HP 1566/1606-CANONMF4750/4450/4412/D520)",
-      "price": 186000,
-      "warranty": "1T"
-    },
-    {
-      "name": "Cartridge prinmax 05A/80A FV (HP P2035/2035n/2035d/400/401...CANON 6300/6330/6650dn/251DW...) FV",
-      "price": 215000,
-      "warranty": "1T"
-    },
-    {
-      "name": "Cartridge prinmax 26A FV (Có chip) (HP M402n/M402d/M402dn)",
-      "price": 252000,
-      "warranty": "1T"
-    },
-    {
-      "name": "Cartridge prinmax 49A/53A FV (HP 1160/1320/Canon 3300/CANON 308/HP P2014/P2015/CANON 315)",
-      "price": 257000,
-      "warranty": "1T"
     },
     {
       "name": "DRUM 12A FV (Trống máy in thay thế cho hộp mực 12A)",
@@ -12125,6 +12170,16 @@
       "warranty": ""
     },
     {
+      "name": "Dell Inspiron 15 3520 i5 1235U/16GB/512GSSD/Win11,Office/15”6FHD,Black_N5I5003W",
+      "price": 19898000,
+      "warranty": ""
+    },
+    {
+      "name": "Dell Ins 3520 i5 1235U/16GB/512GSSD/Win11,Office/15”6FHD_ i5U165W11SLU",
+      "price": 19898000,
+      "warranty": ""
+    },
+    {
       "name": "MSI F13MG-240VNCP I5-1335U/16G/512GSSD/Win11/14FHD/LED_KB",
       "price": 21066000,
       "warranty": ""
@@ -12140,12 +12195,27 @@
       "warranty": ""
     },
     {
+      "name": "Dell Ins 3530 I5-1334U/16G/512GSSD/Win11,Office/15”6FHD_5I5530W1",
+      "price": 21651000,
+      "warranty": ""
+    },
+    {
       "name": "Dell Pro 14 E PV14250-120U-08512U Core 5 120U/8G/512GSSD/14FHD/2Y",
       "price": 21651000,
       "warranty": ""
     },
     {
+      "name": "Dell Ins 3530 I5-1334U/16G/512GSSD/Win11,Office/15”6FHD_i5U165W11SLU (1334U)",
+      "price": 21651000,
+      "warranty": ""
+    },
+    {
       "name": "Asus X1405VA-LY623W i5-13420H/16G/512GSSD/Win11/14\"WUXGA",
+      "price": 22235000,
+      "warranty": ""
+    },
+    {
+      "name": "Dell DC15250 i5-1334U/16G/512GSSD/Win11,office/15.6FHD_DC5I5357W1",
       "price": 22235000,
       "warranty": ""
     },
@@ -12190,12 +12260,22 @@
       "warranty": ""
     },
     {
+      "name": "Dell Ins N3530 i7-1355U/8GB/512GB/Win11,OFFICE/15.6FHD,Black_71011775",
+      "price": 24573000,
+      "warranty": ""
+    },
+    {
       "name": "HP 14-ep0110TU i7-1355U/16G/512GSSD/Win11/14FHD_8C5K9PA",
       "price": 25741000,
       "warranty": ""
     },
     {
       "name": "HP 15-fr0032TU i7-13620H/16G/512GBSSD/Win11/15.6FHD_BZ7T9PA",
+      "price": 25741000,
+      "warranty": ""
+    },
+    {
+      "name": "Dell DC15250 i7-1355U/16GB/512GB/Win11,OFFICE/15.6FHD_DC5I7748W1",
       "price": 25741000,
       "warranty": ""
     },
@@ -12213,21 +12293,6 @@
       "name": "Asus UX3405MA-PP151W Ultra 5 125H/16G/512GSSD/Win11/14.0 3K OLED",
       "price": 33923000,
       "warranty": ""
-    },
-    {
-      "name": "DDR3 LAPTOP 4G/1600 HYNIX/SAMSUNG/MICRON/KINGSTON... (Hàng cũ đã qua sử dụng) FV (No box) FV",
-      "price": 197000,
-      "warranty": "36T"
-    },
-    {
-      "name": "DDR4 LAPTOP 8G/3200 KINGMAX New Chính hãng FV (Box)",
-      "price": 2149000,
-      "warranty": "36T"
-    },
-    {
-      "name": "DDR4 LAPTOP 8G/2400 KINGMAX New Chính hãng Viễn Sơn FV (Box)",
-      "price": 2146000,
-      "warranty": "36T"
     },
     {
       "name": "Đế tản nhiệt laptop Cooling Pad N11 - 2 FAN FV",
@@ -12331,7 +12396,7 @@
     },
     {
       "name": "Balo Laptop Đen (2 Ngăn) FV",
-      "price": 180000,
+      "price": 187000,
       "warranty": "BT"
     },
     {
@@ -12575,79 +12640,14 @@
       "warranty": ""
     },
     {
-      "name": "Bản quyền BKAV Pro Internet Security AI 1PC/12T  FV",
-      "price": 271000,
+      "name": "EP2-06796 Office Home 2024 All Lng APAC EM Retail Online ESD (Key ESD gửi mail)- 1 key 1 máy",
+      "price": 3190000,
       "warranty": ""
-    },
-    {
-      "name": "Bản quyền KASPERSKY STANDARD 1PC/12T Box NTS FV",
-      "price": 275000,
-      "warranty": ""
-    },
-    {
-      "name": "Bản quyền KASPERSKY STANDARD 3PC/12T Box NTS FV",
-      "price": 372000,
-      "warranty": ""
-    },
-    {
-      "name": "Bản quyền KASPERSKY PLUS 1PC/12T Box NTS FV",
-      "price": 420000,
-      "warranty": ""
-    },
-    {
-      "name": "Bản quyền KASPERSKY PREMIUM 1U/12T Digital FV",
-      "price": 464000,
-      "warranty": ""
-    },
-    {
-      "name": "Bản quyền KASPERSKY STANDARD 5PC/12T Box NTS  FV",
-      "price": 538000,
-      "warranty": ""
-    },
-    {
-      "name": "Bản quyền KASPERSKY PLUS 3PC/12T Box NTS  FV",
-      "price": 722000,
-      "warranty": ""
-    },
-    {
-      "name": "Bản quyền KASPERSKY PLUS 5PC/12T Box NTS  FV",
-      "price": 939000,
-      "warranty": ""
-    },
-    {
-      "name": "Cable VGA 15m UNITEK YC 507 FV (Dây tròn trơn, Hàng cao cấp)",
-      "price": 336000,
-      "warranty": "18T"
     },
     {
       "name": "Bộ gộp HDMI 2 vào 1 ra hỗ trợ 4Kx2K 30hz Ugreen (50966) Chính hãng FV",
       "price": 278000,
       "warranty": "18T"
-    },
-    {
-      "name": "Cable HDMI 8m UNITEK YC 141 4K FV (Dây tròn trơn, hàng cao cấp) (THAY THẾ CHO HDMI 8m M-Pard SH-020)",
-      "price": 304000,
-      "warranty": "18T"
-    },
-    {
-      "name": "Cable HDMI 10m UNITEK YC 142 4K FV (Dây tròn trơn, hàng cao cấp)(THAY THẾ CHO 12m UNITEK TẠM HẾT)",
-      "price": 345000,
-      "warranty": "18T"
-    },
-    {
-      "name": "Cable HDMI 15m UNITEK YC 143M 4K FV (Dây tròn trơn, hàng cao cấp)",
-      "price": 610000,
-      "warranty": "18T"
-    },
-    {
-      "name": "Cable HDMI 20m UNITEK YC 144 4K FV (Dây tròn trơn, hàng cao cấp)",
-      "price": 920000,
-      "warranty": "18T"
-    },
-    {
-      "name": "Cable Máy in 1.5m Chống nhiễu 2.0",
-      "price": 57000,
-      "warranty": "BT"
     },
     {
       "name": "Đầu nối HDMI to HDMI 2,5cm (HDMI cái sang HDMI cái)  FV",
@@ -12683,11 +12683,6 @@
       "name": "Đầu nối HDMI Ugreen (20109) FV",
       "price": 122000,
       "warranty": "18T"
-    },
-    {
-      "name": "Cable chuyển HDMI to VGA 25cm (HDMI đực sang VGA cái, ko Audio) FV",
-      "price": 82000,
-      "warranty": "3T"
     },
     {
       "name": "Đầu chuyển DVI 24+1 sang HDMI VegGieg V-S107 Chính hãng FV",
@@ -12730,19 +12725,9 @@
       "warranty": "12T"
     },
     {
-      "name": "Hub HDMI 3HDMI ra 1HDMI Dtech DT-7018 (Có Remote) FV",
-      "price": 337000,
-      "warranty": "12T"
-    },
-    {
       "name": "Bộ chuyển đổi POE TP-link TL-POE160S Chính hãng FV",
       "price": 431000,
       "warranty": "24T"
-    },
-    {
-      "name": "Hub Type-C Ugreen 15600 ra 3xUSB 3.0 +HDMI 4K@30Hz + VGA + RJ45(LAN) + SD/TF + PD 100W (9in1) FV",
-      "price": 873000,
-      "warranty": "18T"
     },
     {
       "name": "Bộ thu VGA+ HDMI không dây Veggieg V-Q03 Chính hãng FV",
@@ -12886,7 +12871,7 @@
     },
     {
       "name": "Adapter 24V-2A (5.5*2.5) FV",
-      "price": 103000,
+      "price": 106000,
       "warranty": "12T"
     },
     {
@@ -12896,12 +12881,12 @@
     },
     {
       "name": "Adapter 24V-2.5A (5.5*2.1)",
-      "price": 204000,
+      "price": 189000,
       "warranty": "12T"
     },
     {
       "name": "Adapter 24V-2.5A  đầu 3 chấu FV",
-      "price": 215000,
+      "price": 204000,
       "warranty": "12T"
     },
     {
@@ -13070,11 +13055,6 @@
       "warranty": "24T"
     },
     {
-      "name": "SMART Tivi VSP 43inch VUE43GSU01 FV( 3840 x 2160, 60Hz, 2GB, 16GB, 02 cổng USB, 3 cổng HDMI)",
-      "price": 6152000,
-      "warranty": "24T"
-    },
-    {
       "name": "Smart Tivi LG chuyên dụng UHD AI 4K 43 Inch 43UA841CPSA.ATV FV",
       "price": 8730000,
       "warranty": "36T"
@@ -13113,11 +13093,6 @@
       "name": "Máy Trợ Giảng SHIDU SD-S92 (25W + BLUETOOTH / USB / AUX / TF + MICRO CẦM TAY KD + MICRO CHOÀNG TAI 3.5MM + CỤC CHUYỂN MICRO KD U2 + CỤC SẠC USB + CABLE AUX / USB -> MICRO USB -> TYPE-C + NGUỒN + DÂY ĐEO) FV",
       "price": 2229000,
       "warranty": "12T"
-    },
-    {
-      "name": "Bộ đàm MOTOROLA CP 9800 FV (10W, Cự ly: < 1 km, Pin: Li-ion – 7.4V – 4800 mAh)",
-      "price": 800000,
-      "warranty": ""
     },
     {
       "name": "Bộ đàm MOTOROLA GP 3699 PLUS FV (8W, Cự ly: < 1 km, Pin: Li-ion – 7.4V – 4800 mAh)",
