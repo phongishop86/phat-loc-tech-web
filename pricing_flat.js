@@ -58,11 +58,10 @@ const PricingFlatWidget = {
             filteredItems = filteredItems.filter(item => item.name.toLowerCase().includes(q) || item.category.toLowerCase().includes(q));
         }
 
-        // Limit to 500 items if no search, to avoid browser lag
-        const displayItems = this.searchQuery ? filteredItems : filteredItems.slice(0, 500);
+        const displayItems = filteredItems;
         const showingText = this.searchQuery 
             ? `Tìm thấy ${filteredItems.length} kết quả` 
-            : `Đang hiển thị 500 sản phẩm đầu tiên (trên tổng số ${this.flatItems.length})`;
+            : `Đang hiển thị toàn bộ ${this.flatItems.length} sản phẩm`;
 
         const tableRows = displayItems.length > 0 ? displayItems.map(item => `
             <tr class="hover:bg-zinc-800/50 transition-colors border-b border-zinc-800/50 last:border-0 group flex flex-col sm:table-row p-3 sm:p-0">
