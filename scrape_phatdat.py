@@ -120,9 +120,9 @@ for item in items:
             # The previous parts are likely the name
             name = " ".join(parts[:i])
             warranty = part.replace('Bảo hành:', '').strip()
-            # If name has [SP_...], clean it
-            name = re.sub(r'\[SP_\d+\]', '', name)
-            name = re.sub(r'\[\]', '', name).strip()
+            # If name has [SP_...], [MH...] etc, clean it
+            name = re.sub(r'\[.*?\]', '', name)
+            name = name.strip()
             
         elif part.endswith('đ') and '.' in part:
             num_str = part.replace('đ', '').replace('.', '')
