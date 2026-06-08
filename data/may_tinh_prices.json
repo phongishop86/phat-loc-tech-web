@@ -16,6 +16,11 @@
             "warranty": "Bộ máy BH 36T + Keyboard+Mouse BH 12T"
         },
         {
+            "name": "Bộ máy HỌC TẬP & VĂN PHÒNG T-WOLF TW02A FV",
+            "price": 3770000,
+            "warranty": "Bộ máy BH 36T + Keyboard+Mouse BH 12T"
+        },
+        {
             "name": "Bộ máy HỌC TẬP & VĂN PHÒNG T-WOLF TW04AC FV",
             "price": 3935000,
             "warranty": "Bộ máy BH 36T + Keyboard+Mouse BH 12T"
@@ -28,11 +33,6 @@
         {
             "name": "Bộ máy HỌC TẬP & VĂN PHÒNG T-WOLF TW03A FV",
             "price": 4375000,
-            "warranty": "Bộ máy BH 36T + Keyboard+Mouse BH 12T"
-        },
-        {
-            "name": "Bộ máy HỌC TẬP & VĂN PHÒNG T-WOLF TW02A FV",
-            "price": 4399000,
             "warranty": "Bộ máy BH 36T + Keyboard+Mouse BH 12T"
         },
         {
@@ -181,11 +181,6 @@
             "warranty": "Bộ máy BH 36T + Keyboard+Mouse BH 12T"
         },
         {
-            "name": "Bộ máy HỌC TẬP & VĂN PHÒNG T-WOLF TW07 FV",
-            "price": 8642000,
-            "warranty": "Bộ máy BH 36T + Keyboard+Mouse BH 12T"
-        },
-        {
             "name": "Bộ máy HỌC TẬP & VĂN PHÒNG T-WOLF TW12AB FV (H510R8SM256i3-10105) + Tặng Combo Keyboard T-WOLF TF20 + Mouse V13",
             "price": 8813000,
             "warranty": ""
@@ -197,12 +192,12 @@
         },
         {
             "name": "Bộ máy HỌC TẬP & VĂN PHÒNG T-WOLF TW10B FV (H310R8S256L24i5-8500) + Tặng Combo Keyboard+Mouse T-WOLF TF200 + LCD T-Wolf TW-F24IFHD100  (ĐTNV)",
-            "price": 9500000,
+            "price": 9252000,
             "warranty": ""
         },
         {
             "name": "Bộ máy HỌC TẬP & VĂN PHÒNG T-WOLF TW10 FV",
-            "price": 9793000,
+            "price": 9581000,
             "warranty": "Bộ máy BH 36T + Keyboard+Mouse BH 12T"
         },
         {
@@ -312,7 +307,7 @@
         },
         {
             "name": "Máy bộ Gaming T-WOLF TW-GAMING 08 FV (MAINBOARD T-WOLF H110 , CPU i5-6500,  DDR4 16GB/2666, SSD M2 T-WOLF 256GB, VGA T-WOLF TW-RX580 8G D5, NGUỒN T-WOLF TW-P500, Case TW-CG300B) + TẶNG BỘ PHÍM CHUỘT T-WOLF",
-            "price": 12163000,
+            "price": 12060000,
             "warranty": "36T"
         },
         {
@@ -444,7 +439,7 @@
         },
         {
             "name": "CPU SK 1151v2 Intel Core i5-8500 Tray (Hàng cũ đã qua sử dụng) FV (3.0GHz up to 4.1GHz, 6 nhân, 6 luồng, 9MB, 65W)",
-            "price": 2086000,
+            "price": 2037000,
             "warranty": "36T"
         },
         {
@@ -1283,6 +1278,11 @@
             "warranty": "36T"
         },
         {
+            "name": "Nguồn CST VSP Delta P450W Chính hãng",
+            "price": 480000,
+            "warranty": "36T"
+        },
+        {
             "name": "Nguồn CST ANTEC ZEN 450 EC 400W (ANTEC-ZEN450-EC) Chính hãng FV (1x20+4pin, 4+4pin, 2x6+2pin, 5xSata)",
             "price": 498000,
             "warranty": "36T"
@@ -1453,11 +1453,6 @@
             "warranty": "36T"
         },
         {
-            "name": "Nguồn CST OCPC OCPC ENERGIA BZ650 BRONZE 80 plus 650W (OCPSBZ650M) Chính hãng FV",
-            "price": 1021000,
-            "warranty": "60T"
-        },
-        {
             "name": "Nguồn CST COOLER MASTER NEX PN700 ELITE 700W FV (MPW-7001-ACBK-P) Chính hãng (4+4pin, 2x6+2pin, Dây dài, Kèm dây nguồn)",
             "price": 1034000,
             "warranty": "36T"
@@ -1471,6 +1466,11 @@
             "name": "Nguồn Xigmatek X-PRO XP650 - EN41006 (Màu Đen) Chính hãng FV",
             "price": 1029000,
             "warranty": "36T"
+        },
+        {
+            "name": "Nguồn CST OCPC OCPC ENERGIA BZ650 BRONZE 80 plus 650W (OCPSBZ650M) Chính hãng FV",
+            "price": 1050000,
+            "warranty": "60T"
         },
         {
             "name": "Nguồn Gigabyte P650SS - 80 Plus Silver (650W) FV",
@@ -1656,11 +1656,6 @@
             "name": "Case GLOWY GW236 Black FV",
             "price": 227000,
             "warranty": ""
-        },
-        {
-            "name": "Case XIGMATEK XS-25 Black FV (248x167x338mm, 2xUSB1.0, 1xHDD, 1xSSD, Hỗ trợ Mainboard: Micro-ATX, Mini-ITX)",
-            "price": 232000,
-            "warranty": "BT"
         },
         {
             "name": "Case VSP V200 White FV",
@@ -2378,6 +2373,11 @@
             "warranty": "24T"
         },
         {
+            "name": "Tản nhiệt nước AIO VSP ICE G240 Black FV",
+            "price": 820000,
+            "warranty": "12T"
+        },
+        {
             "name": "Tản Nhiệt Nước Leopard 240P TK1 ARGB Black FV (Sync Main) (LGA115x/1200/1700/1366/2011/AM3/AM4/AM5)",
             "price": 898000,
             "warranty": "6T"
@@ -2755,11 +2755,6 @@
             "warranty": "36T"
         },
         {
-            "name": "LCD 21.5' EDRA EGM22F100H Chính hãng FV (IPS - VGA, HDMI, 1920x1080, 100Hz, 3 cạnh viền mỏng, Treo tường)",
-            "price": 1482000,
-            "warranty": "24T"
-        },
-        {
             "name": "LCD 21.5' HIKVISION DS-D5022F2-2P2 Chính hãng FV",
             "price": 1502000,
             "warranty": "36T"
@@ -2802,11 +2797,6 @@
         {
             "name": "LCD 21.5' AOC 22B15HN (21.5” / VA / 100Hz)",
             "price": 1672000,
-            "warranty": "36T"
-        },
-        {
-            "name": "LCD 21.5'' PHILIPS 221V8LB3/74 Black Chính hãng FV",
-            "price": 1690000,
             "warranty": "36T"
         },
         {
@@ -2886,7 +2876,7 @@
         },
         {
             "name": "LCD 23.8' HIKVISION DS-D5024F2-AV2 Chính hãng FV",
-            "price": 1713000,
+            "price": 1735000,
             "warranty": "36T"
         },
         {
@@ -2902,6 +2892,11 @@
         {
             "name": "LCD 23.8' HIKVISION DS-D5024F2-BP2 Chính hãng FV",
             "price": 1784000,
+            "warranty": "36T"
+        },
+        {
+            "name": "LCD VSP 23.8'' IP2407SG White Chính hãng FV (IPS - VGA, HDMI, 1920x1080, 100Hz, 3 cạnh viền mỏng, Kèm cáp HDMI, Treo tường)",
+            "price": 1789000,
             "warranty": "36T"
         },
         {
@@ -2933,11 +2928,6 @@
             "name": "LCD VSP 23.8'' V2408S Chính hãng Black FV",
             "price": 1922000,
             "warranty": "36T"
-        },
-        {
-            "name": "LCD 23.8' EDRA EGM24F144PV Chính hãng FV",
-            "price": 1943000,
-            "warranty": "24T"
         },
         {
             "name": "LCD 23.8'' VSP IP2407S Black Chính hãng (IPS- VGA, HDMI, 1920x1080, 144Hz)",
@@ -3010,6 +3000,11 @@
             "warranty": "36T"
         },
         {
+            "name": "LCD 24.5' EDRA EGM25F200H Chính hãng FV",
+            "price": 2291000,
+            "warranty": "24T"
+        },
+        {
             "name": "LCD 24.5' AOC 25B36X ( 24.5in / IPS /  FHD / 144Hz )",
             "price": 2289000,
             "warranty": "36T"
@@ -3045,13 +3040,13 @@
             "warranty": "36T"
         },
         {
-            "name": "LCD 24.5' EDRA EGM25F200H Chính hãng FV",
-            "price": 2565000,
-            "warranty": "24T"
-        },
-        {
             "name": "LCD VSP 25'' IP2518S4 Black Chính hãng FV",
             "price": 2850000,
+            "warranty": "36T"
+        },
+        {
+            "name": "LCD DELL E2425HM (23.8Inch/ Full HD/ 5ms/ 100HZ/ 250cd/m2/ IPS)",
+            "price": 2874000,
             "warranty": "36T"
         },
         {
@@ -3170,16 +3165,6 @@
             "warranty": "36T"
         },
         {
-            "name": "LCD 27' EDRA Gaming EGM27F144PVS Chính hãng FV (Fast IPS - HDMI, DP, FHD, 144Hz, 1ms (GtG), HDR Ready, Full viền, Treo tường)",
-            "price": 2553000,
-            "warranty": "24T"
-        },
-        {
-            "name": "LCD 27' Philips 27E1N1100A BLack Chính hãng FV",
-            "price": 2552000,
-            "warranty": "36T"
-        },
-        {
             "name": "LCD 27' NPC MH270E Phẳng Chính hãng FV",
             "price": 2606000,
             "warranty": "36T"
@@ -3207,6 +3192,11 @@
         {
             "name": "LCD 27' NPC MD270K Cong Chính hãng FV",
             "price": 2663000,
+            "warranty": "36T"
+        },
+        {
+            "name": "LCD Philips 27E1N2100A/71 (27 inch / IPS / FHD / 120Hz / HDMI + VGA / Có loa)",
+            "price": 2675000,
             "warranty": "36T"
         },
         {
@@ -3238,11 +3228,6 @@
             "name": "LCD 27' GLOWY G27GCN Cong Chính hãng FV",
             "price": 3012000,
             "warranty": "36T"
-        },
-        {
-            "name": "LCD 27' EDRA EGM27F240VA Chính hãng FV",
-            "price": 3033000,
-            "warranty": "24T"
         },
         {
             "name": "LCD 27' NPC MD270L Phẳng Chính hãng FV",
@@ -3305,11 +3290,6 @@
             "warranty": "24T"
         },
         {
-            "name": "LCD 27' DELL SE2725HM Chính hãng FV",
-            "price": 3496000,
-            "warranty": "36T"
-        },
-        {
             "name": "LCD 27' Gigabyte Gaming GS27FA Chính hãng FV",
             "price": 3518000,
             "warranty": "36T"
@@ -3330,6 +3310,11 @@
             "warranty": "36T"
         },
         {
+            "name": "LCD 27' DELL SE2725HM Chính hãng FV",
+            "price": 3640000,
+            "warranty": "36T"
+        },
+        {
             "name": "LCD 27'' DAHUA DHI-LM27-E230C Black Chính hãng FV",
             "price": 3630000,
             "warranty": "36T"
@@ -3338,11 +3323,6 @@
             "name": "LCD DELL E2725H (27 inch - FHD - VA - 75Hz - 5ms) FV",
             "price": 3718000,
             "warranty": "36T"
-        },
-        {
-            "name": "LCD 27' EDRA Gaming EGM27Q180PVS Chính hãng FV (Fast IPS - 2xDP, 2xHDMI, QHD/2K, 180Hz, 1ms (GtG), 10 bit màu, Chân đế nâng hạ xoay, Treo tường)",
-            "price": 3740000,
-            "warranty": "24T"
         },
         {
             "name": "LCD VSP 27'' VG2724FC1 Cong Chính hãng Black FV",
@@ -3922,11 +3902,6 @@
             "warranty": "36T"
         },
         {
-            "name": "SSD M.2 PCIe 500G PATRIOT P400 Lite NVMe Gen4x4 Chính hãng FV",
-            "price": 2661000,
-            "warranty": "36T"
-        },
-        {
             "name": "SSD M.2 PCIe 512G OCPC MFL-300 NVMe Gen3x4 Chính hãng FV",
             "price": 2678000,
             "warranty": "36T"
@@ -4035,11 +4010,6 @@
             "name": "[MH4308] HDD PC SEAGATE 1T SkyHawk Chính hãng FV  FV (5900 RPM)",
             "price": 3145000,
             "warranty": "36T"
-        },
-        {
-            "name": "HDD PC SEAGATE 2T BARRACUDA Chính hãng FV (7200 RPM)",
-            "price": 3204000,
-            "warranty": "24T"
         },
         {
             "name": "HDD PC SEAGATE 2T SkyHawk Chính hãng FV (5400 RPM)",
@@ -4152,6 +4122,11 @@
             "warranty": "18T"
         },
         {
+            "name": "USB thu Wifi MERCUSYS MU6H AC650 (Có anten, 150Mbps, Windows) FV",
+            "price": 195000,
+            "warranty": "24T"
+        },
+        {
             "name": "USB thu Wifi MERCUSYS MA20N Nano AC650 Chính hãng FV (Ko anten, 2 băng tần ,WPA3, Windows)",
             "price": 213000,
             "warranty": "24T"
@@ -4172,8 +4147,23 @@
             "warranty": "24T"
         },
         {
+            "name": "USB thu Wifi MERCUSYS MA30H AC1300 (Có anten, Windows) FV",
+            "price": 285000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB thu Wifi MERCUSYS MA32H Chính hãng FV (2 anten, 1300 Mbps, USB 3.0, Windows 11)",
+            "price": 301000,
+            "warranty": "24T"
+        },
+        {
             "name": "USB thu Wifi MERCUSYS MA72XH AX1800 (Có anten, Windows) FV",
             "price": 399000,
+            "warranty": "24T"
+        },
+        {
+            "name": "USB Thu wifi TP-Link Archer T3U Plus AC1300",
+            "price": 419000,
             "warranty": "24T"
         },
         {
@@ -4192,12 +4182,7 @@
             "warranty": "24T"
         },
         {
-            "name": "USB Thu wifi TP-Link Archer T3U Plus AC1300",
-            "price": 419000,
-            "warranty": "24T"
-        },
-        {
-            "name": "Máy tính để bàn All In One VSP VA271-610H FV (Sản phẩm AIO này chưa bao gồm CPU - Ram - SSD, Tặng Combo VISION G8)",
+            "name": "Máy tính để bàn All In One VSP VA271-610H FV (Sản phẩm AIO này chưa bao gồm CPU - Ram - SSD)",
             "price": 7053000,
             "warranty": "24T"
         },
@@ -4358,6 +4343,11 @@
         },
         {
             "name": "Box HDD GLOWY G22U3 2.5 USB 3.0 Black FV",
+            "price": 118000,
+            "warranty": "12T"
+        },
+        {
+            "name": "Box HDD GLOWY G21U3 2.5” USB 3.0 Trong suốt FV",
             "price": 118000,
             "warranty": "12T"
         },
@@ -5017,12 +5007,7 @@
         },
         {
             "name": "Mouse ko dây Ugreen MU105 90550 Midnight Blue Silent FV (Kèm pin AA, Nhấp ko ồn)",
-            "price": 244000,
-            "warranty": "18T"
-        },
-        {
-            "name": "Mouse ko dây Ugreen MU006 (15063) Black Silent FV (Chuột công thái học 5 cấp độ 4000DPI, Kèm pin AA, Nhấp ko ồn)",
-            "price": 252000,
+            "price": 251000,
             "warranty": "18T"
         },
         {
@@ -5576,22 +5561,12 @@
             "warranty": "24T"
         },
         {
-            "name": "Keyboard không dây EDRA EK398W (Phím cơ, Gray + White + Black) FV",
-            "price": 1046000,
-            "warranty": ""
-        },
-        {
             "name": "Keyboard EDRA EK398W (Phím cơ, Black + White + Green)  FV",
             "price": 1046000,
             "warranty": ""
         },
         {
             "name": "Keyboard không dây EDRA EK398 Pro (Phím cơ) FV",
-            "price": 1119000,
-            "warranty": ""
-        },
-        {
-            "name": "Keyboard không dây có màn hình EDRA EK375 Pro Alpha (Phím cơ, Navy-Blue) FV",
             "price": 1119000,
             "warranty": ""
         },
@@ -5842,7 +5817,7 @@
         },
         {
             "name": "Combo Keyboard + Mouse ko dây LOGITECH MK240 Chính hãng FV",
-            "price": 551000,
+            "price": 553000,
             "warranty": "12T"
         },
         {
@@ -5924,7 +5899,7 @@
         },
         {
             "name": "Bộ phát Wifi Gắn Trần Gigabit AC1350 MU-MIMO TP-LINK TL-EAP225 FV",
-            "price": 1137000,
+            "price": 1294000,
             "warranty": "24T"
         },
         {
@@ -6126,6 +6101,11 @@
             "name": "Switch H3C S1600V2-18P L2 Chính hãng FV ( 16 port 1000 Mbps, 2 port 1G SFP) FV",
             "price": 3807000,
             "warranty": "36T"
+        },
+        {
+            "name": "Switch Mercusys MS105G 5 port Gigabit (1.0Gbps, Vỏ nhựa) FV",
+            "price": 210000,
+            "warranty": "24T"
         },
         {
             "name": "Switch TP-Link LS1005G 5 port Gigabit Chính hãng FV (1.0Gbps, Vỏ nhựa)",
@@ -6398,6 +6378,11 @@
             "warranty": "24T"
         },
         {
+            "name": "Switch PoE MERCUSYS MS108GP Chính hãng FV (8 port 1000Mbps với 7 Port Poe) FV",
+            "price": 596000,
+            "warranty": "24T"
+        },
+        {
             "name": "Switch Poe 4 cổng Dahua DH-CS4006-4ET2GT-36 FV",
             "price": 623000,
             "warranty": "12T"
@@ -6456,6 +6441,11 @@
             "name": "Switch DLINK DGS-F1018P-E Chính hãng FV (16 Port PoE Gigabit + 2 Port Uplink Gigabit, Vỏ sắt)",
             "price": 4655000,
             "warranty": "24T"
+        },
+        {
+            "name": "Switch mạng thông minh 24 cổng PoE Gigabit HIKVISION DS-3E1526P-EI/M",
+            "price": 5187000,
+            "warranty": ""
         },
         {
             "name": "Switch Mercusys MS105GS-M2 5 port Gigabit (2.5 Gbps, Vỏ kim loại) FV",
@@ -6858,6 +6848,11 @@
             "warranty": ""
         },
         {
+            "name": "Cable LAN UTP CAT5e HTYC-3W-3122-L Aluminum 305m Xám (Lõi nhôm) FV",
+            "price": 922000,
+            "warranty": "BT"
+        },
+        {
             "name": "Cable LAN DAHUA DH-PFM922I-5EUN-C UTP CAT5E 305m Trắng (Lõi hợp kim) FV",
             "price": 1146000,
             "warranty": ""
@@ -6918,6 +6913,11 @@
             "warranty": "BT"
         },
         {
+            "name": "Cable LAN UTP CAT6e HTYC-3W-4122-L Aluminum 305m Xanh (Lõi nhôm) FV",
+            "price": 1119000,
+            "warranty": "BT"
+        },
+        {
             "name": "Cable LAN VELLY GOOD UTP CAT6 305m Xám (4P, 23AWG CCA (0.5mm)",
             "price": 1133000,
             "warranty": "BT"
@@ -6931,6 +6931,11 @@
             "name": "Cable LAN ngoài trời VELLYGOOD UTP CAT6 305m (4P, 23AWG CCA (0.57mm), UV PE/waterproof)",
             "price": 1332000,
             "warranty": "BT"
+        },
+        {
+            "name": "Cable LAN DAHUA DH-PFM922I-6UN-C UTP CAT6 305m Trắng",
+            "price": 1352000,
+            "warranty": ""
         },
         {
             "name": "Cable LAN GOLDEN JAPAN FTP CAT6 305m Xanh dương FV (Chống nhiễu, Lõi chữ thập, Sợi cường lực đơn, Nhôm mạ đồng)",
@@ -7839,7 +7844,7 @@
         },
         {
             "name": "Cable dữ liệu chuyển đổi Displayport to VGA VegGieg V-Z606 FV",
-            "price": 187000,
+            "price": 213000,
             "warranty": "24T"
         },
         {
@@ -8195,11 +8200,6 @@
             "warranty": "24T"
         },
         {
-            "name": "Camera IP Wifi IMOU Ranger 2C IPC-TA52P 5MP Chính hãng FV",
-            "price": 672000,
-            "warranty": "24T"
-        },
-        {
             "name": "Camera IP Wifi IMOU IPC-A52P PRO 5MP 3K Chính hãng  FV (355°-90°, 2688 x 1664, H.265, Đàm thoại 2 chiều, Hồng ngoại 10m, DWDR, Báo động, Có LAN, Kèm nguồn 5V, BH 24T) FV",
             "price": 730000,
             "warranty": "24T"
@@ -8400,13 +8400,13 @@
             "warranty": "24T"
         },
         {
-            "name": "Camera IP Wifi IMOU Bullet 3 IPC-S3EP-3M0WE 3MP FV",
-            "price": 941000,
+            "name": "Camera IP Wifi IMOU IPC-F52FP 5MP Chính hãng FV",
+            "price": 976000,
             "warranty": "24T"
         },
         {
-            "name": "Camera IP Wifi IMOU IPC-F52FP 5MP Chính hãng FV",
-            "price": 976000,
+            "name": "Camera IP Wifi IMOU Bullet 3 IPC-S3EP-3M0WE 3MP FV",
+            "price": 872000,
             "warranty": "24T"
         },
         {
@@ -8458,11 +8458,6 @@
             "name": "[MH3722] Bộ chuyển nguồn POE 48V-12V FV (DÙNG CAMERA IP -KHÔNG POE)",
             "price": 108000,
             "warranty": "3T"
-        },
-        {
-            "name": "Bộ chuyển nguồn POE 48V-5V Chui MicroUSB FV (DÙNG CAMERA IP -KHÔNG POE)",
-            "price": 112000,
-            "warranty": "12T"
         },
         {
             "name": "Bộ chuyển nguồn POE chui Type-C  5V-2.4A (DÙNG CHO CAMERA IP - KHÔNG POE) FV",
@@ -8775,23 +8770,18 @@
             "warranty": "24T"
         },
         {
-            "name": "[MH1031] Camera HIK DS-2CE17H0T-IT3F FV",
-            "price": 701000,
-            "warranty": "24T"
-        },
-        {
             "name": "Camera HIK DS-2CE10DF0T-FS FV",
             "price": 718000,
             "warranty": "24T"
         },
         {
-            "name": "Camera HIK DS-2CE76H0T-ITMFS FV",
-            "price": 771000,
+            "name": "[MH5896] Camera HIK DS-2CE16H0T-ITFS FV",
+            "price": 788000,
             "warranty": "24T"
         },
         {
-            "name": "[MH5896] Camera HIK DS-2CE16H0T-ITFS FV",
-            "price": 788000,
+            "name": "Camera HIK DS-2CE76H0T-ITMFS FV",
+            "price": 796000,
             "warranty": "24T"
         },
         {
@@ -8805,13 +8795,13 @@
             "warranty": "24T"
         },
         {
-            "name": "Camera HIK DS-2CE70KF0T-MFS  FV",
-            "price": 893000,
+            "name": "[MH2365] Camera HIK DS-2CE70DF3T-MFS (Dome-Turret, 2MP-1080p, F1.0, 3.6mm, Có màu 24/24, Vỏ sắt, Có Mic, Không đàm thoại 2 chiều, 4in1 Switchable TVI/AHD/CVI/CVBS)",
+            "price": 902000,
             "warranty": "24T"
         },
         {
-            "name": "[MH2365] Camera HIK DS-2CE70DF3T-MFS (Dome-Turret, 2MP-1080p, F1.0, 3.6mm, Có màu 24/24, Vỏ sắt, Có Mic, Không đàm thoại 2 chiều, 4in1 Switchable TVI/AHD/CVI/CVBS)",
-            "price": 902000,
+            "name": "Camera HIK DS-2CE70KF0T-MFS  FV",
+            "price": 914000,
             "warranty": "24T"
         },
         {
@@ -8825,13 +8815,13 @@
             "warranty": "24T"
         },
         {
-            "name": "Camera HIK DS-2CE12DF3T-FS (Thân, 2MP-1080p, F1.0, Có màu 24/24, Có Mic, Không đàm thoại 2 chiều, 4in1 Switchable TVI/AHD/CVI/CVBS)",
-            "price": 1052000,
+            "name": "Camera HIK DS-2CE12KF0T-FS FV",
+            "price": 1070000,
             "warranty": "24T"
         },
         {
-            "name": "Camera HIK DS-2CE12KF0T-FS FV",
-            "price": 1065000,
+            "name": "Camera HIK DS-2CE12DF3T-FS (Thân, 2MP-1080p, F1.0, Có màu 24/24, Có Mic, Không đàm thoại 2 chiều, 4in1 Switchable TVI/AHD/CVI/CVBS)",
+            "price": 1082000,
             "warranty": "24T"
         },
         {
@@ -9714,11 +9704,6 @@
             "warranty": "3T"
         },
         {
-            "name": "Headphone EDRA EH406 Black Led Chính hãng FV (Jack USB)",
-            "price": 248000,
-            "warranty": "24T"
-        },
-        {
             "name": "Headphone Gaming EAGLE G606 Led FV (Jack cắm USB 7.1)",
             "price": 261000,
             "warranty": "12T"
@@ -10179,6 +10164,21 @@
             "name": "Nồi chiên không dầu 6.0L Sunhouse SHD4026",
             "price": 1662000,
             "warranty": ""
+        },
+        {
+            "name": "Nồi chiên không dầu BlueStone AFB-5886",
+            "price": 2171000,
+            "warranty": ""
+        },
+        {
+            "name": "Nồi chiên không dầu PHILIPS NA230/00/Đen",
+            "price": 2292000,
+            "warranty": ""
+        },
+        {
+            "name": "Nồi chiên không dầu BlueStone AFB-5888",
+            "price": 2738000,
+            "warranty": ""
         }
     ],
     "Phần Mềm & Bản quyền": [
@@ -10486,7 +10486,7 @@
         },
         {
             "name": "[MH6359] CPU SK 1151v1 Intel Core i5-6500 Tray (Hàng cũ đã qua sử dụng) FV (3.2GHz up to 3.6GHz, 4 nhân, 4 luồng, 6MB, 65W)",
-            "price": 1050000,
+            "price": 1026000,
             "warranty": "36T"
         },
         {
@@ -10496,7 +10496,7 @@
         },
         {
             "name": "[MH0027] CPU SK 1151v1 Intel Core i5-7500 Tray FV (Hàng cũ đã qua sử dụng) FV (3.4GHz up to 3.8GHz, 4 nhân, 4 luồng, 6MB, 65W)",
-            "price": 1177000,
+            "price": 1150000,
             "warranty": "36T"
         },
         {
@@ -10517,6 +10517,11 @@
         {
             "name": "[MH3798] CPU SK 1151v2 Intel Core i7-8700 Tray (Hàng cũ đã qua sử dụng) FV (3.2GHz up to 4.6GHz, 6 nhân, 12 luồng, 12MB, 65W)",
             "price": 3207000,
+            "warranty": "36T"
+        },
+        {
+            "name": "[MH5230] CPU SK 1200 v2 Intel Core i5-11400F Tray (Hàng cũ đã qua sử dụng)(2.9GHz up to 4.3GHz, 6 nhân, 12 luồng, 12MB, 65W, dùng VGA)",
+            "price": 3453000,
             "warranty": "36T"
         },
         {
@@ -10573,11 +10578,6 @@
             "name": "KIT DDR5 PC 32G/5600 (2x16G) KINGSTON FURY BEAST Black New Chính hãng FV (KF556C40BBK2-32)",
             "price": 15056000,
             "warranty": "36T"
-        },
-        {
-            "name": "[MH5484] Nguồn ARROW 650W FV (Dây ngắn, BH 12T) (nguồn 650w)",
-            "price": 215000,
-            "warranty": "12T"
         },
         {
             "name": "[SP_28812\t] Nguồn VSP VXP650SGVN 650W 80 Plus Gold Full Modular Chính hãng FV",
@@ -10875,6 +10875,11 @@
             "warranty": "24T"
         },
         {
+            "name": "Phát Wifi MERCUSYS MR60X AX1500 Chính hãng FV (4 anten, 1501Mbps, 1WAN, 2LAN)(THAY THẾ CHO MR30G TẠM HẾT) FV",
+            "price": 615000,
+            "warranty": "24T"
+        },
+        {
             "name": "Phát Wifi TP-Link Archer C64 Chính hãng FV (4 anten, 1267Mbps, 2 băng tần, MU-MIMO, 4LAN 1Gbps)",
             "price": 645000,
             "warranty": "24T"
@@ -10928,6 +10933,11 @@
             "name": "Phát Wifi H3C Magic NX15 Wifi 6 Chính hãng FV (4 anten, 1501Mbps, 2 băng tần, 4 lan 1Gbps)",
             "price": 1132000,
             "warranty": "36T"
+        },
+        {
+            "name": "Phát Wifi TP-Link Archer AX55 Wifi 6 Chính hãng FV (4 anten, 3000Mbps, 2 băng tần, 4LAN 1Gbps)",
+            "price": 1177000,
+            "warranty": "24T"
         },
         {
             "name": "Phát Wifi 7 BE3600 Tp-link Archer BE230 Chính hãng FV",
@@ -11076,7 +11086,7 @@
         },
         {
             "name": "[MH0044] VGA ASUS GT710 2GB DDR5 SL BRK EVO Chính hãng FV",
-            "price": 1244000,
+            "price": 1319000,
             "warranty": "36T"
         },
         {
@@ -11112,11 +11122,6 @@
         {
             "name": "Keo ống chích nhỏ vàng HUTIXI HT-GD660 FV",
             "price": 53000,
-            "warranty": "BT"
-        },
-        {
-            "name": "Keo tản nhiệt ống chích lớn THERMAL COMPOUND HM501 FV",
-            "price": 56000,
             "warranty": "BT"
         },
         {
@@ -11221,7 +11226,7 @@
         },
         {
             "name": "Bàn phím quang cơ DAREU EK810X BLACK-GREY (OPTICAL BLUE SWITCH) FV",
-            "price": 770000,
+            "price": 790000,
             "warranty": ""
         },
         {
@@ -11337,6 +11342,11 @@
         {
             "name": "Card thu Wifi 6 + Bluetooth 5.3 Mercusys MA80XE AX3000 Chính hãng (2 anten) FV",
             "price": 551000,
+            "warranty": "24T"
+        },
+        {
+            "name": "Card thu wifi MERCUSYS MA30E AC1200 Chính hãng FV (2 anten, Bluetooth 5.0)",
+            "price": 403000,
             "warranty": "24T"
         },
         {
@@ -11725,11 +11735,6 @@
             "warranty": "BT"
         },
         {
-            "name": "Chai xịt VS530 CNI 550ml (Dùng cho MainBoard) FV",
-            "price": 97000,
-            "warranty": "0"
-        },
-        {
             "name": "[MH5838] Loa thanh 2.0 T-WOLF S4 LED FV (3Wx2, Jack 3.5mm + USB)",
             "price": 243000,
             "warranty": "6T"
@@ -11997,21 +12002,6 @@
         {
             "name": "Máy chiếu EPSON EB-695WI Chính hãng FV",
             "price": 53385000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Bàn gaming EDRA EGT1610AR Chính hãng FV (Kiểu chân chữ A, Dạng bàn chữ L, 160x100x75cm)",
-            "price": 3005000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Bàn gaming EDRA EGT1460R BLADE Chính hãng FV (Kiểu chân chữ T, Dải led RGB 2 bên, 140x60x75cm)",
-            "price": 3542000,
-            "warranty": "12T"
-        },
-        {
-            "name": "Ghế gaming EDRA HERA EGC224 Pink Chính hãng FV",
-            "price": 3212000,
             "warranty": "12T"
         },
         {
@@ -13192,6 +13182,51 @@
         {
             "name": "Bàn ủi hơi nước cầm tay Philips STH1000/10/Trắng và xanh dương",
             "price": 740000,
+            "warranty": ""
+        },
+        {
+            "name": "Bàn ủi hơi nước cầm tay Philips STH3000/20",
+            "price": 752000,
+            "warranty": ""
+        },
+        {
+            "name": "Bàn ủi hơi nước cầm tay Philips STH3010/70/Xanh ngọc",
+            "price": 977000,
+            "warranty": ""
+        },
+        {
+            "name": "Bàn ủi hơi nước cầm tay Philips STH3010/30/Xanh dương đậm",
+            "price": 977000,
+            "warranty": ""
+        },
+        {
+            "name": "Bàn ủi hơi nước cầm tay Philips STH5010/70 Xanh ngọc",
+            "price": 1152000,
+            "warranty": ""
+        },
+        {
+            "name": "Bàn ủi hơi nước cầm tay Philips STH5020/40",
+            "price": 1201000,
+            "warranty": ""
+        },
+        {
+            "name": "Bàn ủi hơi nước cầm tay Philips STH3020/10/Trắng",
+            "price": 1201000,
+            "warranty": ""
+        },
+        {
+            "name": "Bàn ủi hơi cầm tay Philips STH5020/20/Xanh dương nhạt",
+            "price": 1226000,
+            "warranty": ""
+        },
+        {
+            "name": "Bàn ủi hơi nước cầm tay Philips STH5030/80",
+            "price": 1464000,
+            "warranty": ""
+        },
+        {
+            "name": "Bàn ủi hơi nước cầm tay Philips STH5030/20/ Xanh dương đậm",
+            "price": 1464000,
             "warranty": ""
         },
         {
