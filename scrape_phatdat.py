@@ -92,7 +92,7 @@ def get_category(name):
         return "Thiết bị Gia dụng"
         
     # FALLBACK cho các từ khóa ngẫu nhiên nằm ở giữa tên (nếu không theo chuẩn)
-    if 'ANTIVIRUS' in n or 'WINDOWS' in n or 'OFFICE' in n: return "Phần Mềm & Bản quyền"
+    if 'ANTIVIRUS' in n or 'KASPERSKY' in n or 'BKAV' in n: return "Phần Mềm & Bản quyền"
     if 'CAMERA' in n or 'HIKVISION' in n or 'DAHUA' in n: return "Camera & Thiết bị an ninh"
     if re.search(r'\bSSD\b', n) or re.search(r'\bHDD\b', n): return "Ổ cứng (SSD/HDD)"
     if re.search(r'\bLCD\b', n): return "Màn hình (LCD)"

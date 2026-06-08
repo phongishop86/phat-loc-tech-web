@@ -8126,6 +8126,51 @@
       "name": "Cable chuyển Lightning ra 3.5mm VEGGIEG V-A619 FV",
       "price": 241000,
       "warranty": "24T"
+    },
+    {
+      "name": "USB thu Wifi TP-Link TL-WN823N Chính hãng FV (Ko anten, 300Mbps, Windows, macOS, Linux)",
+      "price": 205000,
+      "warranty": "24T"
+    },
+    {
+      "name": "USB thu Wifi TP-Link TL-WN822N Chính hãng FV (02 anten, 300Mbps, Windows, macOS, Linux)",
+      "price": 275000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Card thu Wifi TP-Link TL-WN781ND Chính hãng FV (1 anten, 150Mbps, chân ngắn 1X, Windows)",
+      "price": 218000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Card thu Wifi TP-Link TL-WN881ND Chính hãng FV (2 anten, 300Mbps, chân ngắn 1x, Windows, Linux)",
+      "price": 285000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Card PCle thu Wifi DLINK DWA-X582 Chính hãng FV (2 anten, Tốc độ 2402 Mbps 5GHz + 574 Mbps 2.4GHz, Bluetooth 5.1, Windows)",
+      "price": 641000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Card LAN MERCUSYS MA210E Chính hãng FV (1 Gbps Cổng LAN RJ45 Windows 11/10/8.1/8)",
+      "price": 213000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Card LAN TP-Link TG-3468 Gigabit Chính hãng FV chân ngắn 1x, Windows",
+      "price": 229000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Card LAN MERCUSYS MA510E (10 Gbps Cổng LAN RJ45 Windows, Linux)  FV",
+      "price": 1220000,
+      "warranty": "24T"
+    },
+    {
+      "name": "Máy in màu CANON PIXMA G3010 Wifi Chính hãng FV (Scan, Copy, A4, A5, Resolution 4800x1200, Ink Bottles GI-790, Mực in liên tục, 445x533x260mm, 6.3kg, Windows, Linux)",
+      "price": 4785000,
+      "warranty": "12T"
     }
   ],
   "Camera & Thiết bị an ninh": [
@@ -10183,44 +10228,49 @@
   ],
   "Phần Mềm & Bản quyền": [
     {
-      "name": "USB thu Wifi TP-Link TL-WN823N Chính hãng FV (Ko anten, 300Mbps, Windows, macOS, Linux)",
-      "price": 205000,
-      "warranty": "24T"
+      "name": "Kaspersky Internet Security (1 thiết bị/1 năm)",
+      "price": "Liên hệ",
+      "warranty": "Theo thời hạn bản quyền"
     },
     {
-      "name": "USB thu Wifi TP-Link TL-WN822N Chính hãng FV (02 anten, 300Mbps, Windows, macOS, Linux)",
-      "price": 275000,
-      "warranty": "24T"
+      "name": "Kaspersky Total Security (1 thiết bị/1 năm)",
+      "price": "Liên hệ",
+      "warranty": "Theo thời hạn bản quyền"
     },
     {
-      "name": "Card thu Wifi TP-Link TL-WN781ND Chính hãng FV (1 anten, 150Mbps, chân ngắn 1X, Windows)",
-      "price": 218000,
-      "warranty": "24T"
+      "name": "Kaspersky Anti-Virus (1 thiết bị/1 năm)",
+      "price": "Liên hệ",
+      "warranty": "Theo thời hạn bản quyền"
     },
     {
-      "name": "Card thu Wifi TP-Link TL-WN881ND Chính hãng FV (2 anten, 300Mbps, chân ngắn 1x, Windows, Linux)",
-      "price": 285000,
-      "warranty": "24T"
+      "name": "BKAV Pro Internet Security (1 thiết bị/1 năm)",
+      "price": "Liên hệ",
+      "warranty": "Theo thời hạn bản quyền"
     },
     {
-      "name": "Card PCle thu Wifi DLINK DWA-X582 Chính hãng FV (2 anten, Tốc độ 2402 Mbps 5GHz + 574 Mbps 2.4GHz, Bluetooth 5.1, Windows)",
-      "price": 641000,
-      "warranty": "24T"
+      "name": "Microsoft Windows 11 Home FPP Bản Quyền (USB/Key)",
+      "price": "Liên hệ",
+      "warranty": "Trọn đời máy"
     },
     {
-      "name": "Card LAN MERCUSYS MA210E Chính hãng FV (1 Gbps Cổng LAN RJ45 Windows 11/10/8.1/8)",
-      "price": 213000,
-      "warranty": "24T"
+      "name": "Microsoft Windows 11 Pro OEM Bản Quyền (Theo máy)",
+      "price": "Liên hệ",
+      "warranty": "Trọn đời máy"
     },
     {
-      "name": "Card LAN TP-Link TG-3468 Gigabit Chính hãng FV chân ngắn 1x, Windows",
-      "price": 229000,
-      "warranty": "24T"
+      "name": "Microsoft Office 365 Personal (1 thiết bị/1 năm)",
+      "price": "Liên hệ",
+      "warranty": "12 Tháng"
     },
     {
-      "name": "Card LAN MERCUSYS MA510E (10 Gbps Cổng LAN RJ45 Windows, Linux)  FV",
-      "price": 1220000,
-      "warranty": "24T"
+      "name": "Microsoft Office Home & Business 2021 FPP",
+      "price": "Liên hệ",
+      "warranty": "Trọn đời máy"
+    },
+    {
+      "name": "ESET Internet Security (1 thiết bị/1 năm)",
+      "price": "Liên hệ",
+      "warranty": "Theo thời hạn bản quyền"
     },
     {
       "name": "Máy in 1 mặt CANON imageCLASS LBP6030 Chính hãng FV (A4, A5, Resolution 600x600, Warm-up 10s, First Print 7.8s, Speed 18ppm, Input 150 sheets, Cartridge 325/35A, 364x249x199mm, 5.0kg, Windows, macOS)",
@@ -10235,11 +10285,6 @@
     {
       "name": "Máy in 2 mặt BROTHER HL-L2361DN Chính hãng FV (LAN, A4, A5, Resolution 600x600, Warm-up 7s, First Print 8.5s, Speed 30ppm, Input 250 sheets, Cartridge TN2385, 356x360x183mm, 6.8kg, Windows, macOS, Linux, iOS, Android)",
       "price": 4249000,
-      "warranty": "12T"
-    },
-    {
-      "name": "Máy in màu CANON PIXMA G3010 Wifi Chính hãng FV (Scan, Copy, A4, A5, Resolution 4800x1200, Ink Bottles GI-790, Mực in liên tục, 445x533x260mm, 6.3kg, Windows, Linux)",
-      "price": 4785000,
       "warranty": "12T"
     },
     {

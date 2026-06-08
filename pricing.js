@@ -74,7 +74,7 @@ const PricingWidget = {
                 </td>
                 <td class="p-2 sm:p-4 text-left sm:text-right font-medium text-brand-green flex sm:table-cell justify-between items-center text-base sm:text-sm">
                     <span class="sm:hidden font-semibold text-zinc-400 text-xs">Đơn giá:</span>
-                    <span class="font-bold sm:font-medium">${item.price.toLocaleString('vi-VN')} đ</span>
+                    <span class="font-bold sm:font-medium">${typeof item.price === 'number' && item.price > 0 ? item.price.toLocaleString('vi-VN') + ' đ' : (item.price || 'Liên hệ')}</span>
                 </td>
                 <td class="p-2 sm:p-4 text-right sm:text-center block sm:table-cell mt-3 sm:mt-0">
                     <button data-action="add-cart" data-name="${item.name.replace(/"/g, '&quot;')}" data-price="${item.price}" data-warranty="${item.warranty}" class="w-full sm:w-auto text-zinc-300 sm:text-zinc-500 hover:text-white sm:hover:text-brand-green bg-brand-green/20 hover:bg-brand-green/40 sm:bg-zinc-900 sm:hover:bg-zinc-800 p-2.5 sm:p-2 rounded-lg transition-colors border border-brand-green/30 sm:border-zinc-800 hover:border-brand-green sm:hover:border-brand-green/50 group-hover:shadow-[0_0_15px_rgba(16,185,129,0.2)] flex items-center justify-center gap-2" title="Thêm vào giỏ hàng">
