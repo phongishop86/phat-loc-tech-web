@@ -128,7 +128,7 @@ if (leadForm) {
         }).then(response => {
             if (response.ok) {
                 const container = document.getElementById('contact-form-container');
-                container.innerHTML = '<div class="text-center py-6 bg-[#27272a]/50 rounded-xl border border-zinc-800"><i class="ph-fill ph-check-circle text-5xl text-green-500 mb-3 drop-shadow-[0_0_15px_rgba(34,197,94,0.5)]"></i><p class="text-white font-bold text-base">Gửi thành công!</p><p class="text-zinc-400 text-xs mt-2 px-4 leading-relaxed">Thông tin của bạn đã được tiếp nhận. Phát Lộc Tech sẽ liên hệ lại qua số điện thoại này trong thời gian sớm nhất.</p></div>';
+                container.innerHTML = '<div class="text-center py-6 bg-[#27272a]/50 rounded-xl border border-slate-200"><i class="ph-fill ph-check-circle text-5xl text-green-500 mb-3 drop-shadow-[0_0_15px_rgba(34,197,94,0.5)]"></i><p class="text-primary font-bold text-base">Gửi thành công!</p><p class="text-slate-500 text-xs mt-2 px-4 leading-relaxed">Thông tin của bạn đã được tiếp nhận. Phát Lộc Tech sẽ liên hệ lại qua số điện thoại này trong thời gian sớm nhất.</p></div>';
             } else {
                 throw new Error('Network error');
             }
@@ -174,18 +174,18 @@ function showCustomAlert(title, message) {
         modal.className = 'fixed inset-0 z-[10000] flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300';
         
         modal.innerHTML = `
-            <div class="bg-zinc-900 border border-zinc-700 rounded-2xl shadow-2xl w-full max-w-md overflow-hidden transform scale-95 transition-transform duration-300">
+            <div class="bg-white border border-slate-300 rounded-2xl shadow-2xl w-full max-w-md overflow-hidden transform scale-95 transition-transform duration-300">
                 <div class="p-6">
                     <div class="flex items-center gap-3 mb-4">
                         <div class="w-10 h-10 rounded-full bg-brand-green/20 text-brand-green flex items-center justify-center shrink-0">
                             <i class="ph-fill ph-info text-2xl"></i>
                         </div>
-                        <h3 class="text-lg font-bold text-white" id="custom-alert-title"></h3>
+                        <h3 class="text-lg font-bold text-primary" id="custom-alert-title"></h3>
                     </div>
-                    <p class="text-zinc-300 text-sm leading-relaxed" id="custom-alert-body" style="white-space: pre-wrap;"></p>
+                    <p class="text-slate-700 text-sm leading-relaxed" id="custom-alert-body" style="white-space: pre-wrap;"></p>
                 </div>
-                <div class="bg-zinc-950 px-6 py-4 flex justify-end border-t border-zinc-800">
-                    <button id="custom-alert-close" class="bg-brand-green hover:bg-green-600 text-white font-bold py-2 px-6 rounded-lg transition-colors text-sm">
+                <div class="bg-slate-50 px-6 py-4 flex justify-end border-t border-slate-200">
+                    <button id="custom-alert-close" class="bg-brand-green hover:bg-green-600 text-primary font-bold py-2 px-6 rounded-lg transition-colors text-sm">
                         Đồng ý
                     </button>
                 </div>

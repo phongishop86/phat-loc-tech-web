@@ -1,0 +1,27 @@
+[
+  {
+    "name": "USB thu Wifi TP-Link TL-WN823N Chính hãng FV (Ko anten, 300Mbps, Windows, macOS, Linux)",
+    "price": 205000,
+    "warranty": "24T"
+  },
+  {
+    "name": "USB thu Wifi TP-Link TL-WN822N Chính hãng FV (02 anten, 300Mbps, Windows, macOS, Linux)",
+    "price": 275000,
+    "warranty": "24T"
+  },
+  {
+    "name": "Card thu Wifi TP-Link TL-WN781ND Chính hãng FV (1 anten, 150Mbps, chân ngắn 1X, Windows)",
+    "price": 218000,
+    "warranty": "24T"
+  },
+  {
+    "name": "Card thu Wifi TP-Link TL-WN881ND Chính hãng FV (2 anten, 300Mbps, chân ngắn 1x, Windows, Linux)",
+    "price": 285000,
+    "warranty": "24T"
+  },
+  {
+    "name": "Card PCle thu Wifi DLINK DWA-X582 Chính hãng FV (2 anten, Tốc độ 2402 Mbps 5GHz + 574 Mbps 2.4GHz, Bluetooth 5.1, Windows)",
+    "price": 641000,
+    "warranty": "24T"
+  }
+]

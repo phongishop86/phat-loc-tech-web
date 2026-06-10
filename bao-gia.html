@@ -14,44 +14,50 @@
     <!-- Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        serif: ['"Playfair Display"', 'serif'],
-                    },
-                    colors: {
-                        brand: {
-                            purple: '#8B5CF6',
-                            green: '#10B981',
-                            orange: '#F97316',
-                        }
-                    },
-                    animation: {
-                        'pulse-g': 'pulse-g 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                    },
-                    keyframes: {
-                        'pulse-g': {
-                            '0%, 100%': { opacity: 1 },
-                            '50%': { opacity: .5 },
-                        }
-                    }
-                }
+    <!-- Tailwind CSS v4 (CDN) -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --font-sans: 'Inter', sans-serif;
+            --font-serif: '"Playfair Display"', serif;
+            
+            --color-primary: #0F172A;
+            --color-secondary: #2563EB;
+            --color-accent: #06B6D4;
+            --color-success: #10B981;
+            
+            /* Legacy mappings to ease transition */
+            --color-brand-green: var(--color-success);
+            --color-brand-purple: var(--color-secondary);
+            --color-brand-purple-dark: var(--color-primary);
+            --color-brand-orange: #f97316;
+
+            --animate-float1: float1 4s ease-in-out infinite;
+            --animate-float2: float2 3.5s ease-in-out infinite;
+            --animate-pulse-g: pulse-g 2s ease-in-out infinite;
+
+            @keyframes float1 {
+                0%, 100% { transform: translateY(0); }
+                50% { transform: translateY(-10px); }
+            }
+            @keyframes float2 {
+                0%, 100% { transform: translateY(0); }
+                50% { transform: translateY(-8px); }
+            }
+            @keyframes pulse-g {
+                0%, 100% { opacity: 1; transform: scale(1); }
+                50% { opacity: 0.7; transform: scale(1.2); }
             }
         }
-    </script>
+    </style>
     
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-zinc-950 text-zinc-300 font-sans antialiased min-h-screen flex flex-col">
+<body class="bg-slate-50 text-slate-700 font-sans antialiased min-h-screen flex flex-col">
     <!-- Header -->
-    <header class="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-purple-950 via-indigo-950 to-purple-900 shadow-xl border-b border-white/10 transition-all duration-300">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-purple-950 via-indigo-950 to-purple-900 shadow-xl border-b border-slate-200 transition-all duration-300">
         <div class="container mx-auto px-4 h-20 flex items-center justify-between gap-4 md:gap-8">
-            <button class="lg:hidden text-white p-2 -ml-2 hover:bg-white/10 rounded-lg transition-colors">
+            <button class="lg:hidden text-primary p-2 -ml-2 hover:bg-white/10 rounded-lg transition-colors">
                 <i class="ph ph-list text-2xl"></i>
             </button>
             <a href="index.html" class="flex items-center gap-3 shrink-0 group mx-auto lg:mx-0">
@@ -59,7 +65,7 @@
                     <img src="logo.png" alt="Phát Lộc Tech Logo" class="object-contain w-10 h-10 md:w-11 md:h-11"/>
                 </div>
                 <div class="flex items-center hidden sm:flex group-hover:opacity-80 transition-opacity">
-                    <span class="text-xl md:text-2xl font-black tracking-wider uppercase leading-none drop-shadow-md text-white">PHÁT LỘC TECH</span>
+                    <span class="text-xl md:text-2xl font-black tracking-wider uppercase leading-none drop-shadow-md text-primary">PHÁT LỘC TECH</span>
                 </div>
             </a>
             
@@ -68,19 +74,16 @@
                     <a href="bao-gia.html" class="flex items-center gap-1.5 text-[14px] font-bold text-yellow-400 hover:text-yellow-300 transition-colors uppercase tracking-wider drop-shadow-md"><i class="ph-bold ph-list-numbers text-lg"></i> Báo Giá</a>
                 </div>
                 <div class="relative flex items-center h-full group py-6">
-                    <a href="bao-gia-1.html" class="flex items-center gap-1.5 text-[14px] font-bold text-yellow-400 hover:text-yellow-300 transition-colors uppercase tracking-wider drop-shadow-md"><i class="ph-bold ph-table text-lg"></i> Báo Giá 1</a>
+                    <a href="may-tinh-linh-kien.html" class="flex items-center gap-1.5 text-[13px] font-bold text-slate-800 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Máy Tính & Linh Kiện</a>
                 </div>
                 <div class="relative flex items-center h-full group py-6">
-                    <a href="may-tinh-linh-kien.html" class="flex items-center gap-1.5 text-[13px] font-bold text-gray-100 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Máy Tính & Linh Kiện</a>
+                    <a href="camera-mang.html" class="flex items-center gap-1.5 text-[13px] font-bold text-slate-800 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Camera & Mạng</a>
                 </div>
                 <div class="relative flex items-center h-full group py-6">
-                    <a href="camera-mang.html" class="flex items-center gap-1.5 text-[13px] font-bold text-gray-100 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Camera & Mạng</a>
+                    <a href="dich-vu-it.html" class="flex items-center gap-1.5 text-[13px] font-bold text-slate-800 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Dịch Vụ IT</a>
                 </div>
                 <div class="relative flex items-center h-full group py-6">
-                    <a href="dich-vu-it.html" class="flex items-center gap-1.5 text-[13px] font-bold text-gray-100 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Dịch Vụ IT</a>
-                </div>
-                <div class="relative flex items-center h-full group py-6">
-                    <a href="phan-mem-so-hoa.html" class="flex items-center gap-1.5 text-[13px] font-bold text-gray-100 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Phần Mềm & Số Hóa</a>
+                    <a href="phan-mem-so-hoa.html" class="flex items-center gap-1.5 text-[13px] font-bold text-slate-800 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Phần Mềm & Số Hóa</a>
                 </div>
             </nav>
             <div class="w-11 lg:hidden shrink-0"></div>
@@ -94,11 +97,11 @@
         <div class="max-w-7xl mx-auto px-6 relative z-10">
             <!-- Breadcrumbs & Header -->
             <div class="mb-4 text-center">
-                <a href="index.html" class="inline-flex items-center gap-2 text-zinc-500 hover:text-zinc-300 transition-colors text-sm font-medium mb-6">
+                <a href="index.html" class="inline-flex items-center gap-2 text-slate-400 hover:text-slate-700 transition-colors text-sm font-medium mb-6">
                     <i class="ph ph-arrow-left"></i> Về Trang Chủ
                 </a>
-                <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-brand-purple to-pink-500 font-semibold mb-6">Báo Giá Tổng Hợp</h1>
-                <p class="text-lg text-zinc-400 max-w-2xl mx-auto leading-relaxed">
+                <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-secondary to-accent font-semibold mb-6">Báo Giá Tổng Hợp</h1>
+                <p class="text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed">
                     Tra cứu nhanh toàn bộ thiết bị Máy Tính, Camera, Mạng và Phụ kiện chính hãng.
                 </p>
                 <p class="text-sm text-brand-green/80 mt-3 italic max-w-2xl mx-auto">
@@ -110,85 +113,85 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 hidden">
                 
                 <!-- 1.1 -->
-                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
-                    <div class="w-12 h-12 bg-zinc-950 border border-zinc-800 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
+                    <div class="w-12 h-12 bg-slate-50 border border-slate-200 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
                         <i class="ph-duotone ph-desktop"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3">Máy tính Văn phòng & Học tập</h3>
-                    <p class="text-sm text-zinc-400 leading-relaxed flex-grow">
+                    <h3 class="text-xl font-bold text-primary mb-3">Máy tính Văn phòng & Học tập</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed flex-grow">
                         Cung cấp máy bộ ráp sẵn tiêu chuẩn, cấu hình tối ưu chi phí cho doanh nghiệp, trường học (khai thác mạnh dòng PC/LCD Renew để tối ưu tính kinh tế).
                     </p>
-                    <div class="mt-6 pt-6 border-t border-zinc-800 flex items-center justify-between">
-                        <a href="#pricing-table" class="view-detail-btn text-lg font-bold text-brand-green hover:text-white transition-colors">Xem</a>
-                        <button class="request-quote-btn text-sm font-bold text-white bg-zinc-800 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
+                    <div class="mt-6 pt-6 border-t border-slate-200 flex items-center justify-between">
+                        <a href="#pricing-table" class="view-detail-btn text-lg font-bold text-brand-green hover:text-primary transition-colors">Xem</a>
+                        <button class="request-quote-btn text-sm font-bold text-primary bg-slate-100 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
                             Báo giá ngay
                         </button>
                     </div>
                 </div>
 
                 <!-- 1.2 -->
-                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
-                    <div class="w-12 h-12 bg-zinc-950 border border-zinc-800 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
+                    <div class="w-12 h-12 bg-slate-50 border border-slate-200 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
                         <i class="ph-duotone ph-game-controller"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3">Máy tính Đồ họa & Gaming</h3>
-                    <p class="text-sm text-zinc-400 leading-relaxed flex-grow">
+                    <h3 class="text-xl font-bold text-primary mb-3">Máy tính Đồ họa & Gaming</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed flex-grow">
                         Cấu hình cao cấp phục vụ thiết kế, xử lý render, dựng phim hoặc giải trí. Xây dựng theo yêu cầu với tản nhiệt và linh kiện tốt nhất.
                     </p>
-                    <div class="mt-6 pt-6 border-t border-zinc-800 flex items-center justify-between">
-                        <a href="#pricing-table" class="view-detail-btn text-lg font-bold text-brand-green hover:text-white transition-colors">Xem</a>
-                        <button class="request-quote-btn text-sm font-bold text-white bg-zinc-800 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
+                    <div class="mt-6 pt-6 border-t border-slate-200 flex items-center justify-between">
+                        <a href="#pricing-table" class="view-detail-btn text-lg font-bold text-brand-green hover:text-primary transition-colors">Xem</a>
+                        <button class="request-quote-btn text-sm font-bold text-primary bg-slate-100 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
                             Báo giá ngay
                         </button>
                     </div>
                 </div>
 
                 <!-- 1.3 -->
-                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
-                    <div class="w-12 h-12 bg-zinc-950 border border-zinc-800 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
+                    <div class="w-12 h-12 bg-slate-50 border border-slate-200 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
                         <i class="ph-duotone ph-laptop"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3">Laptop & Phụ kiện Di động</h3>
-                    <p class="text-sm text-zinc-400 leading-relaxed flex-grow">
+                    <h3 class="text-xl font-bold text-primary mb-3">Laptop & Phụ kiện Di động</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed flex-grow">
                         Laptop chính hãng/renew, linh kiện nâng cấp (RAM, SSD laptop) và phụ kiện (bao da, sạc dự phòng, chuột không dây).
                     </p>
-                    <div class="mt-6 pt-6 border-t border-zinc-800 flex items-center justify-between">
-                        <a href="#pricing-table" class="view-detail-btn text-lg font-bold text-brand-green hover:text-white transition-colors">Xem</a>
-                        <button class="request-quote-btn text-sm font-bold text-white bg-zinc-800 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
+                    <div class="mt-6 pt-6 border-t border-slate-200 flex items-center justify-between">
+                        <a href="#pricing-table" class="view-detail-btn text-lg font-bold text-brand-green hover:text-primary transition-colors">Xem</a>
+                        <button class="request-quote-btn text-sm font-bold text-primary bg-slate-100 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
                             Báo giá ngay
                         </button>
                     </div>
                 </div>
 
                 <!-- 1.4 -->
-                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
-                    <div class="w-12 h-12 bg-zinc-950 border border-zinc-800 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
+                    <div class="w-12 h-12 bg-slate-50 border border-slate-200 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
                         <i class="ph-duotone ph-cpu"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3">Linh kiện Máy tính rời</h3>
-                    <p class="text-sm text-zinc-400 leading-relaxed flex-grow">
+                    <h3 class="text-xl font-bold text-primary mb-3">Linh kiện Máy tính rời</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed flex-grow">
                         Phục vụ khách hàng có nhu cầu tự nâng cấp hoặc thay thế lẻ (CPU, Mainboard, RAM, SSD, Nguồn, Vỏ case).
                     </p>
-                    <div class="mt-6 pt-6 border-t border-zinc-800 flex items-center justify-between">
-                        <a href="#pricing-table" class="view-detail-btn text-lg font-bold text-brand-green hover:text-white transition-colors">Xem</a>
-                        <button class="request-quote-btn text-sm font-bold text-white bg-zinc-800 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
+                    <div class="mt-6 pt-6 border-t border-slate-200 flex items-center justify-between">
+                        <a href="#pricing-table" class="view-detail-btn text-lg font-bold text-brand-green hover:text-primary transition-colors">Xem</a>
+                        <button class="request-quote-btn text-sm font-bold text-primary bg-slate-100 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
                             Báo giá ngay
                         </button>
                     </div>
                 </div>
 
                 <!-- 1.5 -->
-                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
-                    <div class="w-12 h-12 bg-zinc-950 border border-zinc-800 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col hover:border-brand-green/50 transition-colors group">
+                    <div class="w-12 h-12 bg-slate-50 border border-slate-200 text-brand-green rounded-xl flex items-center justify-center mb-5 text-2xl group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(16,185,129,0.2)]">
                         <i class="ph-duotone ph-printer"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3">Thiết bị Máy văn phòng</h3>
-                    <p class="text-sm text-zinc-400 leading-relaxed flex-grow">
+                    <h3 class="text-xl font-bold text-primary mb-3">Thiết bị Máy văn phòng</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed flex-grow">
                         Máy in laser, máy in màu, máy quét tài liệu (Scan) và mực in chính hãng. Sẵn sàng lắp đặt và cấu hình tận nơi.
                     </p>
-                    <div class="mt-6 pt-6 border-t border-zinc-800 flex items-center justify-between">
-                        <a href="#pricing-table" class="view-detail-btn text-lg font-bold text-brand-green hover:text-white transition-colors">Xem</a>
-                        <button class="request-quote-btn text-sm font-bold text-white bg-zinc-800 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
+                    <div class="mt-6 pt-6 border-t border-slate-200 flex items-center justify-between">
+                        <a href="#pricing-table" class="view-detail-btn text-lg font-bold text-brand-green hover:text-primary transition-colors">Xem</a>
+                        <button class="request-quote-btn text-sm font-bold text-primary bg-slate-100 hover:bg-brand-green px-4 py-2 rounded-lg transition-colors">
                             Báo giá ngay
                         </button>
                     </div>
@@ -201,9 +204,9 @@
     <!-- Footer -->
     
         <!-- AJAX Dynamic Pricing Table -->
-        <div id="pricing-container" data-source="data/all_prices.json"></div>
+        <div id="pricing-container-flat" data-source="data/all_prices.json"></div>
     
-<footer class="w-full bg-zinc-950 border-t border-white/5 pt-16 pb-8 mt-auto">
+<footer class="w-full bg-slate-50 border-t border-slate-200 pt-16 pb-8 mt-auto">
         <div class="container mx-auto px-4 text-center text-xs text-gray-600">
             <p>© 2026 Phát Lộc Tech. Tất cả các quyền được bảo lưu.</p>
         </div>
@@ -215,54 +218,54 @@
     </a>
 
         <!-- Chat Widget Button -->
-    <button id="chat-toggle" class="fixed bottom-6 left-6 z-[9999] w-14 h-14 rounded-full bg-brand-purple hover:bg-brand-purple-dark text-white shadow-lg flex items-center justify-center transition-transform hover:scale-110">
+    <button id="chat-toggle" class="fixed bottom-6 left-6 z-[9999] w-14 h-14 rounded-full bg-secondary hover:bg-secondary- text-primary shadow-lg flex items-center justify-center transition-transform hover:scale-110">
         <i class="ph ph-chats text-2xl"></i>
         <span class="absolute top-0 right-0 w-3.5 h-3.5 bg-green-500 rounded-full border-2 border-zinc-950 animate-pulse-g"></span>
     </button>
     
     <!-- Chat Widget Panel -->
-    <div id="chat-panel" class="fixed bottom-24 left-6 z-[9998] w-[340px] max-w-[calc(100vw-48px)] bg-[#18181b] border border-zinc-800 rounded-2xl shadow-2xl flex flex-col overflow-hidden transition-all duration-300 origin-bottom-left scale-90 opacity-0 pointer-events-none">
-        <div class="bg-brand-purple p-4 flex items-center gap-3">
+    <div id="chat-panel" class="fixed bottom-24 left-6 z-[9998] w-[340px] max-w-[calc(100vw-48px)] bg-[#18181b] border border-slate-200 rounded-2xl shadow-2xl flex flex-col overflow-hidden transition-all duration-300 origin-bottom-left scale-90 opacity-0 pointer-events-none">
+        <div class="bg-secondary p-4 flex items-center gap-3">
             <div class="w-10 h-10 rounded-full bg-white p-1 shadow-md flex items-center justify-center shrink-0">
                 <img src="logo.png" alt="Phát Lộc Tech" class="object-contain w-full h-full"/>
             </div>
             <div>
-                <strong class="block text-white text-sm font-bold">Phát Lộc Tech</strong>
-                <span class="flex items-center gap-1.5 text-white/75 text-xs font-medium mt-0.5">
+                <strong class="block text-primary text-sm font-bold">Phát Lộc Tech</strong>
+                <span class="flex items-center gap-1.5 text-primary/75 text-xs font-medium mt-0.5">
                     <span class="w-1.5 h-1.5 bg-green-400 rounded-full"></span>Đang hoạt động
                 </span>
             </div>
         </div>
         
         <div class="p-4 flex flex-col gap-4 max-h-[500px] overflow-y-auto">
-            <div class="bg-[#27272a] text-zinc-200 p-3 rounded-2xl rounded-tl-sm text-sm leading-relaxed self-start max-w-[90%] font-medium">
+            <div class="bg-[#27272a] text-slate-800 p-3 rounded-2xl rounded-tl-sm text-sm leading-relaxed self-start max-w-[90%] font-medium">
                 Xin chào! Phát Lộc Tech có thể giúp gì cho bạn hôm nay?
             </div>
             
             <div class="flex gap-3 mt-1">
-                <a href="https://zalo.me/0932685794" target="_blank" title="Chat Zalo" class="w-11 h-11 bg-[#27272a] hover:bg-zinc-700 border border-zinc-700 text-zinc-300 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105">
+                <a href="https://zalo.me/0932685794" target="_blank" title="Chat Zalo" class="w-11 h-11 bg-[#27272a] hover:bg-slate-200 border border-slate-300 text-slate-700 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" alt="Zalo" class="w-6 h-6"/>
                 </a>
-                <a href="https://www.messenger.com/t/876656692206747" target="_blank" title="Chat Messenger" class="w-11 h-11 bg-[#27272a] hover:bg-zinc-700 border border-zinc-700 text-blue-400 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105 text-2xl">
+                <a href="https://www.messenger.com/t/876656692206747" target="_blank" title="Chat Messenger" class="w-11 h-11 bg-[#27272a] hover:bg-slate-200 border border-slate-300 text-blue-400 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105 text-2xl">
                     <i class="ph-fill ph-messenger-logo"></i>
                 </a>
-                <a href="tel:0932685794" title="Gọi Hotline" class="w-11 h-11 bg-[#27272a] hover:bg-zinc-700 border border-zinc-700 text-green-500 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105 text-2xl">
+                <a href="tel:0932685794" title="Gọi Hotline" class="w-11 h-11 bg-[#27272a] hover:bg-slate-200 border border-slate-300 text-green-500 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105 text-2xl">
                     <i class="ph-fill ph-phone-call"></i>
                 </a>
             </div>
             
-            <div class="mt-2 border-t border-zinc-800 pt-3" id="contact-form-container">
-                <p class="text-[11px] text-zinc-500 mb-2 font-bold uppercase tracking-wider">HOẶC GỬI YÊU CẦU</p>
+            <div class="mt-2 border-t border-slate-200 pt-3" id="contact-form-container">
+                <p class="text-[11px] text-slate-400 mb-2 font-bold uppercase tracking-wider">HOẶC GỬI YÊU CẦU</p>
                 <form id="lead-form" action="https://formsubmit.co/phongishop86@gmail.com" method="POST" class="flex flex-col gap-3">
                     <input type="hidden" name="_subject" value="Khách hàng mới từ Web Phát Lộc Tech">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_template" value="table">
                     
-                    <input type="text" name="Tên" required placeholder="Tên của bạn" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
-                    <input type="tel" name="SĐT" required placeholder="Số điện thoại" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
-                    <textarea name="Yêu cầu" required placeholder="Vấn đề bạn quan tâm..." rows="3" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors resize-none font-medium"></textarea>
+                    <input type="text" name="Tên" required placeholder="Tên của bạn" class="w-full bg-[#09090b] border border-slate-200 rounded-lg px-3.5 py-3 text-sm text-primary focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
+                    <input type="tel" name="SĐT" required placeholder="Số điện thoại" class="w-full bg-[#09090b] border border-slate-200 rounded-lg px-3.5 py-3 text-sm text-primary focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
+                    <textarea name="Yêu cầu" required placeholder="Vấn đề bạn quan tâm..." rows="3" class="w-full bg-[#09090b] border border-slate-200 rounded-lg px-3.5 py-3 text-sm text-primary focus:outline-none focus:border-brand-purple transition-colors resize-none font-medium"></textarea>
                     
-                    <button type="submit" class="w-full bg-brand-purple hover:bg-brand-purple-dark text-white font-bold text-sm py-3 rounded-lg transition-colors flex justify-center items-center gap-2 mt-1">
+                    <button type="submit" class="w-full bg-secondary hover:bg-secondary- text-primary font-bold text-sm py-3 rounded-lg transition-colors flex justify-center items-center gap-2 mt-1">
                         Gửi yêu cầu <i class="ph ph-paper-plane-right text-lg"></i>
                     </button>
                 </form>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi" class="h-full antialiased dark">
+<html lang="vi" class="h-full antialiased">
 <head>
     <meta charSet="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -14,59 +14,52 @@
     <!-- Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     
-    <!-- Tailwind CSS (CDN) -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        serif: ['"Playfair Display"', 'serif'],
-                    },
-                    colors: {
-                        brand: {
-                            green: '#10b981',
-                            purple: '#8b5cf6',
-                            'purple-dark': '#5b21b6',
-                            orange: '#f97316'
-                        }
-                    },
-                    animation: {
-                        'float1': 'float1 4s ease-in-out infinite',
-                        'float2': 'float2 3.5s ease-in-out infinite',
-                        'pulse-g': 'pulse-g 2s ease-in-out infinite',
-                    },
-                    keyframes: {
-                        float1: {
-                            '0%, 100%': { transform: 'translateY(0)' },
-                            '50%': { transform: 'translateY(-10px)' },
-                        },
-                        float2: {
-                            '0%, 100%': { transform: 'translateY(0)' },
-                            '50%': { transform: 'translateY(10px)' },
-                        },
-                        'pulse-g': {
-                            '0%': { transform: 'scale(0.95)', boxShadow: '0 0 0 0 rgba(34, 197, 94, 0.7)' },
-                            '70%': { transform: 'scale(1)', boxShadow: '0 0 0 10px rgba(34, 197, 94, 0)' },
-                            '100%': { transform: 'scale(0.95)', boxShadow: '0 0 0 0 rgba(34, 197, 94, 0)' },
-                        }
-                    }
-                }
+    <!-- Tailwind CSS v4 (CDN) -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --font-sans: 'Inter', sans-serif;
+            --font-serif: '"Playfair Display"', serif;
+            
+            --color-primary: #0F172A;
+            --color-secondary: #2563EB;
+            --color-accent: #06B6D4;
+            --color-success: #10B981;
+            
+            /* Legacy mappings to ease transition */
+            --color-brand-green: var(--color-success);
+            --color-brand-purple: var(--color-secondary);
+            --color-brand-purple-dark: var(--color-primary);
+            --color-brand-orange: #f97316;
+
+            --animate-float1: float1 4s ease-in-out infinite;
+            --animate-float2: float2 3.5s ease-in-out infinite;
+            --animate-pulse-g: pulse-g 2s ease-in-out infinite;
+
+            @keyframes float1 {
+                0%, 100% { transform: translateY(0); }
+                50% { transform: translateY(-10px); }
+            }
+            @keyframes float2 {
+                0%, 100% { transform: translateY(0); }
+                50% { transform: translateY(-8px); }
+            }
+            @keyframes pulse-g {
+                0%, 100% { opacity: 1; transform: scale(1); }
+                50% { opacity: 0.7; transform: scale(1.2); }
             }
         }
-    </script>
+    </style>
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="min-h-full flex flex-col bg-zinc-950 text-zinc-50 font-sans">
+<body class="min-h-full flex flex-col bg-slate-50 text-primary font-sans">
     
     <!-- Header -->
-    <header class="w-full bg-gradient-to-r from-purple-950 via-indigo-950 to-purple-900 z-50 shadow-xl sticky top-0 border-b border-white/10">
+    <header class="w-full bg-gradient-to-r from-purple-950 via-indigo-950 to-purple-900 z-50 shadow-xl sticky top-0 border-b border-slate-200">
         <div class="container mx-auto px-4 h-20 flex items-center justify-between gap-4 md:gap-8">
-            <button class="lg:hidden text-white p-2 -ml-2 hover:bg-white/10 rounded-lg transition-colors">
+            <button class="lg:hidden text-primary p-2 -ml-2 hover:bg-white/10 rounded-lg transition-colors">
                 <i class="ph ph-list text-2xl"></i>
             </button>
             <a class="flex items-center gap-3 shrink-0 group mx-auto lg:mx-0" href="index.html">
@@ -74,7 +67,7 @@
                     <img src="logo.png" alt="Phát Lộc Tech Logo" class="object-contain w-10 h-10 md:w-11 md:h-11"/>
                 </div>
                 <div class="flex items-center hidden sm:flex group-hover:opacity-80 transition-opacity">
-                    <span class="text-xl md:text-2xl font-black tracking-wider uppercase leading-none drop-shadow-md text-white">PHÁT LỘC TECH</span>
+                    <span class="text-xl md:text-2xl font-black tracking-wider uppercase leading-none drop-shadow-md text-primary">PHÁT LỘC TECH</span>
                 </div>
             </a>
             <nav class="hidden lg:flex items-center gap-8 h-full flex-1 justify-center">
@@ -82,19 +75,16 @@
                     <a href="bao-gia.html" class="flex items-center gap-1.5 text-[14px] font-bold text-yellow-400 hover:text-yellow-300 transition-colors uppercase tracking-wider drop-shadow-md"><i class="ph-bold ph-list-numbers text-lg"></i> Báo Giá</a>
                 </div>
                 <div class="relative flex items-center h-full group py-6">
-                    <a href="bao-gia-1.html" class="flex items-center gap-1.5 text-[14px] font-bold text-yellow-400 hover:text-yellow-300 transition-colors uppercase tracking-wider drop-shadow-md"><i class="ph-bold ph-table text-lg"></i> Báo Giá 1</a>
+                    <a href="may-tinh-linh-kien.html" class="flex items-center gap-1.5 text-[13px] font-bold text-slate-800 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Máy Tính & Linh Kiện</a>
                 </div>
                 <div class="relative flex items-center h-full group py-6">
-                    <a href="may-tinh-linh-kien.html" class="flex items-center gap-1.5 text-[13px] font-bold text-gray-100 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Máy Tính & Linh Kiện</a>
+                    <a href="camera-mang.html" class="flex items-center gap-1.5 text-[13px] font-bold text-slate-800 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Camera & Mạng</a>
                 </div>
                 <div class="relative flex items-center h-full group py-6">
-                    <a href="camera-mang.html" class="flex items-center gap-1.5 text-[13px] font-bold text-gray-100 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Camera & Mạng</a>
+                    <a href="dich-vu-it.html" class="flex items-center gap-1.5 text-[13px] font-bold text-slate-800 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Dịch Vụ IT</a>
                 </div>
                 <div class="relative flex items-center h-full group py-6">
-                    <a href="dich-vu-it.html" class="flex items-center gap-1.5 text-[13px] font-bold text-gray-100 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Dịch Vụ IT</a>
-                </div>
-                <div class="relative flex items-center h-full group py-6">
-                    <a href="phan-mem-so-hoa.html" class="flex items-center gap-1.5 text-[13px] font-bold text-gray-100 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Phần Mềm & Số Hóa</a>
+                    <a href="phan-mem-so-hoa.html" class="flex items-center gap-1.5 text-[13px] font-bold text-slate-800 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Phần Mềm & Số Hóa</a>
                 </div>
             </nav>
             <div class="w-11 lg:hidden shrink-0"></div>
@@ -103,9 +93,9 @@
 
     <main class="flex-1">
         <!-- Hero Section -->
-        <section class="relative min-h-[90vh] flex items-center pt-24 pb-16 overflow-hidden bg-zinc-950">
+        <section class="relative min-h-[90vh] flex items-center pt-24 pb-16 overflow-hidden bg-slate-50">
             <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
-                <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-brand-purple-dark/20 blur-[100px]"></div>
+                <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-secondary-/20 blur-[100px]"></div>
                 <div class="absolute bottom-[-10%] left-[-5%] w-[400px] h-[400px] rounded-full bg-brand-green/10 blur-[100px]"></div>
                 <div class="absolute top-[20%] right-[10%] w-32 h-32 opacity-20" style="background-image:radial-gradient(circle, #10b981 1.5px, transparent 1.5px);background-size:16px 16px"></div>
             </div>
@@ -116,28 +106,28 @@
                         <span class="w-2 h-2 rounded-full bg-brand-green animate-pulse"></span>
                         <span class="text-xs font-bold uppercase tracking-[0.15em] text-brand-green">Sẵn sàng vận hành 24/7</span>
                     </div>
-                    <h1 class="font-serif text-3xl md:text-4xl lg:text-5xl xl:text-[56px] text-zinc-50 leading-[1.4] tracking-tight mb-6 font-semibold fade-in-up delay-100">
+                    <h1 class="font-serif text-3xl md:text-4xl lg:text-5xl xl:text-[56px] text-primary leading-[1.4] tracking-tight mb-6 font-semibold fade-in-up delay-100">
                         Kiến tạo <span class="text-brand-green whitespace-nowrap">hạ tầng số,</span><br/>
-                        Nâng tầm <span class="text-brand-purple whitespace-nowrap">doanh nghiệp</span>
+                        Nâng tầm <span class="text-secondary whitespace-nowrap">doanh nghiệp</span>
                     </h1>
-                    <p class="text-base md:text-lg text-zinc-400 max-w-lg leading-relaxed mb-10 fade-in-up delay-200">
+                    <p class="text-base md:text-lg text-slate-500 max-w-lg leading-relaxed mb-10 fade-in-up delay-200">
                         Hệ sinh thái công nghệ toàn diện: từ máy tính chuyên dụng, hệ thống giám sát an ninh đến quản trị mạng và phần mềm bản quyền, đáp ứng khắt khe mọi quy mô.
                     </p>
                     <div class="flex flex-wrap gap-4 w-full sm:w-auto fade-in-up delay-300">
-                        <a href="#services" class="px-7 py-3.5 bg-brand-purple hover:bg-brand-purple-dark text-white rounded-xl font-bold text-sm transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(139,92,246,0.3)] text-center w-full sm:w-auto">Khám Phá Dịch Vụ</a>
-                        <button id="btn-tu-van" class="px-7 py-3.5 bg-zinc-900 border-2 border-zinc-800 hover:border-brand-green text-zinc-100 rounded-xl font-bold text-sm transition-all hover:shadow-[0_4px_16px_rgba(16,185,129,0.15)] text-center w-full sm:w-auto">Nhận Tư Vấn</button>
-                        <a href="bao-gia.html" class="lg:hidden flex items-center justify-center gap-2 px-7 py-3.5 bg-gradient-to-r from-brand-purple to-pink-500 text-white rounded-xl font-bold text-sm transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(236,72,153,0.4)] text-center w-full sm:w-auto">
+                        <a href="#services" class="px-7 py-3.5 bg-secondary hover:bg-secondary- text-primary rounded-xl font-bold text-sm transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(139,92,246,0.3)] text-center w-full sm:w-auto">Khám Phá Dịch Vụ</a>
+                        <button id="btn-tu-van" class="px-7 py-3.5 bg-white border-2 border-slate-200 hover:border-brand-green text-slate-800 rounded-xl font-bold text-sm transition-all hover:shadow-[0_4px_16px_rgba(16,185,129,0.15)] text-center w-full sm:w-auto">Nhận Tư Vấn</button>
+                        <a href="bao-gia.html" class="lg:hidden flex items-center justify-center gap-2 px-7 py-3.5 bg-gradient-to-r from-secondary to-accent text-primary rounded-xl font-bold text-sm transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(236,72,153,0.4)] text-center w-full sm:w-auto">
                             <i class="ph-bold ph-list-numbers text-lg"></i> Xem Báo Giá
                         </a>
                     </div>
-                    <div class="flex gap-8 mt-12 pt-8 border-t border-zinc-800/60 w-full fade-in-up delay-400">
+                    <div class="flex gap-8 mt-12 pt-8 border-t border-slate-200/60 w-full fade-in-up delay-400">
                         <div>
                             <div class="font-serif text-3xl text-brand-green font-bold leading-none mb-1">500+</div>
-                            <div class="text-xs font-bold text-zinc-500 tracking-wider uppercase">Đối tác & Khách hàng</div>
+                            <div class="text-xs font-bold text-slate-400 tracking-wider uppercase">Đối tác & Khách hàng</div>
                         </div>
                         <div>
-                            <div class="font-serif text-3xl text-brand-purple font-bold leading-none mb-1">2h</div>
-                            <div class="text-xs font-bold text-zinc-500 tracking-wider uppercase">Thời gian xử lý sự cố</div>
+                            <div class="font-serif text-3xl text-secondary font-bold leading-none mb-1">2h</div>
+                            <div class="text-xs font-bold text-slate-400 tracking-wider uppercase">Thời gian xử lý sự cố</div>
                         </div>
                     </div>
                 </div>
@@ -156,31 +146,31 @@
                                 <div class="w-12 h-12 rounded-xl bg-brand-green/20 text-brand-green flex items-center justify-center text-3xl mb-4 transition-transform group-hover:scale-110 drop-shadow-[0_0_10px_rgba(16,185,129,0.6)]">
                                     <i class="ph-duotone ph-desktop"></i>
                                 </div>
-                                <h3 class="text-lg font-bold text-white leading-tight group-hover:text-brand-green transition-colors">Máy Tính <br/>& Linh Kiện</h3>
+                                <h3 class="text-lg font-bold text-primary leading-tight group-hover:text-brand-green transition-colors">Máy Tính <br/>& Linh Kiện</h3>
                             </a>
                             <a href="camera-mang.html" class="cube-face cube-back cursor-pointer group">
                                 <div class="w-12 h-12 rounded-xl bg-brand-orange/20 text-brand-orange flex items-center justify-center text-3xl mb-4 transition-transform group-hover:scale-110 drop-shadow-[0_0_10px_rgba(249,115,22,0.6)]">
                                     <i class="ph-duotone ph-webcam"></i>
                                 </div>
-                                <h3 class="text-lg font-bold text-white leading-tight group-hover:text-brand-orange transition-colors">Camera <br/>& Mạng</h3>
+                                <h3 class="text-lg font-bold text-primary leading-tight group-hover:text-brand-orange transition-colors">Camera <br/>& Mạng</h3>
                             </a>
                             <a href="dich-vu-it.html" class="cube-face cube-right cursor-pointer group">
                                 <div class="w-12 h-12 rounded-xl bg-blue-400/20 text-blue-400 flex items-center justify-center text-3xl mb-4 transition-transform group-hover:scale-110 drop-shadow-[0_0_10px_rgba(96,165,250,0.6)]">
                                     <i class="ph-duotone ph-wrench"></i>
                                 </div>
-                                <h3 class="text-lg font-bold text-white leading-tight group-hover:text-blue-400 transition-colors">Dịch Vụ <br/>IT</h3>
+                                <h3 class="text-lg font-bold text-primary leading-tight group-hover:text-blue-400 transition-colors">Dịch Vụ <br/>IT</h3>
                             </a>
                             <a href="phan-mem-so-hoa.html" class="cube-face cube-left cursor-pointer group">
-                                <div class="w-12 h-12 rounded-xl bg-brand-purple/20 text-brand-purple flex items-center justify-center text-3xl mb-4 transition-transform group-hover:scale-110 drop-shadow-[0_0_10px_rgba(139,92,246,0.6)]">
+                                <div class="w-12 h-12 rounded-xl bg-secondary/20 text-secondary flex items-center justify-center text-3xl mb-4 transition-transform group-hover:scale-110 drop-shadow-[0_0_10px_rgba(139,92,246,0.6)]">
                                     <i class="ph-duotone ph-disc"></i>
                                 </div>
-                                <h3 class="text-lg font-bold text-white leading-tight group-hover:text-brand-purple transition-colors">Phần Mềm <br/>& Số Hóa</h3>
+                                <h3 class="text-lg font-bold text-primary leading-tight group-hover:text-secondary transition-colors">Phần Mềm <br/>& Số Hóa</h3>
                             </a>
                             <a href="bao-gia.html" class="cube-face cube-top cursor-pointer group">
-                                <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-brand-purple/20 to-pink-500/20 text-pink-400 flex items-center justify-center text-3xl mb-4 transition-transform group-hover:scale-110 drop-shadow-[0_0_12px_rgba(236,72,153,0.6)] border border-pink-500/10 group-hover:border-pink-500/30">
+                                <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-secondary/20 to-accent/20 text-pink-400 flex items-center justify-center text-3xl mb-4 transition-transform group-hover:scale-110 drop-shadow-[0_0_12px_rgba(236,72,153,0.6)] border border-pink-500/10 group-hover:border-pink-500/30">
                                     <i class="ph-duotone ph-list-numbers"></i>
                                 </div>
-                                <h3 class="text-lg font-bold text-white leading-tight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-brand-purple group-hover:to-pink-500 transition-all">Báo Giá <br/>Tổng Hợp</h3>
+                                <h3 class="text-lg font-bold text-primary leading-tight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-secondary group-hover:to-accent transition-all">Báo Giá <br/>Tổng Hợp</h3>
                             </a>
                             <div class="cube-face cube-bottom">
                                 <i class="ph-fill ph-hexagon text-4xl text-zinc-700/50"></i>
@@ -192,30 +182,30 @@
         </section>
 
         <!-- Partner Brands Section -->
-        <section class="py-10 border-y border-white/5 bg-zinc-950/50 overflow-hidden relative reveal">
+        <section class="py-10 border-y border-slate-200 bg-slate-50/50 overflow-hidden relative reveal">
             <div class="absolute left-0 top-0 w-16 md:w-32 h-full bg-gradient-to-r from-zinc-950 to-transparent z-10 pointer-events-none"></div>
             <div class="absolute right-0 top-0 w-16 md:w-32 h-full bg-gradient-to-l from-zinc-950 to-transparent z-10 pointer-events-none"></div>
             
             <div class="marquee-container flex items-center gap-16 md:gap-24 opacity-60">
                 <div class="marquee-content flex items-center gap-16 md:gap-24 whitespace-nowrap min-w-full justify-around shrink-0">
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">DELL</span>
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">HP</span>
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">LENOVO</span>
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">CISCO</span>
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">HIKVISION</span>
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">DAHUA</span>
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">MICROSOFT</span>
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">KASPERSKY</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">DELL</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">HP</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">LENOVO</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">CISCO</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">HIKVISION</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">DAHUA</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">MICROSOFT</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">KASPERSKY</span>
                 </div>
                 <div class="marquee-content flex items-center gap-16 md:gap-24 whitespace-nowrap min-w-full justify-around shrink-0" aria-hidden="true">
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">DELL</span>
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">HP</span>
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">LENOVO</span>
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">CISCO</span>
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">HIKVISION</span>
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">DAHUA</span>
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">MICROSOFT</span>
-                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-white transition-colors cursor-default">KASPERSKY</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">DELL</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">HP</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">LENOVO</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">CISCO</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">HIKVISION</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">DAHUA</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">MICROSOFT</span>
+                    <span class="text-2xl font-bold font-serif uppercase tracking-widest hover:text-primary transition-colors cursor-default">KASPERSKY</span>
                 </div>
             </div>
         </section>
@@ -224,133 +214,133 @@
         <section class="py-20 relative reveal">
             <div class="container mx-auto px-4 max-w-7xl">
                 <div class="text-center mb-16">
-                    <h2 class="text-3xl md:text-5xl font-serif font-bold text-white mb-4">Tại Sao Chọn Phát Lộc Tech?</h2>
-                    <p class="text-zinc-400 max-w-2xl mx-auto">Cam kết mang lại giá trị thiết thực và sự an tâm tuyệt đối cho khách hàng doanh nghiệp.</p>
+                    <h2 class="text-3xl md:text-5xl font-serif font-bold text-primary mb-4">Tại Sao Chọn Phát Lộc Tech?</h2>
+                    <p class="text-slate-500 max-w-2xl mx-auto">Cam kết mang lại giá trị thiết thực và sự an tâm tuyệt đối cho khách hàng doanh nghiệp.</p>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <!-- Value 1 -->
-                    <div class="bg-zinc-900/50 p-8 rounded-2xl border border-white/5 hover:border-brand-green/80 transition-all duration-300 group relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(16,185,129,0.2)] cursor-default">
-                        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-purple to-brand-green scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100"></div>
+                    <div class="bg-white/90 shadow-xl shadow-slate-200/50 p-8 rounded-2xl border border-slate-200 hover:border-brand-green/80 transition-all duration-300 group relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(16,185,129,0.2)] cursor-default">
+                        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-secondary to-accent scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100"></div>
                         <div class="w-14 h-14 bg-brand-green/10 text-brand-green rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 group-hover:bg-brand-green/20 transition-all duration-300 relative z-10 group-hover:drop-shadow-[0_0_12px_rgba(16,185,129,0.8)]">
                             <i class="ph-duotone ph-shield-check"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 relative z-10">Chính Hãng 100%</h3>
-                        <p class="text-sm text-zinc-400 leading-relaxed relative z-10">Đầy đủ chứng từ CO/CQ, đảm bảo nguồn gốc xuất xứ và chất lượng tuyệt đối.</p>
+                        <h3 class="text-xl font-bold text-primary mb-3 relative z-10">Chính Hãng 100%</h3>
+                        <p class="text-sm text-slate-500 leading-relaxed relative z-10">Đầy đủ chứng từ CO/CQ, đảm bảo nguồn gốc xuất xứ và chất lượng tuyệt đối.</p>
                     </div>
                     <!-- Value 2 -->
-                    <div class="bg-zinc-900/50 p-8 rounded-2xl border border-white/5 hover:border-brand-purple/80 transition-all duration-300 group relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(139,92,246,0.2)] cursor-default">
+                    <div class="bg-white/90 shadow-xl shadow-slate-200/50 p-8 rounded-2xl border border-slate-200 hover:border-brand-purple/80 transition-all duration-300 group relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(139,92,246,0.2)] cursor-default">
                         <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-green to-brand-purple scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100"></div>
-                        <div class="w-14 h-14 bg-brand-purple/10 text-brand-purple rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 group-hover:bg-brand-purple/20 transition-all duration-300 relative z-10 group-hover:drop-shadow-[0_0_12px_rgba(139,92,246,0.8)]">
+                        <div class="w-14 h-14 bg-secondary/10 text-secondary rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 group-hover:bg-secondary/20 transition-all duration-300 relative z-10 group-hover:drop-shadow-[0_0_12px_rgba(139,92,246,0.8)]">
                             <i class="ph-duotone ph-lock-key"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 relative z-10">Bảo Mật Dữ Liệu</h3>
-                        <p class="text-sm text-zinc-400 leading-relaxed relative z-10">Quy trình chuyên nghiệp, cam kết bảo mật tuyệt đối thông tin hệ thống của bạn.</p>
+                        <h3 class="text-xl font-bold text-primary mb-3 relative z-10">Bảo Mật Dữ Liệu</h3>
+                        <p class="text-sm text-slate-500 leading-relaxed relative z-10">Quy trình chuyên nghiệp, cam kết bảo mật tuyệt đối thông tin hệ thống của bạn.</p>
                     </div>
                     <!-- Value 3 -->
-                    <div class="bg-zinc-900/50 p-8 rounded-2xl border border-white/5 hover:border-brand-orange/80 transition-all duration-300 group relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(249,115,22,0.2)] cursor-default">
-                        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-purple to-brand-orange scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100"></div>
+                    <div class="bg-white/90 shadow-xl shadow-slate-200/50 p-8 rounded-2xl border border-slate-200 hover:border-brand-orange/80 transition-all duration-300 group relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(249,115,22,0.2)] cursor-default">
+                        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-secondary to-brand-orange scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100"></div>
                         <div class="w-14 h-14 bg-brand-orange/10 text-brand-orange rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 group-hover:bg-brand-orange/20 transition-all duration-300 relative z-10 group-hover:drop-shadow-[0_0_12px_rgba(249,115,22,0.8)]">
                             <i class="ph-duotone ph-piggy-bank"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 relative z-10">Tối Ưu Chi Phí</h3>
-                        <p class="text-sm text-zinc-400 leading-relaxed relative z-10">Đề xuất giải pháp phù hợp nhất, không vẽ vời, giúp tối đa hóa hiệu quả đầu tư.</p>
+                        <h3 class="text-xl font-bold text-primary mb-3 relative z-10">Tối Ưu Chi Phí</h3>
+                        <p class="text-sm text-slate-500 leading-relaxed relative z-10">Đề xuất giải pháp phù hợp nhất, không vẽ vời, giúp tối đa hóa hiệu quả đầu tư.</p>
                     </div>
                     <!-- Value 4 -->
-                    <div class="bg-zinc-900/50 p-8 rounded-2xl border border-white/5 hover:border-blue-500/80 transition-all duration-300 group relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(59,130,246,0.2)] cursor-default">
+                    <div class="bg-white/90 shadow-xl shadow-slate-200/50 p-8 rounded-2xl border border-slate-200 hover:border-blue-500/80 transition-all duration-300 group relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(59,130,246,0.2)] cursor-default">
                         <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-orange to-blue-500 scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100"></div>
                         <div class="w-14 h-14 bg-blue-500/10 text-blue-500 rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 group-hover:bg-blue-500/20 transition-all duration-300 relative z-10 group-hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.8)]">
                             <i class="ph-duotone ph-rocket-launch"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 relative z-10">Hỗ Trợ Tốc Độ</h3>
-                        <p class="text-sm text-zinc-400 leading-relaxed relative z-10">Xử lý sự cố nhanh chóng trong 2H tại nội thành, đảm bảo doanh nghiệp không bị gián đoạn.</p>
+                        <h3 class="text-xl font-bold text-primary mb-3 relative z-10">Hỗ Trợ Tốc Độ</h3>
+                        <p class="text-sm text-slate-500 leading-relaxed relative z-10">Xử lý sự cố nhanh chóng trong 2H tại nội thành, đảm bảo doanh nghiệp không bị gián đoạn.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Services Section (4 Cards) -->
-        <section id="services" class="w-full bg-zinc-950 py-32 border-b border-zinc-900 relative overflow-hidden">
-            <div class="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-bl from-brand-purple/5 to-transparent pointer-events-none"></div>
+        <section id="services" class="w-full bg-slate-50 py-32 border-b border-zinc-900 relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-bl from-secondary/5 to-transparent pointer-events-none"></div>
             
             <div class="max-w-7xl mx-auto px-6 relative z-10">
                 <div class="grid lg:grid-cols-[1fr_1fr] gap-12 items-end mb-16">
                     <div>
                         <h2 class="text-[10px] md:text-xs font-bold text-brand-green mb-3 tracking-[0.2em] uppercase">Năng Lực Cốt Lõi</h2>
-                        <h3 class="font-serif text-3xl md:text-5xl font-extrabold text-white leading-tight">
-                            Hệ Sinh Thái Dịch Vụ <br/><em class="not-italic text-brand-purple">Toàn Diện</em>
+                        <h3 class="font-serif text-3xl md:text-5xl font-extrabold text-primary leading-tight">
+                            Hệ Sinh Thái Dịch Vụ <br/><em class="not-italic text-secondary">Toàn Diện</em>
                         </h3>
                     </div>
-                    <p class="text-zinc-400 leading-relaxed max-w-md lg:ml-auto">
+                    <p class="text-slate-500 leading-relaxed max-w-md lg:ml-auto">
                         Chúng tôi thiết kế các gói giải pháp may đo sát với chi phí và nhu cầu thực tế, đồng hành cùng sự phát triển bền vững của doanh nghiệp.
                     </p>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     <!-- Service 1 -->
-                    <a href="may-tinh-linh-kien.html" class="block group bg-zinc-900 border border-zinc-800 rounded-2xl p-8 relative overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(16,185,129,0.2)] hover:border-brand-green/80 cursor-pointer" id="thiet-bi">
-                        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-purple to-brand-green scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100"></div>
-                        <div class="w-14 h-14 bg-zinc-950 border border-zinc-800 text-brand-green rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:border-brand-green/50 group-hover:bg-brand-green/10 transition-all duration-300 text-3xl relative z-10 group-hover:drop-shadow-[0_0_12px_rgba(16,185,129,0.8)]">
+                    <a href="may-tinh-linh-kien.html" class="block group bg-white border border-slate-200 rounded-2xl p-8 relative overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(16,185,129,0.2)] hover:border-brand-green/80 cursor-pointer" id="thiet-bi">
+                        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-secondary to-accent scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100"></div>
+                        <div class="w-14 h-14 bg-slate-50 border border-slate-200 text-brand-green rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:border-brand-green/50 group-hover:bg-brand-green/10 transition-all duration-300 text-3xl relative z-10 group-hover:drop-shadow-[0_0_12px_rgba(16,185,129,0.8)]">
                             <i class="ph-duotone ph-desktop"></i>
                         </div>
-                        <h4 class="text-lg font-bold text-white mb-3 relative z-10">Máy Tính & Linh Kiện</h4>
-                        <p class="text-sm text-zinc-400 leading-relaxed relative z-10">Cung cấp máy bộ văn phòng tối ưu chi phí, PC đồ họa, Laptop và linh kiện chính hãng.</p>
+                        <h4 class="text-lg font-bold text-primary mb-3 relative z-10">Máy Tính & Linh Kiện</h4>
+                        <p class="text-sm text-slate-500 leading-relaxed relative z-10">Cung cấp máy bộ văn phòng tối ưu chi phí, PC đồ họa, Laptop và linh kiện chính hãng.</p>
                         <div class="flex flex-wrap gap-2 mt-6 relative z-10">
-                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-zinc-950 border border-zinc-800 text-zinc-500 uppercase">PC / Laptop</span>
-                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-zinc-950 border border-zinc-800 text-zinc-500 uppercase">Màn Hình</span>
+                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-slate-50 border border-slate-200 text-slate-400 uppercase">PC / Laptop</span>
+                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-slate-50 border border-slate-200 text-slate-400 uppercase">Màn Hình</span>
                         </div>
-                        <span class="inline-flex items-center gap-2 mt-6 text-sm font-bold text-brand-green group-hover:text-white transition-colors relative z-10">
+                        <span class="inline-flex items-center gap-2 mt-6 text-sm font-bold text-brand-green group-hover:text-primary transition-colors relative z-10">
                             Xem Báo Giá <i class="ph-bold ph-arrow-right group-hover:translate-x-1 transition-transform"></i>
                         </span>
                     </a>
                     
                     <!-- Service 2 -->
-                    <a href="camera-mang.html" class="block group bg-zinc-900 border border-zinc-800 rounded-2xl p-8 relative overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(249,115,22,0.2)] hover:border-brand-orange/80 cursor-pointer" id="ha-tang">
+                    <a href="camera-mang.html" class="block group bg-white border border-slate-200 rounded-2xl p-8 relative overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(249,115,22,0.2)] hover:border-brand-orange/80 cursor-pointer" id="ha-tang">
                         <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-orange to-brand-purple scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100"></div>
-                        <div class="w-14 h-14 bg-zinc-950 border border-zinc-800 text-brand-orange rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:border-brand-orange/50 group-hover:bg-brand-orange/10 transition-all duration-300 text-3xl relative z-10 group-hover:drop-shadow-[0_0_12px_rgba(249,115,22,0.8)]">
+                        <div class="w-14 h-14 bg-slate-50 border border-slate-200 text-brand-orange rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:border-brand-orange/50 group-hover:bg-brand-orange/10 transition-all duration-300 text-3xl relative z-10 group-hover:drop-shadow-[0_0_12px_rgba(249,115,22,0.8)]">
                             <i class="ph-duotone ph-webcam"></i>
                         </div>
-                        <h4 class="text-lg font-bold text-white mb-3 relative z-10">Camera & Mạng</h4>
-                        <p class="text-sm text-zinc-400 leading-relaxed relative z-10">Hệ thống Camera IP độ nét cao, thi công mạng LAN, Mesh WiFi và thiết bị UPS nguồn dự phòng.</p>
+                        <h4 class="text-lg font-bold text-primary mb-3 relative z-10">Camera & Mạng</h4>
+                        <p class="text-sm text-slate-500 leading-relaxed relative z-10">Hệ thống Camera IP độ nét cao, thi công mạng LAN, Mesh WiFi và thiết bị UPS nguồn dự phòng.</p>
                         <div class="flex flex-wrap gap-2 mt-6 relative z-10">
-                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-zinc-950 border border-zinc-800 text-zinc-500 uppercase">Camera Giám Sát</span>
-                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-zinc-950 border border-zinc-800 text-zinc-500 uppercase">Router WiFi</span>
+                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-slate-50 border border-slate-200 text-slate-400 uppercase">Camera Giám Sát</span>
+                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-slate-50 border border-slate-200 text-slate-400 uppercase">Router WiFi</span>
                         </div>
-                        <span class="inline-flex items-center gap-2 mt-6 text-sm font-bold text-brand-orange group-hover:text-white transition-colors relative z-10">
+                        <span class="inline-flex items-center gap-2 mt-6 text-sm font-bold text-brand-orange group-hover:text-primary transition-colors relative z-10">
                             Xem Báo Giá <i class="ph-bold ph-arrow-right group-hover:translate-x-1 transition-transform"></i>
                         </span>
                     </a>
 
                     <!-- Service 3 -->
-                    <a href="dich-vu-it.html" class="block group bg-zinc-900 border border-zinc-800 rounded-2xl p-8 relative overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(96,165,250,0.2)] hover:border-blue-400/80 cursor-pointer" id="dich-vu">
+                    <a href="dich-vu-it.html" class="block group bg-white border border-slate-200 rounded-2xl p-8 relative overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(96,165,250,0.2)] hover:border-blue-400/80 cursor-pointer" id="dich-vu">
                         <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-400 to-brand-purple scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100"></div>
-                        <div class="w-14 h-14 bg-zinc-950 border border-zinc-800 text-blue-400 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:border-blue-400/50 group-hover:bg-blue-400/10 transition-all duration-300 text-3xl relative z-10 group-hover:drop-shadow-[0_0_12px_rgba(96,165,250,0.8)]">
+                        <div class="w-14 h-14 bg-slate-50 border border-slate-200 text-blue-400 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:border-blue-400/50 group-hover:bg-blue-400/10 transition-all duration-300 text-3xl relative z-10 group-hover:drop-shadow-[0_0_12px_rgba(96,165,250,0.8)]">
                             <i class="ph-duotone ph-wrench"></i>
                         </div>
-                        <h4 class="text-lg font-bold text-white mb-3 relative z-10">Dịch Vụ IT</h4>
-                        <p class="text-sm text-zinc-400 leading-relaxed relative z-10">Bảo trì IT định kỳ, tối ưu hóa hệ thống máy chủ (Server), và cứu hộ máy tính khẩn cấp tận nơi.</p>
+                        <h4 class="text-lg font-bold text-primary mb-3 relative z-10">Dịch Vụ IT</h4>
+                        <p class="text-sm text-slate-500 leading-relaxed relative z-10">Bảo trì IT định kỳ, tối ưu hóa hệ thống máy chủ (Server), và cứu hộ máy tính khẩn cấp tận nơi.</p>
                         <div class="flex flex-wrap gap-2 mt-6 relative z-10">
-                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-zinc-950 border border-zinc-800 text-zinc-500 uppercase">Bảo trì định kỳ</span>
-                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-zinc-950 border border-zinc-800 text-zinc-500 uppercase">Server Xeon</span>
+                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-slate-50 border border-slate-200 text-slate-400 uppercase">Bảo trì định kỳ</span>
+                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-slate-50 border border-slate-200 text-slate-400 uppercase">Server Xeon</span>
                         </div>
-                        <span class="inline-flex items-center gap-2 mt-6 text-sm font-bold text-blue-400 group-hover:text-white transition-colors relative z-10">
+                        <span class="inline-flex items-center gap-2 mt-6 text-sm font-bold text-blue-400 group-hover:text-primary transition-colors relative z-10">
                             Xem Báo Giá <i class="ph-bold ph-arrow-right group-hover:translate-x-1 transition-transform"></i>
                         </span>
                     </a>
                     
                     <!-- Service 4 -->
-                    <a href="phan-mem-so-hoa.html" class="block group bg-zinc-900 border border-zinc-800 rounded-2xl p-8 relative overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(139,92,246,0.2)] hover:border-brand-purple/80 cursor-pointer" id="phan-mem">
-                        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-purple to-pink-500 scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100"></div>
-                        <div class="w-14 h-14 bg-zinc-950 border border-zinc-800 text-brand-purple rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:border-brand-purple/50 group-hover:bg-brand-purple/10 transition-all duration-300 text-3xl relative z-10 group-hover:drop-shadow-[0_0_12px_rgba(139,92,246,0.8)]">
+                    <a href="phan-mem-so-hoa.html" class="block group bg-white border border-slate-200 rounded-2xl p-8 relative overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_0_30px_rgba(139,92,246,0.2)] hover:border-brand-purple/80 cursor-pointer" id="phan-mem">
+                        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-secondary to-accent scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100"></div>
+                        <div class="w-14 h-14 bg-slate-50 border border-slate-200 text-secondary rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:border-brand-purple/50 group-hover:bg-secondary/10 transition-all duration-300 text-3xl relative z-10 group-hover:drop-shadow-[0_0_12px_rgba(139,92,246,0.8)]">
                             <i class="ph-duotone ph-disc"></i>
                         </div>
-                        <h4 class="text-lg font-bold text-white mb-3 relative z-10">Phần Mềm & Số Hóa</h4>
-                        <p class="text-sm text-zinc-400 leading-relaxed relative z-10">Tài khoản Premium cao cấp, bản quyền Windows/Office, phần mềm diệt virus và nền tảng EdTech.</p>
+                        <h4 class="text-lg font-bold text-primary mb-3 relative z-10">Phần Mềm & Số Hóa</h4>
+                        <p class="text-sm text-slate-500 leading-relaxed relative z-10">Tài khoản Premium cao cấp, bản quyền Windows/Office, phần mềm diệt virus và nền tảng EdTech.</p>
                         <div class="flex flex-wrap gap-2 mt-6 relative z-10">
-                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-zinc-950 border border-zinc-800 text-zinc-500 uppercase">Bản quyền số</span>
-                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-zinc-950 border border-zinc-800 text-zinc-500 uppercase">SaaS Premium</span>
+                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-slate-50 border border-slate-200 text-slate-400 uppercase">Bản quyền số</span>
+                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-slate-50 border border-slate-200 text-slate-400 uppercase">SaaS Premium</span>
                         </div>
-                        <span class="inline-flex items-center gap-2 mt-6 text-sm font-bold text-brand-purple group-hover:text-white transition-colors relative z-10">
+                        <span class="inline-flex items-center gap-2 mt-6 text-sm font-bold text-secondary group-hover:text-primary transition-colors relative z-10">
                             Xem Báo Giá <i class="ph-bold ph-arrow-right group-hover:translate-x-1 transition-transform"></i>
                         </span>
                     </a>
@@ -360,24 +350,24 @@
         
 
         <!-- Achievement Counters Section -->
-        <section class="py-20 bg-gradient-to-b from-zinc-950 to-zinc-900 border-t border-white/5 relative reveal" id="achievements">
+        <section class="py-20 bg-gradient-to-b from-zinc-950 to-zinc-900 border-t border-slate-200 relative reveal" id="achievements">
             <div class="container mx-auto px-4 max-w-7xl relative z-10">
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 text-center">
                     <div class="flex flex-col items-center">
-                        <div class="text-4xl md:text-5xl font-black text-white mb-2 flex items-center"><span class="counter" data-target="5">0</span><span class="text-brand-green">+</span></div>
-                        <div class="text-sm font-bold text-zinc-400 uppercase tracking-wider mt-1">Năm Kinh Nghiệm</div>
+                        <div class="text-4xl md:text-5xl font-black text-primary mb-2 flex items-center"><span class="counter" data-target="5">0</span><span class="text-brand-green">+</span></div>
+                        <div class="text-sm font-bold text-slate-500 uppercase tracking-wider mt-1">Năm Kinh Nghiệm</div>
                     </div>
                     <div class="flex flex-col items-center">
-                        <div class="text-4xl md:text-5xl font-black text-white mb-2 flex items-center"><span class="counter" data-target="500">0</span><span class="text-brand-purple">+</span></div>
-                        <div class="text-sm font-bold text-zinc-400 uppercase tracking-wider mt-1">Khách Hàng B2B</div>
+                        <div class="text-4xl md:text-5xl font-black text-primary mb-2 flex items-center"><span class="counter" data-target="500">0</span><span class="text-secondary">+</span></div>
+                        <div class="text-sm font-bold text-slate-500 uppercase tracking-wider mt-1">Khách Hàng B2B</div>
                     </div>
                     <div class="flex flex-col items-center">
-                        <div class="text-4xl md:text-5xl font-black text-white mb-2 flex items-center"><span class="counter" data-target="2000">0</span><span class="text-brand-orange">+</span></div>
-                        <div class="text-sm font-bold text-zinc-400 uppercase tracking-wider mt-1">Thiết Bị Lắp Đặt</div>
+                        <div class="text-4xl md:text-5xl font-black text-primary mb-2 flex items-center"><span class="counter" data-target="2000">0</span><span class="text-brand-orange">+</span></div>
+                        <div class="text-sm font-bold text-slate-500 uppercase tracking-wider mt-1">Thiết Bị Lắp Đặt</div>
                     </div>
                     <div class="flex flex-col items-center">
-                        <div class="text-4xl md:text-5xl font-black text-white mb-2 flex items-center"><span class="counter" data-target="24">0</span><span class="text-blue-500">/7</span></div>
-                        <div class="text-sm font-bold text-zinc-400 uppercase tracking-wider mt-1">Hỗ Trợ Kỹ Thuật</div>
+                        <div class="text-4xl md:text-5xl font-black text-primary mb-2 flex items-center"><span class="counter" data-target="24">0</span><span class="text-blue-500">/7</span></div>
+                        <div class="text-sm font-bold text-slate-500 uppercase tracking-wider mt-1">Hỗ Trợ Kỹ Thuật</div>
                     </div>
                 </div>
             </div>
@@ -388,8 +378,8 @@
             <div class="absolute top-[30%] right-[-10%] w-[50%] h-[50%] bg-brand-green/5 blur-[120px] rounded-full pointer-events-none"></div>
             <div class="container mx-auto px-4 max-w-7xl relative z-10">
                 <div class="text-center mb-20">
-                    <h2 class="text-3xl md:text-5xl font-serif font-bold text-white mb-4">Quy Trình Triển Khai</h2>
-                    <p class="text-zinc-400 max-w-2xl mx-auto">Quy trình 4 bước bài bản giúp khách hàng dễ dàng theo dõi tiến độ công việc.</p>
+                    <h2 class="text-3xl md:text-5xl font-serif font-bold text-primary mb-4">Quy Trình Triển Khai</h2>
+                    <p class="text-slate-500 max-w-2xl mx-auto">Quy trình 4 bước bài bản giúp khách hàng dễ dàng theo dõi tiến độ công việc.</p>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
@@ -398,42 +388,42 @@
                     
                     <!-- Step 1 -->
                     <div class="relative z-10 flex flex-col items-center text-center group">
-                        <div class="w-24 h-24 bg-zinc-900 border-2 border-zinc-700 rounded-full flex items-center justify-center text-3xl text-zinc-400 mb-6 group-hover:border-brand-green group-hover:text-brand-green group-hover:scale-110 transition-all duration-300 shadow-xl relative">
-                            <span class="absolute -top-2 -right-2 w-8 h-8 bg-brand-green text-white text-sm font-black rounded-full flex items-center justify-center border-4 border-zinc-950">1</span>
+                        <div class="w-24 h-24 bg-white border-2 border-slate-300 rounded-full flex items-center justify-center text-3xl text-slate-500 mb-6 group-hover:border-brand-green group-hover:text-brand-green group-hover:scale-110 transition-all duration-300 shadow-xl relative">
+                            <span class="absolute -top-2 -right-2 w-8 h-8 bg-brand-green text-primary text-sm font-black rounded-full flex items-center justify-center border-4 border-zinc-950">1</span>
                             <i class="ph-duotone ph-magnifying-glass"></i>
                         </div>
-                        <h3 class="text-lg font-bold text-white mb-2">Khảo Sát & Đánh Giá</h3>
-                        <p class="text-sm text-zinc-400">Ghi nhận yêu cầu, khảo sát hạ tầng thực tế tận nơi.</p>
+                        <h3 class="text-lg font-bold text-primary mb-2">Khảo Sát & Đánh Giá</h3>
+                        <p class="text-sm text-slate-500">Ghi nhận yêu cầu, khảo sát hạ tầng thực tế tận nơi.</p>
                     </div>
                     
                     <!-- Step 2 -->
                     <div class="relative z-10 flex flex-col items-center text-center group">
-                        <div class="w-24 h-24 bg-zinc-900 border-2 border-zinc-700 rounded-full flex items-center justify-center text-3xl text-zinc-400 mb-6 group-hover:border-brand-purple group-hover:text-brand-purple group-hover:scale-110 transition-all duration-300 shadow-xl relative">
-                            <span class="absolute -top-2 -right-2 w-8 h-8 bg-brand-purple text-white text-sm font-black rounded-full flex items-center justify-center border-4 border-zinc-950">2</span>
+                        <div class="w-24 h-24 bg-white border-2 border-slate-300 rounded-full flex items-center justify-center text-3xl text-slate-500 mb-6 group-hover:border-brand-purple group-hover:text-secondary group-hover:scale-110 transition-all duration-300 shadow-xl relative">
+                            <span class="absolute -top-2 -right-2 w-8 h-8 bg-secondary text-primary text-sm font-black rounded-full flex items-center justify-center border-4 border-zinc-950">2</span>
                             <i class="ph-duotone ph-files"></i>
                         </div>
-                        <h3 class="text-lg font-bold text-white mb-2">Tư Vấn & Báo Giá</h3>
-                        <p class="text-sm text-zinc-400">Lên phương án tối ưu kỹ thuật và chi phí, gửi báo giá chi tiết.</p>
+                        <h3 class="text-lg font-bold text-primary mb-2">Tư Vấn & Báo Giá</h3>
+                        <p class="text-sm text-slate-500">Lên phương án tối ưu kỹ thuật và chi phí, gửi báo giá chi tiết.</p>
                     </div>
                     
                     <!-- Step 3 -->
                     <div class="relative z-10 flex flex-col items-center text-center group">
-                        <div class="w-24 h-24 bg-zinc-900 border-2 border-zinc-700 rounded-full flex items-center justify-center text-3xl text-zinc-400 mb-6 group-hover:border-brand-orange group-hover:text-brand-orange group-hover:scale-110 transition-all duration-300 shadow-xl relative">
-                            <span class="absolute -top-2 -right-2 w-8 h-8 bg-brand-orange text-white text-sm font-black rounded-full flex items-center justify-center border-4 border-zinc-950">3</span>
+                        <div class="w-24 h-24 bg-white border-2 border-slate-300 rounded-full flex items-center justify-center text-3xl text-slate-500 mb-6 group-hover:border-brand-orange group-hover:text-brand-orange group-hover:scale-110 transition-all duration-300 shadow-xl relative">
+                            <span class="absolute -top-2 -right-2 w-8 h-8 bg-brand-orange text-primary text-sm font-black rounded-full flex items-center justify-center border-4 border-zinc-950">3</span>
                             <i class="ph-duotone ph-wrench"></i>
                         </div>
-                        <h3 class="text-lg font-bold text-white mb-2">Thi Công & Lắp Đặt</h3>
-                        <p class="text-sm text-zinc-400">Kỹ thuật viên triển khai chuyên nghiệp, gọn gàng, an toàn.</p>
+                        <h3 class="text-lg font-bold text-primary mb-2">Thi Công & Lắp Đặt</h3>
+                        <p class="text-sm text-slate-500">Kỹ thuật viên triển khai chuyên nghiệp, gọn gàng, an toàn.</p>
                     </div>
                     
                     <!-- Step 4 -->
                     <div class="relative z-10 flex flex-col items-center text-center group">
-                        <div class="w-24 h-24 bg-zinc-900 border-2 border-zinc-700 rounded-full flex items-center justify-center text-3xl text-zinc-400 mb-6 group-hover:border-blue-500 group-hover:text-blue-500 group-hover:scale-110 transition-all duration-300 shadow-xl relative">
-                            <span class="absolute -top-2 -right-2 w-8 h-8 bg-blue-500 text-white text-sm font-black rounded-full flex items-center justify-center border-4 border-zinc-950">4</span>
+                        <div class="w-24 h-24 bg-white border-2 border-slate-300 rounded-full flex items-center justify-center text-3xl text-slate-500 mb-6 group-hover:border-blue-500 group-hover:text-blue-500 group-hover:scale-110 transition-all duration-300 shadow-xl relative">
+                            <span class="absolute -top-2 -right-2 w-8 h-8 bg-blue-500 text-primary text-sm font-black rounded-full flex items-center justify-center border-4 border-zinc-950">4</span>
                             <i class="ph-duotone ph-handshake"></i>
                         </div>
-                        <h3 class="text-lg font-bold text-white mb-2">Nghiệm Thu & Hỗ Trợ</h3>
-                        <p class="text-sm text-zinc-400">Bàn giao, hướng dẫn sử dụng và bảo hành 1 đổi 1 tận nơi.</p>
+                        <h3 class="text-lg font-bold text-primary mb-2">Nghiệm Thu & Hỗ Trợ</h3>
+                        <p class="text-sm text-slate-500">Bàn giao, hướng dẫn sử dụng và bảo hành 1 đổi 1 tận nơi.</p>
                     </div>
                 </div>
             </div>
@@ -442,7 +432,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="w-full bg-zinc-950 border-t border-white/5 pt-16 pb-8">
+    <footer class="w-full bg-slate-50 border-t border-slate-200 pt-16 pb-8">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                 <div class="col-span-1 md:col-span-1">
@@ -451,46 +441,46 @@
                             <img src="logo.png" alt="Phát Lộc Tech Logo" class="object-contain w-10 h-10 md:w-11 md:h-11"/>
                         </div>
                         <div class="flex items-center hover:opacity-80 transition-opacity">
-                            <span class="text-xl md:text-2xl font-black tracking-wider uppercase leading-none drop-shadow-md text-white">PHÁT LỘC TECH</span>
+                            <span class="text-xl md:text-2xl font-black tracking-wider uppercase leading-none drop-shadow-md text-primary">PHÁT LỘC TECH</span>
                         </div>
                     </a>
-                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                    <p class="text-slate-500 text-sm leading-relaxed mb-4">
                         Đơn vị cung cấp thiết bị công nghệ, giải pháp mạng và dịch vụ IT chuyên nghiệp, đồng hành cùng quá trình chuyển đổi số của doanh nghiệp.
                     </p>
                 </div>
                 
                 <div class="md:col-span-1">
-                    <h4 class="text-white font-semibold mb-4 uppercase text-sm tracking-wider">Thông Tin Liên Hệ</h4>
-                    <ul class="space-y-3 text-sm text-gray-400">
+                    <h4 class="text-primary font-semibold mb-4 uppercase text-sm tracking-wider">Thông Tin Liên Hệ</h4>
+                    <ul class="space-y-3 text-sm text-slate-500">
                         <li>
                             <span class="block text-gray-500 text-xs mb-1">Tên công ty</span>
-                            <span class="text-white">CÔNG TY TNHH PHÁT LỘC TECH</span>                        </li>
+                            <span class="text-primary">CÔNG TY TNHH PHÁT LỘC TECH</span>                        </li>
                         <li>
                             <span class="block text-gray-500 text-xs mb-1">Chủ sở hữu</span>
-                            <span class="text-white">NGUYỄN THANH PHONG</span>
+                            <span class="text-primary">NGUYỄN THANH PHONG</span>
                         </li>
                         <li>
                             <span class="block text-gray-500 text-xs mb-1">Mã số thuế</span>
-                            <span class="text-white">0319347662</span>
+                            <span class="text-primary">0319347662</span>
                         </li>
                         <li>
                             <span class="block text-gray-500 text-xs mb-1">Địa chỉ</span>
-                            <span class="text-white leading-relaxed">Số 491/1 Trường Chinh, Phường Tân Bình, Thành phố Hồ Chí Minh, Việt Nam</span>
+                            <span class="text-primary leading-relaxed">Số 491/1 Trường Chinh, Phường Tân Bình, Thành phố Hồ Chí Minh, Việt Nam</span>
                         </li>
                         <li>
                             <span class="block text-gray-500 text-xs mb-1">Số điện thoại / Zalo</span>
-                            <span class="text-white">0932 685 794</span>
+                            <span class="text-primary">0932 685 794</span>
                         </li>
                         <li>
                             <span class="block text-gray-500 text-xs mb-1">Email</span>
-                            <span class="text-white">phatloctech.ltd@gmail.com</span>
+                            <span class="text-primary">phatloctech.ltd@gmail.com</span>
                         </li>
                     </ul>
                 </div>
                 
                 <div>
-                    <h4 class="text-white font-semibold mb-4 uppercase text-sm tracking-wider">Danh Mục Dịch Vụ</h4>
-                    <ul class="space-y-2 text-sm text-gray-400">
+                    <h4 class="text-primary font-semibold mb-4 uppercase text-sm tracking-wider">Danh Mục Dịch Vụ</h4>
+                    <ul class="space-y-2 text-sm text-slate-500">
                         <li><a class="hover:text-brand-green transition-colors" href="#thiet-bi">Thiết Bị Tin Học</a></li>
                         <li><a class="hover:text-brand-green transition-colors" href="#ha-tang">Camera An Ninh & Mạng</a></li>
                         <li><a class="hover:text-brand-green transition-colors" href="#dich-vu">Dịch Vụ IT</a></li>
@@ -499,18 +489,18 @@
                 </div>
                 
                 <div>
-                    <h4 class="text-white font-semibold mb-4 uppercase text-sm tracking-wider">Chính Sách & Quy Định</h4>
-                    <ul class="space-y-2 text-sm text-gray-400">
-                        <li><a class="hover:text-brand-purple transition-colors" href="chinh-sach-bao-mat.html">Chính sách bảo mật</a></li>
-                        <li><a class="hover:text-brand-purple transition-colors" href="dieu-kien-giao-dich.html">Điều kiện giao dịch chung</a></li>
-                        <li><a class="hover:text-brand-purple transition-colors" href="chinh-sach-van-chuyen.html">Chính sách vận chuyển và giao nhận</a></li>
-                        <li><a class="hover:text-brand-purple transition-colors" href="phuong-thuc-thanh-toan.html">Các phương thức thanh toán</a></li>
-                        <li><a class="policy-btn hover:text-brand-purple transition-colors cursor-pointer" data-policy="baohanh">Chính sách bảo hành (Tóm tắt)</a></li>
+                    <h4 class="text-primary font-semibold mb-4 uppercase text-sm tracking-wider">Chính Sách & Quy Định</h4>
+                    <ul class="space-y-2 text-sm text-slate-500">
+                        <li><a class="hover:text-secondary transition-colors" href="chinh-sach-bao-mat.html">Chính sách bảo mật</a></li>
+                        <li><a class="hover:text-secondary transition-colors" href="dieu-kien-giao-dich.html">Điều kiện giao dịch chung</a></li>
+                        <li><a class="hover:text-secondary transition-colors" href="chinh-sach-van-chuyen.html">Chính sách vận chuyển và giao nhận</a></li>
+                        <li><a class="hover:text-secondary transition-colors" href="phuong-thuc-thanh-toan.html">Các phương thức thanh toán</a></li>
+                        <li><a class="policy-btn hover:text-secondary transition-colors cursor-pointer" data-policy="baohanh">Chính sách bảo hành (Tóm tắt)</a></li>
                     </ul>
                 </div>
             </div>
             
-            <div class="border-t border-white/10 pt-8 text-center text-xs text-gray-600">
+            <div class="border-t border-slate-200 pt-8 text-center text-xs text-gray-600">
                 <p>© 2026 Phát Lộc Tech. Tất cả các quyền được bảo lưu.</p>
             </div>
         </div>
@@ -522,54 +512,54 @@
     </a>
 
     <!-- Chat Widget Button -->
-    <button id="chat-toggle" class="fixed bottom-6 left-6 z-[9999] w-14 h-14 rounded-full bg-brand-purple hover:bg-brand-purple-dark text-white shadow-lg flex items-center justify-center transition-transform hover:scale-110">
+    <button id="chat-toggle" class="fixed bottom-6 left-6 z-[9999] w-14 h-14 rounded-full bg-secondary hover:bg-secondary- text-primary shadow-lg flex items-center justify-center transition-transform hover:scale-110">
         <i class="ph ph-chats text-2xl"></i>
         <span class="absolute top-0 right-0 w-3.5 h-3.5 bg-green-500 rounded-full border-2 border-zinc-950 animate-pulse-g"></span>
     </button>
     
     <!-- Chat Widget Panel -->
-    <div id="chat-panel" class="fixed bottom-24 left-6 z-[9998] w-[340px] max-w-[calc(100vw-48px)] bg-[#18181b] border border-zinc-800 rounded-2xl shadow-2xl flex flex-col overflow-hidden transition-all duration-300 origin-bottom-left scale-90 opacity-0 pointer-events-none">
-        <div class="bg-brand-purple p-4 flex items-center gap-3">
+    <div id="chat-panel" class="fixed bottom-24 left-6 z-[9998] w-[340px] max-w-[calc(100vw-48px)] bg-[#18181b] border border-slate-200 rounded-2xl shadow-2xl flex flex-col overflow-hidden transition-all duration-300 origin-bottom-left scale-90 opacity-0 pointer-events-none">
+        <div class="bg-secondary p-4 flex items-center gap-3">
             <div class="w-10 h-10 rounded-full bg-white p-1 shadow-md flex items-center justify-center shrink-0">
                 <img src="logo.png" alt="Phát Lộc Tech" class="object-contain w-full h-full"/>
             </div>
             <div>
-                <strong class="block text-white text-sm font-bold">Phát Lộc Tech</strong>
-                <span class="flex items-center gap-1.5 text-white/75 text-xs font-medium mt-0.5">
+                <strong class="block text-primary text-sm font-bold">Phát Lộc Tech</strong>
+                <span class="flex items-center gap-1.5 text-primary/75 text-xs font-medium mt-0.5">
                     <span class="w-1.5 h-1.5 bg-green-400 rounded-full"></span>Đang hoạt động
                 </span>
             </div>
         </div>
         
         <div class="p-4 flex flex-col gap-4 max-h-[500px] overflow-y-auto">
-            <div class="bg-[#27272a] text-zinc-200 p-3 rounded-2xl rounded-tl-sm text-sm leading-relaxed self-start max-w-[90%] font-medium">
+            <div class="bg-[#27272a] text-slate-800 p-3 rounded-2xl rounded-tl-sm text-sm leading-relaxed self-start max-w-[90%] font-medium">
                 Xin chào! Phát Lộc Tech có thể giúp gì cho bạn hôm nay?
             </div>
             
             <div class="flex gap-3 mt-1">
-                <a href="https://zalo.me/0932685794" target="_blank" title="Chat Zalo" class="w-11 h-11 bg-[#27272a] hover:bg-zinc-700 border border-zinc-700 text-zinc-300 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105">
+                <a href="https://zalo.me/0932685794" target="_blank" title="Chat Zalo" class="w-11 h-11 bg-[#27272a] hover:bg-slate-200 border border-slate-300 text-slate-700 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" alt="Zalo" class="w-6 h-6"/>
                 </a>
-                <a href="https://www.messenger.com/t/876656692206747" target="_blank" title="Chat Messenger" class="w-11 h-11 bg-[#27272a] hover:bg-zinc-700 border border-zinc-700 text-blue-400 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105 text-2xl">
+                <a href="https://www.messenger.com/t/876656692206747" target="_blank" title="Chat Messenger" class="w-11 h-11 bg-[#27272a] hover:bg-slate-200 border border-slate-300 text-blue-400 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105 text-2xl">
                     <i class="ph-fill ph-messenger-logo"></i>
                 </a>
-                <a href="tel:0932685794" title="Gọi Hotline" class="w-11 h-11 bg-[#27272a] hover:bg-zinc-700 border border-zinc-700 text-green-500 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105 text-2xl">
+                <a href="tel:0932685794" title="Gọi Hotline" class="w-11 h-11 bg-[#27272a] hover:bg-slate-200 border border-slate-300 text-green-500 rounded-full transition-all flex items-center justify-center shadow-md hover:scale-105 text-2xl">
                     <i class="ph-fill ph-phone-call"></i>
                 </a>
             </div>
             
-            <div class="mt-2 border-t border-zinc-800 pt-3" id="contact-form-container">
-                <p class="text-[11px] text-zinc-500 mb-2 font-bold uppercase tracking-wider">HOẶC GỬI YÊU CẦU</p>
+            <div class="mt-2 border-t border-slate-200 pt-3" id="contact-form-container">
+                <p class="text-[11px] text-slate-400 mb-2 font-bold uppercase tracking-wider">HOẶC GỬI YÊU CẦU</p>
                 <form id="lead-form" action="https://formsubmit.co/phongishop86@gmail.com" method="POST" class="flex flex-col gap-3">
                     <input type="hidden" name="_subject" value="Khách hàng mới từ Web Phát Lộc Tech">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_template" value="table">
                     
-                    <input type="text" name="Tên" required placeholder="Tên của bạn" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
-                    <input type="tel" name="SĐT" required placeholder="Số điện thoại" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
-                    <textarea name="Yêu cầu" required placeholder="Vấn đề bạn quan tâm..." rows="3" class="w-full bg-[#09090b] border border-zinc-800 rounded-lg px-3.5 py-3 text-sm text-white focus:outline-none focus:border-brand-purple transition-colors resize-none font-medium"></textarea>
+                    <input type="text" name="Tên" required placeholder="Tên của bạn" class="w-full bg-[#09090b] border border-slate-200 rounded-lg px-3.5 py-3 text-sm text-primary focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
+                    <input type="tel" name="SĐT" required placeholder="Số điện thoại" class="w-full bg-[#09090b] border border-slate-200 rounded-lg px-3.5 py-3 text-sm text-primary focus:outline-none focus:border-brand-purple transition-colors font-medium"/>
+                    <textarea name="Yêu cầu" required placeholder="Vấn đề bạn quan tâm..." rows="3" class="w-full bg-[#09090b] border border-slate-200 rounded-lg px-3.5 py-3 text-sm text-primary focus:outline-none focus:border-brand-purple transition-colors resize-none font-medium"></textarea>
                     
-                    <button type="submit" class="w-full bg-brand-purple hover:bg-brand-purple-dark text-white font-bold text-sm py-3 rounded-lg transition-colors flex justify-center items-center gap-2 mt-1">
+                    <button type="submit" class="w-full bg-secondary hover:bg-secondary- text-primary font-bold text-sm py-3 rounded-lg transition-colors flex justify-center items-center gap-2 mt-1">
                         Gửi yêu cầu <i class="ph ph-paper-plane-right text-lg"></i>
                     </button>
                 </form>
