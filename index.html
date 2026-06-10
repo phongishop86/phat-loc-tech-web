@@ -54,12 +54,12 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="min-h-full flex flex-col bg-slate-50 text-primary font-sans">
+<body class="min-h-full flex flex-col bg-white text-primary font-sans">
     
     <!-- Header -->
-    <header class="w-full bg-gradient-to-r from-purple-950 via-indigo-950 to-purple-900 z-50 shadow-xl sticky top-0 border-b border-slate-200">
+    <header class="w-full bg-white/95 backdrop-blur-lg z-50 shadow-sm sticky top-0 border-b border-slate-200">
         <div class="container mx-auto px-4 h-20 flex items-center justify-between gap-4 md:gap-8">
-            <button class="lg:hidden text-primary p-2 -ml-2 hover:bg-white/10 rounded-lg transition-colors">
+            <button class="lg:hidden text-primary p-2 -ml-2 hover:bg-slate-100 rounded-lg transition-colors">
                 <i class="ph ph-list text-2xl"></i>
             </button>
             <a class="flex items-center gap-3 shrink-0 group mx-auto lg:mx-0" href="index.html">
@@ -72,19 +72,19 @@
             </a>
             <nav class="hidden lg:flex items-center gap-8 h-full flex-1 justify-center">
                 <div class="relative flex items-center h-full group py-6">
-                    <a href="bao-gia.html" class="flex items-center gap-1.5 text-[14px] font-bold text-yellow-400 hover:text-yellow-300 transition-colors uppercase tracking-wider drop-shadow-md"><i class="ph-bold ph-list-numbers text-lg"></i> Báo Giá</a>
+                    <a href="bao-gia.html" class="flex items-center gap-1.5 text-[14px] font-bold text-accent hover:text-secondary transition-colors uppercase tracking-wider"><i class="ph-bold ph-list-numbers text-lg"></i> Báo Giá</a>
                 </div>
                 <div class="relative flex items-center h-full group py-6">
-                    <a href="may-tinh-linh-kien.html" class="flex items-center gap-1.5 text-[13px] font-bold text-slate-800 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Máy Tính & Linh Kiện</a>
+                    <a href="may-tinh-linh-kien.html" class="flex items-center gap-1.5 text-[13px] font-bold text-primary hover:text-secondary transition-colors uppercase tracking-wider">Máy Tính & Linh Kiện</a>
                 </div>
                 <div class="relative flex items-center h-full group py-6">
-                    <a href="camera-mang.html" class="flex items-center gap-1.5 text-[13px] font-bold text-slate-800 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Camera & Mạng</a>
+                    <a href="camera-mang.html" class="flex items-center gap-1.5 text-[13px] font-bold text-primary hover:text-secondary transition-colors uppercase tracking-wider">Camera & Mạng</a>
                 </div>
                 <div class="relative flex items-center h-full group py-6">
-                    <a href="dich-vu-it.html" class="flex items-center gap-1.5 text-[13px] font-bold text-slate-800 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Dịch Vụ IT</a>
+                    <a href="dich-vu-it.html" class="flex items-center gap-1.5 text-[13px] font-bold text-primary hover:text-secondary transition-colors uppercase tracking-wider">Dịch Vụ IT</a>
                 </div>
                 <div class="relative flex items-center h-full group py-6">
-                    <a href="phan-mem-so-hoa.html" class="flex items-center gap-1.5 text-[13px] font-bold text-slate-800 hover:text-yellow-400 transition-colors uppercase tracking-wider drop-shadow-sm">Phần Mềm & Số Hóa</a>
+                    <a href="phan-mem-so-hoa.html" class="flex items-center gap-1.5 text-[13px] font-bold text-primary hover:text-secondary transition-colors uppercase tracking-wider">Phần Mềm & Số Hóa</a>
                 </div>
             </nav>
             <div class="w-11 lg:hidden shrink-0"></div>
@@ -93,11 +93,11 @@
 
     <main class="flex-1">
         <!-- Hero Section -->
-        <section class="relative min-h-[90vh] flex items-center pt-24 pb-16 overflow-hidden bg-slate-50">
+        <section class="relative min-h-[90vh] flex items-center pt-24 pb-16 overflow-hidden bg-gradient-to-br from-secondary to-accent">
             <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
-                <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-secondary/20 blur-[100px]"></div>
-                <div class="absolute bottom-[-10%] left-[-5%] w-[400px] h-[400px] rounded-full bg-accent/20 blur-[100px]"></div>
-                <div class="absolute top-[20%] right-[10%] w-32 h-32 opacity-20" style="background-image:radial-gradient(circle, #06b6d4 1.5px, transparent 1.5px);background-size:16px 16px"></div>
+                <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-white/20 blur-[100px]"></div>
+                <div class="absolute bottom-[-10%] left-[-5%] w-[400px] h-[400px] rounded-full bg-white/10 blur-[100px]"></div>
+                <div class="absolute top-[20%] right-[10%] w-32 h-32 opacity-20" style="background-image:radial-gradient(circle, #ffffff 1.5px, transparent 1.5px);background-size:16px 16px"></div>
             </div>
             
             <div class="relative z-10 w-full max-w-7xl mx-auto px-6 grid lg:grid-cols-[1.1fr_1fr] gap-16 items-center">
@@ -183,8 +183,8 @@
 
         <!-- Partner Brands Section -->
         <section class="py-10 border-y border-slate-200 bg-slate-50/50 overflow-hidden relative reveal">
-            <div class="absolute left-0 top-0 w-16 md:w-32 h-full bg-gradient-to-r from-zinc-950 to-transparent z-10 pointer-events-none"></div>
-            <div class="absolute right-0 top-0 w-16 md:w-32 h-full bg-gradient-to-l from-zinc-950 to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute left-0 top-0 w-16 md:w-32 h-full bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute right-0 top-0 w-16 md:w-32 h-full bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
             
             <div class="marquee-container flex items-center gap-16 md:gap-24 opacity-60">
                 <div class="marquee-content flex items-center gap-16 md:gap-24 whitespace-nowrap min-w-full justify-around shrink-0">
@@ -350,7 +350,7 @@
         
 
         <!-- Achievement Counters Section -->
-        <section class="py-20 bg-gradient-to-b from-zinc-950 to-zinc-900 border-t border-slate-200 relative reveal" id="achievements">
+        <section class="py-20 bg-gradient-to-b from-secondary to-primary border-t border-slate-200 relative reveal" id="achievements">
             <div class="container mx-auto px-4 max-w-7xl relative z-10">
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 text-center">
                     <div class="flex flex-col items-center">
@@ -384,7 +384,7 @@
                 
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
                     <!-- Connecting Line (Desktop only) -->
-                    <div class="hidden md:block absolute top-12 left-[10%] right-[10%] h-0.5 bg-gradient-to-r from-transparent via-zinc-700 to-transparent z-0"></div>
+                    <div class="hidden md:block absolute top-12 left-[10%] right-[10%] h-0.5 bg-gradient-to-r from-transparent via-slate-300 to-transparent z-0"></div>
                     
                     <!-- Step 1 -->
                     <div class="relative z-10 flex flex-col items-center text-center group">
