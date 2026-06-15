@@ -9,7 +9,7 @@
     <!-- Google Fonts: Inter (Body) & Playfair Display (Headings) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Oswald:wght@500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
     
     <!-- Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
@@ -21,6 +21,7 @@
             --font-sans: 'Inter', sans-serif;
             --font-serif: '"Playfair Display"', serif;
             --font-oswald: 'Oswald', sans-serif;
+            --font-montserrat: 'Montserrat', sans-serif;
             
             --color-primary: #0F172A;
             --color-secondary: #2563EB;
@@ -95,23 +96,103 @@
     </header>
 
     <main class="flex-1">
-        <!-- Hero Section -->
-        <section class="relative min-h-[90vh] flex items-center pt-24 pb-16 overflow-hidden bg-white">
-            <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
-                <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-secondary/10 blur-[100px]"></div>
-                <div class="absolute bottom-[-10%] left-[-5%] w-[400px] h-[400px] rounded-full bg-accent/10 blur-[100px]"></div>
-                <div class="absolute top-[20%] right-[10%] w-32 h-32 opacity-20" style="background-image:radial-gradient(circle, #ffffff 1.5px, transparent 1.5px);background-size:16px 16px"></div>
+        <!-- Top Navigation Bar -->
+    <nav class="w-full bg-white border-b border-slate-200 z-50 relative">
+        <div class="max-w-[1400px] mx-auto px-6 h-20 flex items-center justify-between">
+            <!-- Left: Logo -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                    <img src="PLT-Logo-final-transparent.png" alt="Phát Lộc Tech" class="w-full h-full object-contain mix-blend-multiply" />
+                </div>
+                <span class="text-[#0f172a] font-bold text-xl tracking-tight">Phát Lộc Tech</span>
+            </div>
+
+            <!-- Center: Links (Hidden on Mobile) -->
+            <div class="hidden lg:flex items-center gap-8">
+                <a href="#" class="text-slate-800 font-medium text-sm hover:text-blue-600 transition">Trang chủ</a>
+                <a href="#services" class="text-slate-600 font-medium text-sm hover:text-blue-600 transition">Giải pháp CNTT</a>
+                <a href="#" class="text-slate-600 font-medium text-sm hover:text-blue-600 transition">Tra cứu báo giá</a>
+                <a href="#" class="text-slate-600 font-medium text-sm hover:text-blue-600 transition">Dự án</a>
+                <a href="#" class="text-slate-600 font-medium text-sm hover:text-blue-600 transition">Tin tức</a>
+            </div>
+
+            <!-- Right: Contact -->
+            <div class="hidden lg:flex items-center gap-6">
+                <div class="text-right">
+                    <p class="text-xs text-slate-500 mb-0.5">Hotline 24/7</p>
+                    <p class="text-sm font-bold text-blue-900">0932 685 794</p>
+                </div>
+                <a href="tel:0932685794" class="bg-blue-800 hover:bg-blue-700 text-white font-semibold text-sm px-6 py-2.5 rounded shadow-lg transition">Nhận tư vấn</a>
             </div>
             
-            <div class="relative z-10 w-full max-w-[1400px] mx-auto px-6 flex justify-center items-center">
-                  <div class="w-full relative reveal-up flex justify-center">
-                      <div class="absolute inset-0 bg-secondary/10 rounded-full animate-pulse blur-3xl"></div>
-                      <img src="kien-tao-ha-tang-so.png" alt="Kiến tạo hạ tầng số" class="w-full max-w-[1200px] h-auto relative z-10 drop-shadow-2xl hover:scale-[1.01] transition-transform duration-500 rounded-2xl" />
-                  </div>
-              </div>
-          </section>
+            <!-- Mobile Menu Button -->
+            <button class="lg:hidden text-slate-800 text-2xl">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
 
-        <!-- Partner Brands Section -->
+    <!-- Hero Section -->
+    <section class="relative w-full h-[600px] lg:h-[750px] flex items-center justify-start overflow-hidden bg-slate-900">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+            <!-- Server rack image from Unsplash -->
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop" alt="Server Data Center" class="w-full h-full object-cover opacity-40 mix-blend-luminosity" />
+            <div class="absolute inset-0 bg-gradient-to-r from-[#03132e] via-[#041a3f]/90 to-transparent"></div>
+        </div>
+
+        <!-- Content -->
+        <div class="max-w-[1400px] mx-auto px-6 relative z-10 w-full pt-10">
+            <div class="max-w-4xl">
+                <h1 class="text-4xl md:text-5xl lg:text-[56px] xl:text-[64px] font-montserrat font-black uppercase leading-[1.25] tracking-tight mb-8">
+                    <span class="text-white drop-shadow-md">KIẾN TẠO HẠ TẦNG SỐ,</span><br/>
+                    <span class="text-[#1e3a8a] drop-shadow-md">NÂNG TẦM DOANH NGHIỆP</span>
+                </h1>
+                
+                <p class="text-slate-300 text-sm md:text-base lg:text-lg leading-relaxed mb-10 max-w-2xl font-medium">
+                    Hệ sinh thái công nghệ toàn diện: từ máy tính chuyên dụng, hệ thống giám sát an ninh đến quản trị mạng và phần mềm bản quyền, đáp ứng khắt khe mọi quy mô.
+                </p>
+
+                <div class="flex flex-wrap items-center gap-4 mb-20">
+                    <a href="#services" class="bg-[#ea580c] hover:bg-[#c2410c] text-white font-bold text-sm lg:text-base px-8 py-3.5 rounded shadow-[0_0_20px_rgba(234,88,12,0.4)] transition">
+                        Nhận tư vấn ngay
+                    </a>
+                    <a href="#about" class="bg-transparent border border-slate-500 hover:border-slate-300 text-white font-semibold text-sm lg:text-base px-8 py-3.5 rounded transition">
+                        Tìm hiểu thêm
+                    </a>
+                </div>
+
+                <!-- 4 Bottom Features -->
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-8 border-t border-slate-700/50">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-blue-900/50 border border-blue-700 flex items-center justify-center shrink-0">
+                            <i class="ph-duotone ph-shield-check text-[#38bdf8] text-xl"></i>
+                        </div>
+                        <span class="text-white text-xs lg:text-sm font-bold">Giải Pháp Toàn Diện</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-blue-900/50 border border-blue-700 flex items-center justify-center shrink-0">
+                            <i class="ph-duotone ph-check-circle text-[#38bdf8] text-xl"></i>
+                        </div>
+                        <span class="text-white text-xs lg:text-sm font-bold">Sản Phẩm Chính Hãng</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-blue-900/50 border border-blue-700 flex items-center justify-center shrink-0">
+                            <i class="ph-duotone ph-headset text-[#38bdf8] text-xl"></i>
+                        </div>
+                        <span class="text-white text-xs lg:text-sm font-bold">Hỗ Trợ 24/7</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-blue-900/50 border border-blue-700 flex items-center justify-center shrink-0">
+                            <i class="ph-duotone ph-trend-up text-[#38bdf8] text-xl"></i>
+                        </div>
+                        <span class="text-white text-xs lg:text-sm font-bold">Tối Ưu Hiệu Quả</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Partner Brands Section -->
         <section class="py-10 border-y border-slate-200 bg-slate-50/50 overflow-hidden relative reveal">
             <div class="absolute left-0 top-0 w-16 md:w-32 h-full bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
             <div class="absolute right-0 top-0 w-16 md:w-32 h-full bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
@@ -144,7 +225,10 @@
         <section class="py-20 relative reveal bg-gradient-to-br from-white via-blue-50/50 to-white">
             <div class="container mx-auto px-4 max-w-7xl">
                 <div class="text-center mb-16">
-                    <h2 class="text-3xl md:text-5xl font-serif font-bold text-primary mb-4">Tại Sao Chọn Phát Lộc Tech?</h2>
+                    <h2 class="text-4xl md:text-5xl lg:text-[56px] xl:text-[64px] font-montserrat font-black uppercase leading-[1.25] tracking-tight mb-8">
+                        <span class="text-slate-900 drop-shadow-sm">TẠI SAO CHỌN</span><br/>
+                        <span class="text-[#1e3a8a] drop-shadow-sm">PHÁT LỘC TECH?</span>
+                    </h2>
                     <p class="text-slate-600 max-w-2xl mx-auto">Cam kết mang lại giá trị thiết thực và sự an tâm tuyệt đối cho khách hàng doanh nghiệp.</p>
                 </div>
                 
@@ -189,19 +273,152 @@
             </div>
         </section>
 
-        <!-- Services Section (4 Cards) -->
-        <section id="services" class="w-full bg-slate-50 py-32 border-b border-slate-200 relative overflow-hidden">
-        <!-- Background depth -->
-        <div class="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent"></div>
-        <div class="absolute -top-40 -right-40 w-96 h-96 bg-blue-100/50 rounded-full blur-[100px] pointer-events-none"></div>
-        
-        <div class="container mx-auto px-4 max-w-7xl relative z-10">
-            <div class="w-full max-w-[1200px] mx-auto reveal flex justify-center pb-20">
-                <img src="he-sinh-thai-giai-phap.jpg" alt="Hệ Sinh Thái Giải Pháp Công Nghệ Toàn Diện" class="w-full h-auto rounded-[32px] shadow-2xl shadow-blue-900/10 border border-slate-200" />
-            </div>
+        <!-- Ecosystem Section -->
+        <section id="services" class="w-full bg-slate-50 py-24 border-b border-slate-200 relative overflow-hidden">
+            <!-- Background depth -->
+            <div class="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent"></div>
+            <div class="absolute -top-40 -right-40 w-96 h-96 bg-blue-100/50 rounded-full blur-[100px] pointer-events-none"></div>
+
+            <div class="container mx-auto px-4 max-w-7xl relative z-10">
+                <!-- Main Title -->
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl lg:text-[56px] xl:text-[64px] font-montserrat font-black uppercase leading-[1.25] tracking-tight mb-8">
+                          <span class="text-slate-900 drop-shadow-sm">HỆ SINH THÁI GIẢI PHÁP</span><br/>
+                          <span class="text-[#1e3a8a] drop-shadow-sm">CÔNG NGHỆ TOÀN DIỆN</span>
+                      </h2>
+                    <p class="text-slate-600 max-w-3xl mx-auto text-lg">Đồng hành cùng doanh nghiệp trong mọi nhu cầu về hạ tầng CNTT, bảo mật, giám sát và chuyển đổi số.</p>
+                </div>
+
+                <!-- Ecosystem Grid -->
+                <div class="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-4 relative">
+                    
+                    <!-- Left Column (3 Nodes) -->
+                    <div class="flex flex-col gap-6 w-full lg:w-[35%] relative z-20 eco-col">
+                        <!-- Node 1 -->
+                        <div class="flex items-center gap-4 bg-white p-4 rounded-full shadow-lg shadow-rose-900/5 border border-slate-100 hover:shadow-xl hover:border-rose-200 transition transform hover:-translate-y-1 group eco-node">
+                            <div class="w-14 h-14 shrink-0 rounded-full bg-gradient-to-br from-rose-500 to-pink-500 flex items-center justify-center text-white shadow-inner group-hover:scale-110 transition">
+                                <i class="ph-duotone ph-laptop text-3xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-rose-600 uppercase text-sm mb-0.5">MÁY TÍNH & LAPTOP</h3>
+                                <p class="text-[11px] text-slate-600 leading-tight pr-4">Cung cấp máy tính, laptop, workstation và thiết bị chính hãng cho doanh nghiệp.</p>
+                            </div>
+                        </div>
+                        <!-- Node 2 -->
+                        <div class="flex items-center gap-4 bg-white p-4 rounded-full shadow-lg shadow-purple-900/5 border border-slate-100 hover:shadow-xl hover:border-purple-200 transition transform hover:-translate-y-1 group eco-node">
+                            <div class="w-14 h-14 shrink-0 rounded-full bg-gradient-to-br from-purple-600 to-violet-600 flex items-center justify-center text-white shadow-inner group-hover:scale-110 transition">
+                                <i class="ph-duotone ph-video-camera text-3xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-purple-700 uppercase text-sm mb-0.5">CAMERA GIÁM SÁT</h3>
+                                <p class="text-[11px] text-slate-600 leading-tight pr-4">Thi công và lắp đặt hệ thống camera giám sát chất lượng cao cho mọi mô hình.</p>
+                            </div>
+                        </div>
+                        <!-- Node 3 -->
+                        <div class="flex items-center gap-4 bg-white p-4 rounded-full shadow-lg shadow-cyan-900/5 border border-slate-100 hover:shadow-xl hover:border-cyan-200 transition transform hover:-translate-y-1 group eco-node">
+                            <div class="w-14 h-14 shrink-0 rounded-full bg-gradient-to-br from-cyan-500 to-blue-500 flex items-center justify-center text-white shadow-inner group-hover:scale-110 transition">
+                                <i class="ph-duotone ph-printer text-3xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-cyan-700 uppercase text-sm mb-0.5">THIẾT BỊ VĂN PHÒNG</h3>
+                                <p class="text-[11px] text-slate-600 leading-tight pr-4">Cung cấp máy in, máy chiếu, thiết bị văn phòng, UPS và vật tư chính hãng.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Center Column (Logo) -->
+                    <div id="eco-center" class="flex flex-col items-center justify-center w-full lg:w-[30%] relative z-10 order-first lg:order-none mb-12 lg:mb-0">
+                        <!-- Connecting Lines on PC -->
+                        <svg id="eco-lines" class="hidden lg:block absolute inset-0 w-full h-full pointer-events-none z-0"></svg>
+
+                        <!-- Outer Rainbow Circle -->
+                        <div class="w-56 h-56 lg:w-64 lg:h-64 rounded-full p-2 bg-gradient-to-tr from-cyan-400 via-blue-500 to-rose-500 shadow-2xl shadow-blue-500/20 relative z-20">
+                            <div class="w-full h-full bg-white rounded-full p-6 lg:p-10 flex items-center justify-center shadow-inner">
+                                <img src="PLT-Logo-final-transparent.png" alt="PLT Logo" class="w-full h-full object-contain mix-blend-multiply" />
+                            </div>
+                            <!-- Small decorative dots -->
+                            <div class="absolute top-0 left-1/2 w-4 h-4 bg-rose-500 rounded-full -translate-x-1/2 -translate-y-1/2 border-2 border-white shadow-sm"></div>
+                            <div class="absolute bottom-0 left-1/2 w-4 h-4 bg-emerald-500 rounded-full -translate-x-1/2 translate-y-1/2 border-2 border-white shadow-sm"></div>
+                            <div class="absolute top-1/2 left-0 w-4 h-4 bg-purple-500 rounded-full -translate-x-1/2 -translate-y-1/2 border-2 border-white shadow-sm"></div>
+                            <div class="absolute top-1/2 right-0 w-4 h-4 bg-orange-500 rounded-full translate-x-1/2 -translate-y-1/2 border-2 border-white shadow-sm"></div>
+                        </div>
+
+                    </div>
+
+                    <!-- Right Column (3 Nodes) -->
+                    <div class="flex flex-col gap-6 w-full lg:w-[35%] relative z-20 eco-col">
+                        <!-- Node 4 -->
+                        <div class="flex items-center gap-4 bg-white p-4 rounded-full shadow-lg shadow-blue-900/5 border border-slate-100 hover:shadow-xl hover:border-blue-200 transition transform hover:-translate-y-1 flex-row-reverse lg:flex-row text-left group">
+                            <div class="w-14 h-14 shrink-0 rounded-full bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-inner group-hover:scale-110 transition">
+                                <i class="ph-duotone ph-tree-structure text-3xl"></i>
+                            </div>
+                            <div class="lg:text-right pl-4 lg:pl-0">
+                                <h3 class="font-bold text-blue-700 uppercase text-sm mb-0.5">HẠ TẦNG MẠNG</h3>
+                                <p class="text-[11px] text-slate-600 leading-tight">Thiết kế và triển khai hệ thống mạng LAN, WiFi, Firewall, Server chuyên nghiệp.</p>
+                            </div>
+                        </div>
+                        <!-- Node 5 -->
+                        <div class="flex items-center gap-4 bg-white p-4 rounded-full shadow-lg shadow-emerald-900/5 border border-slate-100 hover:shadow-xl hover:border-emerald-200 transition transform hover:-translate-y-1 flex-row-reverse lg:flex-row text-left group">
+                            <div class="w-14 h-14 shrink-0 rounded-full bg-gradient-to-br from-emerald-500 to-green-600 flex items-center justify-center text-white shadow-inner group-hover:scale-110 transition">
+                                <i class="ph-duotone ph-headset text-3xl"></i>
+                            </div>
+                            <div class="lg:text-right pl-4 lg:pl-0">
+                                <h3 class="font-bold text-emerald-700 uppercase text-sm mb-0.5">DỊCH VỤ IT</h3>
+                                <p class="text-[11px] text-slate-600 leading-tight">IT Helpdesk, bảo trì hệ thống, quản trị mạng và hỗ trợ kỹ thuật 24/7.</p>
+                            </div>
+                        </div>
+                        <!-- Node 6 -->
+                        <div class="flex items-center gap-4 bg-white p-4 rounded-full shadow-lg shadow-orange-900/5 border border-slate-100 hover:shadow-xl hover:border-orange-200 transition transform hover:-translate-y-1 flex-row-reverse lg:flex-row text-left group">
+                            <div class="w-14 h-14 shrink-0 rounded-full bg-gradient-to-br from-orange-400 to-amber-500 flex items-center justify-center text-white shadow-inner group-hover:scale-110 transition">
+                                <i class="ph-duotone ph-cloud-arrow-up text-3xl"></i>
+                            </div>
+                            <div class="lg:text-right pl-4 lg:pl-0">
+                                <h3 class="font-bold text-orange-600 uppercase text-sm mb-0.5">PHẦN MỀM & SỐ HÓA</h3>
+                                <p class="text-[11px] text-slate-600 leading-tight">Hóa đơn điện tử, chữ ký số, phần mềm quản lý và giải pháp chuyển đổi số.</p>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
-    </section>
+
+                <!-- Bottom Criteria Banner -->
+                <div class="mt-20 bg-white rounded-[2rem] p-6 lg:p-8 flex flex-col md:flex-row flex-wrap lg:flex-nowrap justify-between gap-6 shadow-xl shadow-slate-200/50 border border-slate-100">
+                    <!-- Item 1 -->
+                    <div class="flex items-start gap-3 w-full sm:w-[45%] lg:w-1/4 group">
+                        <i class="ph-duotone ph-shield-check text-4xl text-[#1d4ed8] group-hover:scale-110 transition-transform"></i>
+                        <div class="mt-1">
+                            <h4 class="text-xs font-bold text-slate-900 uppercase">SẢN PHẨM CHÍNH HÃNG</h4>
+                            <p class="text-[11px] text-slate-500 mt-1">Đa dạng thương hiệu uy tín toàn cầu</p>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="flex items-start gap-3 w-full sm:w-[45%] lg:w-1/4 lg:border-l lg:border-slate-200 lg:pl-6 group">
+                        <i class="ph-duotone ph-gear text-4xl text-[#1d4ed8] group-hover:scale-110 transition-transform"></i>
+                        <div class="mt-1">
+                            <h4 class="text-xs font-bold text-slate-900 uppercase">GIẢI PHÁP TOÀN DIỆN</h4>
+                            <p class="text-[11px] text-slate-500 mt-1">Tư vấn – Thiết kế – Triển khai – Bảo trì trọn gói</p>
+                        </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="flex items-start gap-3 w-full sm:w-[45%] lg:w-1/4 lg:border-l lg:border-slate-200 lg:pl-6 group">
+                        <i class="ph-duotone ph-lock-key text-4xl text-[#1d4ed8] group-hover:scale-110 transition-transform"></i>
+                        <div class="mt-1">
+                            <h4 class="text-xs font-bold text-slate-900 uppercase">BẢO MẬT & AN TOÀN</h4>
+                            <p class="text-[11px] text-slate-500 mt-1">Giải pháp bảo mật nhiều lớp, an toàn dữ liệu</p>
+                        </div>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="flex items-start gap-3 w-full sm:w-[45%] lg:w-1/4 lg:border-l lg:border-slate-200 lg:pl-6 group">
+                        <i class="ph-duotone ph-phone-call text-4xl text-[#1d4ed8] group-hover:scale-110 transition-transform"></i>
+                        <div class="mt-1">
+                            <h4 class="text-xs font-bold text-slate-900 uppercase">HỖ TRỢ 24/7</h4>
+                            <p class="text-[11px] text-slate-500 mt-1">Đội ngũ kỹ thuật chuyên nghiệp, sẵn sàng hỗ trợ</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
         
 
         <!-- Achievement Counters Section -->
@@ -233,7 +450,10 @@
             <div class="absolute top-[30%] right-[-10%] w-[50%] h-[50%] bg-brand-green/5 blur-[120px] rounded-full pointer-events-none"></div>
             <div class="container mx-auto px-4 max-w-7xl relative z-10">
                 <div class="text-center mb-20">
-                    <h2 class="text-4xl md:text-5xl font-[var(--font-oswald)] font-bold text-slate-900 mb-4 tracking-tight uppercase">Quy Trình <span class="text-[#1d4ed8]">Triển Khai</span></h2>
+                    <h2 class="text-4xl md:text-5xl lg:text-[56px] xl:text-[64px] font-montserrat font-black uppercase leading-[1.25] tracking-tight mb-8">
+                    <span class="text-slate-900 drop-shadow-sm">QUY TRÌNH</span><br/>
+                    <span class="text-[#1e3a8a] drop-shadow-sm">TRIỂN KHAI</span>
+                </h2>
                     <p class="text-slate-600 max-w-2xl mx-auto">Quy trình 4 bước bài bản giúp khách hàng dễ dàng theo dõi tiến độ công việc.</p>
                 </div>
                 
@@ -363,7 +583,7 @@
 
     <!-- Floating Home Button -->
     <a href="index.html" title="Về Trang Chủ" id="floating-home-btn" class="fixed top-4 left-4 lg:top-5 lg:left-5 z-[9999] w-12 h-12 rounded-full bg-white shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] border-2 border-transparent hover:border-brand-green -translate-y-24 opacity-0 pointer-events-none">
-        <img src="logo.png" alt="Trang Chủ" class="w-10 h-10 object-contain"/>
+        <img src="logo.png" alt="Trang Chủ" class="w-10 h-10 object-contain mix-blend-multiply"/>
     </a>
 
     <!-- Chat Widget Button -->
@@ -423,5 +643,77 @@
     </div>
 
     <script src="script.js?v=3"></script>
+
+    <!-- Script to draw Ecosystem Lines -->
+    <script>
+        function drawEcoLines() {
+            const svg = document.getElementById('eco-lines');
+            if (!svg) return;
+            
+            // Only draw on large screens (lg: 1024px)
+            if (window.innerWidth < 1024) {
+                svg.innerHTML = '';
+                return;
+            }
+
+            const container = svg.parentElement;
+            const containerRect = container.getBoundingClientRect();
+            
+            const centerEl = document.getElementById('eco-center');
+            if (!centerEl) return;
+            const centerRect = centerEl.getBoundingClientRect();
+            
+            // Center of the logo
+            const cx = centerRect.left - containerRect.left + centerRect.width / 2;
+            const cy = centerRect.top - containerRect.top + centerRect.height / 2;
+
+            let svgHTML = '';
+            
+            // The nodes
+            const nodes = container.querySelectorAll('.eco-node');
+            nodes.forEach(node => {
+                const nodeRect = node.getBoundingClientRect();
+                
+                // Find node center Y
+                const ny = nodeRect.top - containerRect.top + nodeRect.height / 2;
+                
+                // Find which side it is on
+                const isLeft = (nodeRect.left - containerRect.left) < (containerRect.width / 2);
+                
+                // X position is the inner edge of the node card
+                const nx = isLeft ? (nodeRect.right - containerRect.left) : (nodeRect.left - containerRect.left);
+
+                // Get color from the icon's gradient class or fallback to slate-300
+                let color = '#cbd5e1'; // default
+                if (node.innerHTML.includes('from-rose-500')) color = '#e11d48';
+                if (node.innerHTML.includes('from-purple-600')) color = '#7e22ce';
+                if (node.innerHTML.includes('from-cyan-500')) color = '#0e7490';
+                if (node.innerHTML.includes('from-blue-600')) color = '#1d4ed8';
+                if (node.innerHTML.includes('from-emerald-500')) color = '#047857';
+                if (node.innerHTML.includes('from-orange-400')) color = '#ea580c';
+
+                // Draw a beautiful curved path (cubic bezier) from cx,cy to nx,ny
+                // Control points to make it start horizontally from center and end horizontally at node
+                const cp1x = cx + (isLeft ? -50 : 50);
+                const cp1y = cy;
+                const cp2x = nx + (isLeft ? 50 : -50);
+                const cp2y = ny;
+
+                const pathD = `M ${cx} ${cy} C ${cp1x} ${cp1y}, ${cp2x} ${cp2y}, ${nx} ${ny}`;
+
+                svgHTML += `<path d="${pathD}" fill="none" stroke="${color}" stroke-width="2" class="opacity-60 transition-all duration-500" />`;
+                // Add a small dot at the node connection point
+                svgHTML += `<circle cx="${nx}" cy="${ny}" r="4" fill="white" stroke="${color}" stroke-width="2" />`;
+            });
+
+            svg.innerHTML = svgHTML;
+        }
+
+        window.addEventListener('resize', drawEcoLines);
+        window.addEventListener('load', drawEcoLines);
+        setTimeout(drawEcoLines, 100);
+        setTimeout(drawEcoLines, 500); // extra fallback
+    </script>
 </body>
+
 </html>
