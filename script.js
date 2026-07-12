@@ -251,6 +251,15 @@ document.querySelectorAll('.policy-btn').forEach(btn => {
         } else if (policyType === 'thanhtoan') {
             title = "Chính Sách: Thanh toán & Vận chuyển";
             content = "Hỗ trợ đa dạng phương thức thanh toán: Tiền mặt, Chuyển khoản hoặc Thanh toán qua thẻ tín dụng. Đặc biệt, miễn phí giao hàng và lắp đặt tận nơi tại khu vực nội thành cho các đơn hàng thiết bị và máy bộ trị giá trên 2,000,000 VNĐ.";
+        } else if (policyType === 'baomat') {
+            title = "Chính sách: Bảo mật thông tin";
+            content = "Chúng tôi cam kết bảo mật hoàn toàn thông tin cá nhân và dữ liệu doanh nghiệp của khách hàng. Không chia sẻ thông tin cho bất kỳ bên thứ ba nào khi chưa có sự đồng ý.";
+        } else if (policyType === 'dieukien') {
+            title = "Điều kiện giao dịch chung";
+            content = "Tất cả giao dịch mua bán đều được thực hiện dựa trên sự thỏa thuận và hợp đồng rõ ràng. Khách hàng vui lòng kiểm tra kỹ sản phẩm trước khi nhận hàng và thanh toán.";
+        } else if (policyType === 'vanchuyen') {
+            title = "Vận chuyển & Giao nhận";
+            content = "Miễn phí vận chuyển cho đơn hàng trên 2 triệu đồng trong nội thành. Thời gian giao hàng từ 1-3 ngày tùy thuộc vào vị trí địa lý của khách hàng.";
         }
         
         showCustomAlert(title, content);
