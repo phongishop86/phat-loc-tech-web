@@ -177,14 +177,14 @@ function showCustomAlert(title, message) {
             <div class="bg-white border border-slate-300 rounded-2xl shadow-2xl w-full max-w-md overflow-hidden transform scale-95 transition-transform duration-300">
                 <div class="p-6">
                     <div class="flex items-center gap-3 mb-4">
-                        <div class="w-10 h-10 rounded-full bg-white shadow-sm border border-slate-100 flex items-center justify-center shrink-0 p-1.5">
-                            <img src="logo.png" alt="PLT Logo" class="w-full h-full object-contain" />
+                        <div class="w-12 h-12 rounded-full bg-white shadow-sm border border-slate-100 flex items-center justify-center shrink-0 overflow-hidden">
+                            <img src="logo.png" alt="PLT Logo" class="w-full h-full object-contain scale-110" />
                         </div>
                         <h3 class="text-lg font-bold text-primary" id="custom-alert-title"></h3>
                     </div>
                     <p class="text-slate-700 text-sm leading-relaxed" id="custom-alert-body" style="white-space: pre-wrap;"></p>
                 </div>
-                <div class="bg-slate-50 px-6 py-4 flex justify-end border-t border-slate-200">
+                <div class="bg-slate-50 px-6 py-4 flex justify-center border-t border-slate-200">
                     <button id="custom-alert-close" class="bg-brand-green hover:bg-green-600 text-primary font-bold py-2 px-6 rounded-lg transition-colors text-sm">
                         Đồng ý
                     </button>
