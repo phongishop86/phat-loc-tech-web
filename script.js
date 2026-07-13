@@ -250,7 +250,7 @@ document.querySelectorAll('.policy-btn').forEach(btn => {
             content = "Cung cấp dịch vụ hỗ trợ kỹ thuật tận nơi (Ad-hoc) nhanh chóng trong vòng 2-4 giờ làm việc (giờ hành chính). Dịch vụ xử lý sự cố máy tính, cấu hình mạng, camera và máy chủ linh hoạt theo từng lần yêu cầu mà không cần ký hợp đồng bảo trì dài hạn.";
         } else if (policyType === 'thanhtoan') {
             title = "Chính Sách: Thanh toán & Vận chuyển";
-            content = "Hỗ trợ đa dạng phương thức thanh toán: Tiền mặt, Chuyển khoản hoặc Thanh toán qua thẻ tín dụng. Đặc biệt, miễn phí giao hàng và lắp đặt tận nơi tại khu vực nội thành cho các đơn hàng thiết bị và máy bộ trị giá trên 2,000,000 VNĐ.";
+            content = "Hỗ trợ đa dạng phương thức thanh toán: Tiền mặt hoặc Chuyển khoản. Đặc biệt, miễn phí giao hàng và lắp đặt tận nơi tại khu vực nội thành cho các đơn hàng thiết bị và máy bộ trị giá trên 20,000,000 VNĐ.";
         } else if (policyType === 'baomat') {
             title = "Chính sách: Bảo mật thông tin";
             content = "Chúng tôi cam kết bảo mật hoàn toàn thông tin cá nhân và dữ liệu doanh nghiệp của khách hàng. Không chia sẻ thông tin cho bất kỳ bên thứ ba nào khi chưa có sự đồng ý.";
